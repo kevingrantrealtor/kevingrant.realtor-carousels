@@ -1,0 +1,44 @@
+name: Publish queued carousels
+
+# Runs on a timer in GitHub's cloud, so your laptop does not need to be open.
+# The odd minutes are deliberate: GitHub's scheduler is busiest on the hour and
+# the quarter hours, and jobs asked for then are the ones most often skipped.
+on:
+  schedule:
+    - cron: "6,16,26,36,46,56 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-carousels
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Publish anything that is due
+        env:
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: python3 publish_queue.py
+
+      - name: Record what went out
+        run: |
+          if [ -n "$(git status --porcelain queue.json)" ]; then
+            git config user.name "carousel bot"
+            git config user.email "actions@github.com"
+            git add queue.json
+            git commit -m "published a queued carousel"
+            git push
+          else
+            echo "queue unchanged"
+          fi
