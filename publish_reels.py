@@ -4,17 +4,23 @@
 This file lives in your own GitHub repo and runs on a timer in GitHub's cloud,
 so your laptop can be shut. You never run it by hand.
 
-For each story in reels.json:
-  1. Version A goes out as a TRIAL reel (shown to people who don't follow you).
-  2. Version B goes out as a trial a few days later.
-  3. A few days after that, it compares the two: more comments wins; a tie goes
-     to more views (when your token can read views), then more likes. The
-     winner is uploaded again as its own new post on your MAIN feed. It is not
-     Instagram's "share to main feed" button on the trial; it is a separate post.
-     If both trials got nothing at all, nothing goes to your main feed.
-  4. The video files are deleted from GitHub once the story is done.
+Each story's versions go out as TRIAL reels (shown to people who don't follow
+you) at the times you picked. Then the winners go to your MAIN feed, one of
+two ways (you pick, in setup/posting.py):
+  A vs B      a few days after a story's trial B, its two versions are
+              compared and the better one goes to your main feed.
+  best of day all the trials that went out on one day compete, and the best
+              ones (as many as you have main-feed times) go to your main feed
+              a set number of days later. One spot per story at most.
+Better = more comments, then more views (when your token can read views), then
+more likes. A trial with no likes and no comments never goes to the main feed.
+A winner is uploaded again as its own new post, not Instagram's "share to main
+feed" button on the trial. Video files are deleted from GitHub once done.
 
-One thing per run, so a problem with one reel cannot burn the whole queue.
+It works through everything due, one post at a time, and saves after each, so
+a problem with one reel cannot block the rest. Your posting schedule (how many
+a day, which days) is set on your computer with setup/posting.py; this just
+posts what comes due. Instagram's own limit is about 50 posts a day.
 Before posting, it reads your recent posts and skips anything already up, so a
 reel can never go out twice.
 
@@ -149,18 +155,120 @@ def cleanup(story):
     story["files_deleted"] = True
 
 
-def next_job(queue):
+def cleanup_version(v):
+    gh("release", "delete", v["tag"], "-R", REPO, "-y", "--cleanup-tag")
+    v["file_deleted"] = True
+
+
+def rank_key(v):
+    sc = v["score"]
+    return (sc["comments"], sc["views"] or 0, sc["likes"])
+
+
+def flopped(v):
+    return v["score"]["comments"] == 0 and v["score"]["likes"] == 0
+
+
+def day_batches(queue):
+    """Best-of-the-day stories: every trial version grouped by the day it posted on."""
+    out = {}
+    for s in queue:
+        if s.get("cancelled") or s.get("pick") != "day":
+            continue
+        for v in s["versions"]:
+            out.setdefault(v["batch"], []).append((s, v))
+    return out
+
+
+def next_job(queue, tried=()):
     t = now()
-    for s in sorted(queue, key=lambda s: s["versions"][0]["trial_at_utc"]):
+    stories = sorted(queue, key=lambda s: s["versions"][0]["trial_at_utc"])
+    for s in stories:
         if s.get("cancelled"):
             continue
         for v in s["versions"]:
-            if not v.get("media_id") and not v.get("failed") and v["trial_at_utc"] <= t:
+            if not v.get("media_id") and not v.get("failed") and v["trial_at_utc"] <= t and f"t:{s['slug']}:{v['v']}" not in tried:
                 return "trial", s, v
+    # best of the day: judge a day's trials once its first main time comes and they have all gone out
+    for key, items in sorted(day_batches(queue).items()):
+        vs = [v for _, v in items]
+        if (not all(v.get("judged") for v in vs) and min(vs[0]["pick_at_utc"]) <= t
+                and all(v.get("media_id") or v.get("failed") for v in vs) and f"j:{key}" not in tried):
+            return "judge", key, items
+    for s in stories:
+        if s.get("cancelled"):
+            continue
+        if s.get("pick") == "day":
+            for v in s["versions"]:
+                if v.get("picked") and not v.get("main_done") and v["main_at_utc"] <= t and f"d:{s['slug']}:{v['v']}" not in tried:
+                    return "daymain", s, v
+            continue
         m = s.setdefault("main", {})
-        if all(v.get("media_id") or v.get("failed") for v in s["versions"]) and not m.get("done") and s["main_at_utc"] <= t:
+        if (all(v.get("media_id") or v.get("failed") for v in s["versions"]) and not m.get("done")
+                and s["main_at_utc"] <= t and f"m:{s['slug']}" not in tried):
             return "main", s, None
     return None, None, None
+
+
+def post_trial(story, ver, live):
+    sig = signature(ver["caption"])
+    hit = next((m for m in live if signature(m.get("caption", "")) == sig), None)
+    if hit:
+        print(f"{story['slug']} {ver['v']}: already on Instagram, marking it done")
+        ver["media_id"], ver["posted_at_utc"] = hit["id"], now()
+        return
+    print(f"{story['slug']} {ver['v']}: posting as a trial reel")
+    try:
+        ver["media_id"] = upload_reel(download(ver["tag"], ver["asset"]), ver["caption"], trial=True)
+        ver["posted_at_utc"] = now()
+        print(f"  posted {ver['media_id']}")
+    except Exception as e:
+        ver["tries"] = ver.get("tries", 0) + 1
+        ver["last_error"] = str(e)[:400]
+        if ver["tries"] >= 3 or re.search(r"trial", str(e), re.I):
+            ver["failed"] = True
+        print(f"  FAILED ({ver['tries']} of 3): {e}")
+
+
+def post_main(label, ver, live):
+    """Upload a winning version again as its own main-feed post. Returns (media id, error)."""
+    sig = signature(ver["caption"])
+    hit = next((x for x in live if signature(x.get("caption", "")) == sig and x.get("is_shared_to_feed")), None)
+    if hit:
+        return hit["id"], None
+    print(f"{label}: posting to the main feed")
+    try:
+        return upload_reel(download(ver["tag"], ver["asset"]), ver["caption"], trial=False), None
+    except Exception as e:
+        print(f"  FAILED: {e}")
+        return None, str(e)[:400]
+
+
+def judge_day(queue, key, items):
+    """Rank one day's trials and give its best ones that day's main-feed times, one per story."""
+    slots = sorted(items[0][1]["pick_at_utc"])
+    posted = [(s, v) for s, v in items if v.get("media_id")]
+    for _, v in posted:
+        v["score"] = score(v["media_id"])
+    # a story already headed to (or on) the main feed never gets a second spot
+    used = {s["slug"] for s in queue if s.get("pick") == "day" and any(v.get("picked") for v in s["versions"])}
+    picks = []
+    for s, v in sorted(posted, key=lambda sv: rank_key(sv[1]), reverse=True):
+        if len(picks) == len(slots):
+            break
+        if s["slug"] in used or flopped(v):
+            continue
+        picks.append((s, v))
+        used.add(s["slug"])
+    for i, (s, v) in enumerate(picks):
+        v.update(picked=True, main_at_utc=slots[i])
+    for s, v in items:
+        v["judged"] = True
+        if not v.get("picked"):
+            v["result"] = "not picked for the main feed" if v.get("media_id") else "never went out"
+            cleanup_version(v)
+    names = ", ".join(f"{s['slug']} {v['v']}" for s, v in picks) or "none (no trial got a like or a comment)"
+    print(f"day {key}: {len(posted)} trials judged, main feed picks: {names}")
 
 
 def main():
@@ -170,64 +278,58 @@ def main():
         print("no reels.json yet, nothing to do")
         return
     queue = json.load(open(QUEUE))
-    kind, story, ver = next_job(queue)
-    if not kind:
-        print("nothing due")
-        return
-    live = live_posts()
-
-    if kind == "trial":
-        sig = signature(ver["caption"])
-        hit = next((m for m in live if signature(m.get("caption", "")) == sig), None)
-        if hit:
-            print(f"{story['slug']} {ver['v']}: already on Instagram, marking it done")
-            ver["media_id"], ver["posted_at_utc"] = hit["id"], now()
-        else:
-            print(f"{story['slug']} {ver['v']}: posting as a trial reel")
-            try:
-                ver["media_id"] = upload_reel(download(ver["tag"], ver["asset"]), ver["caption"], trial=True)
-                ver["posted_at_utc"] = now()
-                print(f"  posted {ver['media_id']}")
-            except Exception as e:
-                ver["tries"] = ver.get("tries", 0) + 1
-                ver["last_error"] = str(e)[:400]
-                if ver["tries"] >= 3 or re.search(r"trial", str(e), re.I):
-                    ver["failed"] = True
-                print(f"  FAILED ({ver['tries']} of 3): {e}")
-    else:
-        m = story["main"]
-        posted = [v for v in story["versions"] if v.get("media_id")]
-        if not posted:
-            m.update(done=True, result="no trial went out, so nothing goes to the main feed")
-        else:
-            for v in posted:
-                v["score"] = score(v["media_id"])
-            best = max(posted, key=lambda v: (v["score"]["comments"], v["score"]["views"] or 0, v["score"]["likes"], v["v"] == "A"))
-            flop = all(v["score"]["comments"] == 0 and v["score"]["likes"] == 0 for v in posted)
-            if flop:
-                m.update(done=True, result="both trials got no likes or comments, so it stays off the main feed")
+    began, handled, tried = time.time(), 0, set()
+    # everything due, one at a time, for up to ~15 minutes (the timer gives each run 30)
+    while time.time() - began < 15 * 60:
+        kind, story, ver = next_job(queue, tried)
+        if not kind:
+            break
+        if kind == "trial":
+            tried.add(f"t:{story['slug']}:{ver['v']}")
+            post_trial(story, ver, live_posts())
+        elif kind == "judge":
+            tried.add(f"j:{story}")
+            judge_day(queue, story, ver)
+        elif kind == "daymain":
+            tried.add(f"d:{story['slug']}:{ver['v']}")
+            mid, err_ = post_main(f"{story['slug']} {ver['v']}", ver, live_posts())
+            if mid:
+                ver.update(main_done=True, main_media_id=mid, main_posted_at_utc=now(), result="posted to the main feed")
+                cleanup_version(ver)
             else:
-                sig = signature(best["caption"])
-                hit = next((x for x in live if signature(x.get("caption", "")) == sig and x.get("is_shared_to_feed")), None)
-                if hit:
-                    m.update(done=True, winner=best["v"], media_id=hit["id"], result="already on the main feed")
+                ver["main_tries"] = ver.get("main_tries", 0) + 1
+                ver["last_error"] = err_
+                if ver["main_tries"] >= 3:
+                    ver.update(main_done=True, result=f"main feed post failed 3 times: {err_[:200]}")
+                    cleanup_version(ver)
+        else:
+            tried.add(f"m:{story['slug']}")
+            m = story["main"]
+            posted = [v for v in story["versions"] if v.get("media_id")]
+            if not posted:
+                m.update(done=True, result="no trial went out, so nothing goes to the main feed")
+            else:
+                for v in posted:
+                    v["score"] = score(v["media_id"])
+                best = max(posted, key=lambda v: (*rank_key(v), v["v"] == "A"))
+                if all(flopped(v) for v in posted):
+                    m.update(done=True, result="both trials got no likes or comments, so it stays off the main feed")
                 else:
-                    print(f"{story['slug']}: version {best['v']} won {best['score']}, posting it to the main feed")
-                    try:
-                        m["media_id"] = upload_reel(download(best["tag"], best["asset"]), best["caption"], trial=False)
-                        m.update(done=True, winner=best["v"], posted_at_utc=now(), result="posted to the main feed")
-                    except Exception as e:
+                    print(f"{story['slug']}: version {best['v']} won {best['score']}")
+                    mid, err_ = post_main(story["slug"], best, live_posts())
+                    if mid:
+                        m.update(done=True, winner=best["v"], media_id=mid, posted_at_utc=now(), result="posted to the main feed")
+                    else:
                         m["tries"] = m.get("tries", 0) + 1
-                        m["last_error"] = str(e)[:400]
+                        m["last_error"] = err_
                         if m["tries"] >= 3:
-                            m.update(done=True, result=f"main feed post failed 3 times: {str(e)[:200]}")
-                        print(f"  FAILED: {e}")
-        print(f"{story['slug']}: {m.get('result', 'will retry')}")
-        if m.get("done"):
-            cleanup(story)
-
-    json.dump(queue, open(QUEUE, "w"), indent=1)
-    print("reels.json updated")
+                            m.update(done=True, result=f"main feed post failed 3 times: {err_[:200]}")
+            print(f"{story['slug']}: {m.get('result', 'will retry')}")
+            if m.get("done"):
+                cleanup(story)
+        json.dump(queue, open(QUEUE, "w"), indent=1)   # save after each, so progress survives a crash
+        handled += 1
+    print(f"{handled} handled this run" if handled else "nothing due")
 
 
 if __name__ == "__main__":
