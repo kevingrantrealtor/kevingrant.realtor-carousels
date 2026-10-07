@@ -1,0 +1,47 @@
+name: Post scheduled reels
+
+# Runs on a timer in GitHub's cloud, so your laptop does not need to be open.
+# GitHub's timer is loose (a run can come 10 to 60 minutes late), which is fine:
+# trial reels only reach people who don't follow you, so the hour doesn't matter.
+on:
+  schedule:
+    - cron: "17,47 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-reels
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Post anything that is due
+        env:
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          GH_TOKEN: ${{ github.token }}
+        run: python3 publish_reels.py
+
+      - name: Record what went out
+        run: |
+          if [ -n "$(git status --porcelain reels.json)" ]; then
+            git config user.name "reels bot"
+            git config user.email "actions@github.com"
+            git add reels.json
+            git commit -m "posted a scheduled reel"
+            git pull --rebase
+            git push
+          else
+            echo "queue unchanged"
+          fi
