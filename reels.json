@@ -74,5 +74,41 @@
   "main_at_utc": "2026-10-09T16:30:00",
   "main": {},
   "added": "2026-10-08"
+ },
+ {
+  "slug": "mckinney-north-custer-townhomes",
+  "town": "McKinney",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-mckinney-north-custer-townhomes-a",
+    "asset": "mckinney-north-custer-townhomes-A.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the real closed sales report for your town \ud83d\udc47\n\nMcKinney's planning commission voted unanimously to put townhomes on 27 acres of North Custer Road, north of 380, and the city council takes the final vote October 20th.\n\nMcKinney's Planning and Zoning Commission unanimously recommended annexing and zoning nearly 32 acres on North Custer Road, north of US 380: about 27 acres for townhomes and about 5 acres of commercial facing Custer. City council votes Oct. 20.\n\nThe proposed zoning is TR1.8, McKinney's high-density townhome district, which allows up to 24 units per acre. That's a maximum, and the final plan can come in lower. The city received no letters of support or opposition.\n\nMcKinney's median sale over the last 12 months was $492,756, up 5.1%.\n\nSend this to someone who drives Custer.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text 972-975-8280\n\nBased on data from the North Texas Real Estate Information Systems (NTREIS) for the period October 6, 2025 to October 6, 2026. Deemed reliable but not guaranteed. Not intended to solicit properties currently listed with another broker.\n\nPhoto: Downtown McKinney, 843contributor, Wikimedia Commons (CC BY-SA 4.0)",
+    "trial_at_utc": "2026-10-08T21:00:00",
+    "batch": "2026-10-08",
+    "pick_at_utc": [
+     "2026-10-09T16:30:00",
+     "2026-10-09T19:30:00",
+     "2026-10-09T23:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-mckinney-north-custer-townhomes-b",
+    "asset": "mckinney-north-custer-townhomes-B.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the real closed sales report for your town \ud83d\udc47\n\nIf you live off North Custer Road in McKinney, the open land north of 380 could become dense townhomes, and the city council decides on October 20th.\n\nMcKinney's Planning and Zoning Commission unanimously recommended annexing and zoning nearly 32 acres on North Custer Road, north of US 380: about 27 acres for townhomes and about 5 acres of commercial facing Custer. City council votes Oct. 20.\n\nThe proposed zoning is TR1.8, McKinney's high-density townhome district, which allows up to 24 units per acre. That's a maximum, and the final plan can come in lower. The city received no letters of support or opposition.\n\nMcKinney's median sale over the last 12 months was $492,756, up 5.1%.\n\nSend this to someone who drives Custer.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text 972-975-8280\n\nBased on data from the North Texas Real Estate Information Systems (NTREIS) for the period October 6, 2025 to October 6, 2026. Deemed reliable but not guaranteed. Not intended to solicit properties currently listed with another broker.\n\nPhoto: Downtown McKinney, 843contributor, Wikimedia Commons (CC BY-SA 4.0)",
+    "trial_at_utc": "2026-10-11T22:00:00",
+    "batch": "2026-10-11",
+    "pick_at_utc": [
+     "2026-10-12T16:30:00",
+     "2026-10-12T19:30:00",
+     "2026-10-12T23:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "main_at_utc": "2026-10-09T16:30:00",
+  "main": {},
+  "added": "2026-10-08"
  }
 ]
