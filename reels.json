@@ -34,5 +34,41 @@
   "main_at_utc": "2026-10-09T16:30:00",
   "main": {},
   "added": "2026-10-08"
+ },
+ {
+  "slug": "colleyville-tax-rate-13-percent",
+  "town": "Colleyville",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-colleyville-tax-rate-13-percent-a",
+    "asset": "colleyville-tax-rate-13-percent-A.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the real closed sales report for your town \ud83d\udc47\n\nColleyville raised its city property tax rate 13 percent, and the new budget year started October 1st.\n\nColleyville City Council approved a $98.3 million budget and a city tax rate of 35.248 cents per $100 of value, up from 31.19 cents, a 13% increase. The fiscal year started Oct. 1. The city says the owner of an average $678,000 home will pay about $283 more a year in city tax. Water and wastewater base charges also rose $5.07 a month.\n\nThe city's finance director said overall property values fell 3% this year, so the rate had to rise to collect the same revenue. Over the last 12 months, Colleyville's median sale price was $1,015,000, up 3.5%. Appraised values and sale prices measure different things.\n\nSend this to a neighbor in Colleyville.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text 972-975-8280\n\nBased on data from the North Texas Real Estate Information Systems (NTREIS) for the period October 6, 2025 to October 6, 2026. Deemed reliable but not guaranteed. Not intended to solicit properties currently listed with another broker.\n\nPhoto: Colleyville City Hall, Iheartdfw, Wikimedia Commons (CC0)",
+    "trial_at_utc": "2026-10-08T20:00:00",
+    "batch": "2026-10-08",
+    "pick_at_utc": [
+     "2026-10-09T16:30:00",
+     "2026-10-09T19:30:00",
+     "2026-10-09T23:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-colleyville-tax-rate-13-percent-b",
+    "asset": "colleyville-tax-rate-13-percent-B.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the real closed sales report for your town \ud83d\udc47\n\nIf you own a home in Colleyville, you're paying about 283 dollars more in city tax this year, and that's the city's own math.\n\nColleyville City Council approved a $98.3 million budget and a city tax rate of 35.248 cents per $100 of value, up from 31.19 cents, a 13% increase. The fiscal year started Oct. 1. The city says the owner of an average $678,000 home will pay about $283 more a year in city tax. Water and wastewater base charges also rose $5.07 a month.\n\nThe city's finance director said overall property values fell 3% this year, so the rate had to rise to collect the same revenue. Over the last 12 months, Colleyville's median sale price was $1,015,000, up 3.5%. Appraised values and sale prices measure different things.\n\nSend this to a neighbor in Colleyville.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text 972-975-8280\n\nBased on data from the North Texas Real Estate Information Systems (NTREIS) for the period October 6, 2025 to October 6, 2026. Deemed reliable but not guaranteed. Not intended to solicit properties currently listed with another broker.\n\nPhoto: Colleyville City Hall, Iheartdfw, Wikimedia Commons (CC0)",
+    "trial_at_utc": "2026-10-11T21:00:00",
+    "batch": "2026-10-11",
+    "pick_at_utc": [
+     "2026-10-12T16:30:00",
+     "2026-10-12T19:30:00",
+     "2026-10-12T23:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "main_at_utc": "2026-10-09T16:30:00",
+  "main": {},
+  "added": "2026-10-08"
  }
 ]
