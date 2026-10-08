@@ -182,5 +182,41 @@
   "main_at_utc": "2026-10-09T16:30:00",
   "main": {},
   "added": "2026-10-08"
+ },
+ {
+  "slug": "tarrant-county-college-value-correction",
+  "town": "Fort Worth",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-tarrant-county-college-value-correction-a",
+    "asset": "tarrant-county-college-value-correction-A.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the real closed sales report for your town \ud83d\udc47\n\nTarrant County College raised its property tax rate in September, and now it says the drop in property values it reported was off by nearly 36 billion dollars.\n\nTarrant County College trustees raised the college's tax rate Sept. 10, to 12 cents per $100 of value from 11.228 cents. Budget pressures cited included declining property values.\n\nOn Sept. 28, TCC corrected the number: certified net taxable value fell from about $322.9 billion to $319.1 billion, a $3.8 billion drop, not the $39 billion previously reported. The college says it had compared two different measures of value. The rate stays. For a property with the same taxable value both years, it adds $7.72 a year per $100,000.\n\nTrustee Laura Forkner Pritchett, the lone vote against the increase, said a constituent raised concerns about the figures.\n\nFort Worth's median sale over the last 12 months was $337,000.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text 972-975-8280\n\nBased on data from the North Texas Real Estate Information Systems (NTREIS) for the period October 6, 2025 to October 6, 2026. Deemed reliable but not guaranteed. Not intended to solicit properties currently listed with another broker.\n\nPhoto: TCC Trinity River Campus, Michael Barera, Wikimedia Commons (CC BY-SA 4.0)",
+    "trial_at_utc": "2026-10-09T13:00:00",
+    "batch": "2026-10-09",
+    "pick_at_utc": [
+     "2026-10-10T16:30:00",
+     "2026-10-10T19:30:00",
+     "2026-10-10T23:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-tarrant-county-college-value-correction-b",
+    "asset": "tarrant-county-college-value-correction-B.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the real closed sales report for your town \ud83d\udc47\n\nIf you pay property taxes in Tarrant County, the college that just raised your rate says its 39 billion dollar drop in values was really 3.8 billion.\n\nTarrant County College trustees raised the college's tax rate Sept. 10, to 12 cents per $100 of value from 11.228 cents. Budget pressures cited included declining property values.\n\nOn Sept. 28, TCC corrected the number: certified net taxable value fell from about $322.9 billion to $319.1 billion, a $3.8 billion drop, not the $39 billion previously reported. The college says it had compared two different measures of value. The rate stays. For a property with the same taxable value both years, it adds $7.72 a year per $100,000.\n\nTrustee Laura Forkner Pritchett, the lone vote against the increase, said a constituent raised concerns about the figures.\n\nFort Worth's median sale over the last 12 months was $337,000.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text 972-975-8280\n\nBased on data from the North Texas Real Estate Information Systems (NTREIS) for the period October 6, 2025 to October 6, 2026. Deemed reliable but not guaranteed. Not intended to solicit properties currently listed with another broker.\n\nPhoto: TCC Trinity River Campus, Michael Barera, Wikimedia Commons (CC BY-SA 4.0)",
+    "trial_at_utc": "2026-10-12T14:00:00",
+    "batch": "2026-10-12",
+    "pick_at_utc": [
+     "2026-10-13T16:30:00",
+     "2026-10-13T19:30:00",
+     "2026-10-13T23:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "main_at_utc": "2026-10-10T16:30:00",
+  "main": {},
+  "added": "2026-10-08"
  }
 ]
