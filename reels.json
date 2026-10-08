@@ -218,5 +218,41 @@
   "main_at_utc": "2026-10-10T16:30:00",
   "main": {},
   "added": "2026-10-08"
+ },
+ {
+  "slug": "denton-landmark-school",
+  "town": "Denton",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-denton-landmark-school-a",
+    "asset": "denton-landmark-school-A.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the real closed sales report for your town \ud83d\udc47\n\nDenton ISD just bought land for a new elementary school inside a development planning more than 6,000 homes.\n\nDenton ISD just bought a 12-acre site for a new elementary school inside Landmark, Hillwood's 3,200-acre development at I-35W and Robson Ranch Road. It's the first of three campuses planned there. No build date yet, the district says enrollment decides that.\n\nLandmark is planned for 6,000 single-family homes, 3,000 apartments and townhomes and 1,100 acres of parks. Hillwood says it could one day hold about 1 in 10 Denton residents.\n\nOver the last 12 months, Denton's median sale was $364,310, down 3.9% from the year before.\n\nSend this to someone who lives off Robson Ranch.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text 972-975-8280\n\nBased on data from the North Texas Real Estate Information Systems (NTREIS) for the period October 6, 2025 to October 6, 2026. Deemed reliable but not guaranteed. Not intended to solicit properties currently listed with another broker.\n\nPhoto: Landmark by Hillwood, via Cross Timbers Gazette",
+    "trial_at_utc": "2026-10-09T14:00:00",
+    "batch": "2026-10-09",
+    "pick_at_utc": [
+     "2026-10-10T16:30:00",
+     "2026-10-10T19:30:00",
+     "2026-10-10T23:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-denton-landmark-school-b",
+    "asset": "denton-landmark-school-B.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the real closed sales report for your town \ud83d\udc47\n\nIf you live off Robson Ranch Road, about 6,000 new houses are coming next door, and Denton ISD just bought land for their first school.\n\nDenton ISD just bought a 12-acre site for a new elementary school inside Landmark, Hillwood's 3,200-acre development at I-35W and Robson Ranch Road. It's the first of three campuses planned there. No build date yet, the district says enrollment decides that.\n\nLandmark is planned for 6,000 single-family homes, 3,000 apartments and townhomes and 1,100 acres of parks. Hillwood says it could one day hold about 1 in 10 Denton residents.\n\nOver the last 12 months, Denton's median sale was $364,310, down 3.9% from the year before.\n\nSend this to someone who lives off Robson Ranch.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text 972-975-8280\n\nBased on data from the North Texas Real Estate Information Systems (NTREIS) for the period October 6, 2025 to October 6, 2026. Deemed reliable but not guaranteed. Not intended to solicit properties currently listed with another broker.\n\nPhoto: Landmark by Hillwood, via Cross Timbers Gazette",
+    "trial_at_utc": "2026-10-12T15:00:00",
+    "batch": "2026-10-12",
+    "pick_at_utc": [
+     "2026-10-13T16:30:00",
+     "2026-10-13T19:30:00",
+     "2026-10-13T23:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "main_at_utc": "2026-10-10T16:30:00",
+  "main": {},
+  "added": "2026-10-08"
  }
 ]
