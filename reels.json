@@ -16,7 +16,12 @@
      "2026-10-09T23:00:00"
     ],
     "media_id": "18112413922874116",
-    "posted_at_utc": "2026-10-08T19:59:59"
+    "posted_at_utc": "2026-10-08T19:59:59",
+    "judged": true,
+    "picked": true,
+    "main_done": true,
+    "main_media_id": "18112413922874116",
+    "result": "already on the main feed (posted there directly on Oct 8)"
    },
    {
     "v": "B",
@@ -35,8 +40,7 @@
   "pick": "day",
   "main_at_utc": "2026-10-09T16:30:00",
   "main": {},
-  "added": "2026-10-08",
-  "cancelled": true
+  "added": "2026-10-08"
  },
  {
   "slug": "colleyville-tax-rate-13-percent",
@@ -55,7 +59,12 @@
      "2026-10-09T23:00:00"
     ],
     "media_id": "18105668666459719",
-    "posted_at_utc": "2026-10-08T20:08:19"
+    "posted_at_utc": "2026-10-08T20:08:19",
+    "judged": true,
+    "picked": true,
+    "main_done": true,
+    "main_media_id": "18105668666459719",
+    "result": "already on the main feed (posted there directly on Oct 8)"
    },
    {
     "v": "B",
@@ -74,8 +83,7 @@
   "pick": "day",
   "main_at_utc": "2026-10-09T16:30:00",
   "main": {},
-  "added": "2026-10-08",
-  "cancelled": true
+  "added": "2026-10-08"
  },
  {
   "slug": "mckinney-north-custer-townhomes",
