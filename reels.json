@@ -35,7 +35,8 @@
   "pick": "day",
   "main_at_utc": "2026-10-09T16:30:00",
   "main": {},
-  "added": "2026-10-08"
+  "added": "2026-10-08",
+  "cancelled": true
  },
  {
   "slug": "colleyville-tax-rate-13-percent",
