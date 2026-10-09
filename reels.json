@@ -274,6 +274,7 @@
   "main_at_utc": "2026-10-10T16:30:00",
   "main": {},
   "added": "2026-10-08",
-  "trials_ok": true
+  "trials_ok": true,
+  "cancelled": true
  }
 ]
