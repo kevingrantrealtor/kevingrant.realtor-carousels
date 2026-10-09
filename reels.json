@@ -313,5 +313,42 @@
   "main_at_utc": "2026-10-10T16:30:00",
   "main": {},
   "added": "2026-10-09"
+ },
+ {
+  "slug": "prosper-frontier-gateway",
+  "town": "Prosper",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-prosper-frontier-gateway-a",
+    "asset": "prosper-frontier-gateway-A.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the real closed sales report for your town \ud83d\udc47\n\nProsper just approved 12 shopping and restaurant buildings at Frontier Parkway and the Dallas Parkway, after its planning commission sent the plan back eight times.\n\nProsper approved Frontier Gateway, 12 retail, restaurant and office buildings on the southwest corner of Frontier Parkway and Dallas Parkway, along the future Dallas North Tollway. The planning commission tabled it eight times over nine months before passing it 6-0 on Aug. 18. Council approved the development agreement Sept. 22.\n\nWhat changed: a big-box store became two mixed-use buildings, a pharmacy on the main corner became more restaurants and retail, and the center pond got wider with walking trails. It'll be built in two phases, north half first.\n\nProsper's median sale over the last 12 months was $840,025.\n\nWhat would you want on that corner?\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text 972-975-8280\n\nBased on data from the North Texas Real Estate Information Systems (NTREIS) for the period October 6, 2025 to October 6, 2026. Deemed reliable but not guaranteed. Not intended to solicit properties currently listed with another broker.\n\nPhoto: Community Impact",
+    "trial_at_utc": "2026-10-09T18:00:00",
+    "batch": "2026-10-09",
+    "pick_at_utc": [
+     "2026-10-10T16:30:00",
+     "2026-10-10T19:30:00",
+     "2026-10-10T23:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-prosper-frontier-gateway-b",
+    "asset": "prosper-frontier-gateway-B.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the real closed sales report for your town \ud83d\udc47\n\nIf you drive the Dallas Parkway into Prosper, the southwest corner at Frontier Parkway is getting 12 shops and restaurants after nine months of pushback.\n\nProsper approved Frontier Gateway, 12 retail, restaurant and office buildings on the southwest corner of Frontier Parkway and Dallas Parkway, along the future Dallas North Tollway. The planning commission tabled it eight times over nine months before passing it 6-0 on Aug. 18. Council approved the development agreement Sept. 22.\n\nWhat changed: a big-box store became two mixed-use buildings, a pharmacy on the main corner became more restaurants and retail, and the center pond got wider with walking trails. It'll be built in two phases, north half first.\n\nProsper's median sale over the last 12 months was $840,025.\n\nWhat would you want on that corner?\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text 972-975-8280\n\nBased on data from the North Texas Real Estate Information Systems (NTREIS) for the period October 6, 2025 to October 6, 2026. Deemed reliable but not guaranteed. Not intended to solicit properties currently listed with another broker.\n\nPhoto: Community Impact",
+    "trial_at_utc": "2026-10-12T19:00:00",
+    "batch": "2026-10-12",
+    "pick_at_utc": [
+     "2026-10-13T16:30:00",
+     "2026-10-13T19:30:00",
+     "2026-10-13T23:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "trials_ok": true,
+  "main_at_utc": "2026-10-10T16:30:00",
+  "main": {},
+  "added": "2026-10-09"
  }
 ]
