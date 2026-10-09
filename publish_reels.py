@@ -24,6 +24,13 @@ posts what comes due. Instagram's own limit is about 50 posts a day.
 Before posting, it reads your recent posts and skips anything already up, so a
 reel can never go out twice.
 
+Instagram only gives trial reels to some accounts (about 1,000 followers and
+up). On an account without them it takes a "trial" and puts it on the main
+feed with no error. So before any trial this checks your follower count and
+HOLDS every trial while you are under 1,000, and after each trial it asks
+Instagram where the reel landed. One that landed on the main feed stops every
+trial that has not gone out. Nothing reaches your main feed by accident twice.
+
 Needs FB_PAGE_TOKEN and IG_USER_ID (repository secrets the setup stored) and
 GH_TOKEN (GitHub provides it to the timer).
 """
@@ -44,6 +51,7 @@ QUEUE = os.path.join(HERE, "reels.json")
 TOKEN = (os.environ.get("FB_PAGE_TOKEN") or "").strip()
 IG_USER = (os.environ.get("IG_USER_ID") or "").strip()
 REPO = os.environ.get("GITHUB_REPOSITORY", "")
+TRIAL_FOLLOWERS = 1000      # Instagram's rough floor for trial reels
 
 
 def now():
@@ -106,6 +114,8 @@ def upload_reel(path, caption, trial):
         # MANUAL: Instagram never moves a trial to the main feed by itself. The
         # winner goes to the main feed as its own separate upload instead.
         params["trial_params"] = json.dumps({"graduation_strategy": "MANUAL"})
+    else:
+        params["share_to_feed"] = "true"
     c = api(f"{IG_USER}/media", params, "POST")
     if not c.get("id"):
         raise RuntimeError(f"Instagram would not start the upload: {err(c)}")
@@ -137,6 +147,52 @@ def upload_reel(path, caption, trial):
             raise RuntimeError(f"publishing failed: {err(pub)}")
         time.sleep(10)
     raise RuntimeError("Instagram never finished preparing the reel")
+
+
+def trial_block(queue):
+    """Why trials must wait, or None when they may go out."""
+    open_stories = [s for s in queue if not s.get("cancelled")]
+    for s in open_stories:
+        for v in s["versions"]:
+            if v.get("trial_missed") and not v.get("trial_missed_ack"):
+                return (f"Instagram put {s['slug']} {v['v']} on your main feed instead of making it a trial, so your "
+                        "account does not have trial reels right now. Every trial is on hold.")
+    if any(s.get("trials_ok") for s in open_stories):
+        return None                         # the agent confirmed the Trial switch is in their Instagram app
+    me = api(IG_USER, {"fields": "followers_count"})
+    n = me.get("followers_count")
+    if isinstance(n, int) and n < TRIAL_FOLLOWERS:
+        return (f"You have {n:,} followers. Instagram gives trial reels to accounts with about {TRIAL_FOLLOWERS:,}. "
+                "Below that it posts a trial straight to your main feed, so every trial is on hold.")
+    return None
+
+
+def set_holds(queue, reason):
+    """Mark (or clear) the hold on every trial that has not gone out. True when anything changed."""
+    changed = False
+    for s in queue:
+        if s.get("cancelled"):
+            continue
+        for v in s["versions"]:
+            if v.get("media_id") or v.get("failed"):
+                continue
+            if reason and v.get("hold") != reason:
+                v["hold"] = reason
+                changed = True
+            elif not reason and "hold" in v:
+                del v["hold"]
+                changed = True
+    return changed
+
+
+def landed_as_trial(media_id):
+    """True = a trial, False = it is on the main feed, None = Instagram would not say."""
+    for _ in range(3):
+        m = api(media_id, {"fields": "is_shared_to_feed"})
+        if "is_shared_to_feed" in m:
+            return m["is_shared_to_feed"] is False
+        time.sleep(5)
+    return None
 
 
 def score(media_id):
@@ -180,11 +236,11 @@ def day_batches(queue):
     return out
 
 
-def next_job(queue, tried=()):
+def next_job(queue, tried=(), trials=True):
     t = now()
     stories = sorted(queue, key=lambda s: s["versions"][0]["trial_at_utc"])
     for s in stories:
-        if s.get("cancelled"):
+        if s.get("cancelled") or not trials:
             continue
         for v in s["versions"]:
             if not v.get("media_id") and not v.get("failed") and v["trial_at_utc"] <= t and f"t:{s['slug']}:{v['v']}" not in tried:
@@ -222,12 +278,30 @@ def post_trial(story, ver, live):
         ver["media_id"] = upload_reel(download(ver["tag"], ver["asset"]), ver["caption"], trial=True)
         ver["posted_at_utc"] = now()
         print(f"  posted {ver['media_id']}")
+        ver["landed_as_trial"] = landed_as_trial(ver["media_id"])
+        if ver["landed_as_trial"] is False:
+            missed_trial(story, ver)
     except Exception as e:
         ver["tries"] = ver.get("tries", 0) + 1
         ver["last_error"] = str(e)[:400]
         if ver["tries"] >= 3 or re.search(r"trial", str(e), re.I):
             ver["failed"] = True
         print(f"  FAILED ({ver['tries']} of 3): {e}")
+
+
+def missed_trial(story, ver):
+    """Instagram posted a trial to the main feed. That post IS this story's main post; never post it again."""
+    print("  NOT A TRIAL: Instagram put it on the main feed. Holding every other trial.")
+    ver["trial_missed"] = True
+    note = "Instagram posted this trial straight to the main feed (the account has no trial reels)"
+    if story.get("pick") == "day":
+        ver.update(judged=True, picked=True, main_done=True, main_media_id=ver["media_id"], result=note)
+    else:
+        story.setdefault("main", {}).update(done=True, winner=ver["v"], media_id=ver["media_id"], result=note)
+        for v in story["versions"]:
+            if not v.get("media_id") and not v.get("failed"):
+                v.update(failed=True, last_error=f"skipped: version {ver['v']} is already on the main feed")
+        cleanup(story)
 
 
 def post_main(label, ver, live):
@@ -279,14 +353,22 @@ def main():
         return
     queue = json.load(open(QUEUE))
     began, handled, tried = time.time(), 0, set()
+    block = trial_block(queue)
+    if set_holds(queue, block):
+        json.dump(queue, open(QUEUE, "w"), indent=1)
+    if block:
+        print(f"TRIALS ON HOLD: {block}")
     # everything due, one at a time, for up to ~15 minutes (the timer gives each run 30)
     while time.time() - began < 15 * 60:
-        kind, story, ver = next_job(queue, tried)
+        kind, story, ver = next_job(queue, tried, trials=not block)
         if not kind:
             break
         if kind == "trial":
             tried.add(f"t:{story['slug']}:{ver['v']}")
             post_trial(story, ver, live_posts())
+            if ver.get("trial_missed"):
+                block = trial_block(queue)
+                set_holds(queue, block)
         elif kind == "judge":
             tried.add(f"j:{story}")
             judge_day(queue, story, ver)
