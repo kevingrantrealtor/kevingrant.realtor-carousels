@@ -34,7 +34,8 @@
      "2026-10-12T16:30:00",
      "2026-10-12T19:30:00",
      "2026-10-12T23:00:00"
-    ]
+    ],
+    "hold": "Instagram put prosper-frontier-gateway A on your main feed instead of making it a trial, so your account does not have trial reels right now. Every trial is on hold."
    }
   ],
   "pick": "day",
@@ -78,7 +79,8 @@
      "2026-10-12T16:30:00",
      "2026-10-12T19:30:00",
      "2026-10-12T23:00:00"
-    ]
+    ],
+    "hold": "Instagram put prosper-frontier-gateway A on your main feed instead of making it a trial, so your account does not have trial reels right now. Every trial is on hold."
    }
   ],
   "pick": "day",
@@ -293,8 +295,9 @@
      "2026-10-10T19:30:00",
      "2026-10-10T23:00:00"
     ],
-    "tries": 2,
-    "last_error": "the video upload failed: HTTP 400 {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
+    "tries": 3,
+    "last_error": "the video upload failed: HTTP 400 {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}",
+    "failed": true
    },
    {
     "v": "B",
@@ -307,7 +310,8 @@
      "2026-10-13T16:30:00",
      "2026-10-13T19:30:00",
      "2026-10-13T23:00:00"
-    ]
+    ],
+    "hold": "Instagram put prosper-frontier-gateway A on your main feed instead of making it a trial, so your account does not have trial reels right now. Every trial is on hold."
    }
   ],
   "pick": "day",
@@ -331,7 +335,16 @@
      "2026-10-10T16:30:00",
      "2026-10-10T19:30:00",
      "2026-10-10T23:00:00"
-    ]
+    ],
+    "media_id": "18459865060184205",
+    "posted_at_utc": "2026-10-09T18:33:03",
+    "landed_as_trial": false,
+    "trial_missed": true,
+    "judged": true,
+    "picked": true,
+    "main_done": true,
+    "main_media_id": "18459865060184205",
+    "result": "Instagram posted this trial straight to the main feed (the account has no trial reels)"
    },
    {
     "v": "B",
@@ -344,7 +357,8 @@
      "2026-10-13T16:30:00",
      "2026-10-13T19:30:00",
      "2026-10-13T23:00:00"
-    ]
+    ],
+    "hold": "Instagram put prosper-frontier-gateway A on your main feed instead of making it a trial, so your account does not have trial reels right now. Every trial is on hold."
    }
   ],
   "pick": "day",
@@ -368,7 +382,8 @@
      "2026-10-10T16:30:00",
      "2026-10-10T19:30:00",
      "2026-10-10T23:00:00"
-    ]
+    ],
+    "hold": "Instagram put prosper-frontier-gateway A on your main feed instead of making it a trial, so your account does not have trial reels right now. Every trial is on hold."
    },
    {
     "v": "B",
@@ -381,7 +396,8 @@
      "2026-10-13T16:30:00",
      "2026-10-13T19:30:00",
      "2026-10-13T23:00:00"
-    ]
+    ],
+    "hold": "Instagram put prosper-frontier-gateway A on your main feed instead of making it a trial, so your account does not have trial reels right now. Every trial is on hold."
    }
   ],
   "pick": "day",
@@ -405,7 +421,8 @@
      "2026-10-10T16:30:00",
      "2026-10-10T19:30:00",
      "2026-10-10T23:00:00"
-    ]
+    ],
+    "hold": "Instagram put prosper-frontier-gateway A on your main feed instead of making it a trial, so your account does not have trial reels right now. Every trial is on hold."
    },
    {
     "v": "B",
@@ -418,7 +435,8 @@
      "2026-10-13T16:30:00",
      "2026-10-13T19:30:00",
      "2026-10-13T23:00:00"
-    ]
+    ],
+    "hold": "Instagram put prosper-frontier-gateway A on your main feed instead of making it a trial, so your account does not have trial reels right now. Every trial is on hold."
    }
   ],
   "pick": "day",
@@ -442,7 +460,8 @@
      "2026-10-10T16:30:00",
      "2026-10-10T19:30:00",
      "2026-10-10T23:00:00"
-    ]
+    ],
+    "hold": "Instagram put prosper-frontier-gateway A on your main feed instead of making it a trial, so your account does not have trial reels right now. Every trial is on hold."
    },
    {
     "v": "B",
@@ -455,7 +474,8 @@
      "2026-10-13T16:30:00",
      "2026-10-13T19:30:00",
      "2026-10-13T23:00:00"
-    ]
+    ],
+    "hold": "Instagram put prosper-frontier-gateway A on your main feed instead of making it a trial, so your account does not have trial reels right now. Every trial is on hold."
    }
   ],
   "pick": "day",
