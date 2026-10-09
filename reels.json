@@ -350,5 +350,42 @@
   "main_at_utc": "2026-10-10T16:30:00",
   "main": {},
   "added": "2026-10-09"
+ },
+ {
+  "slug": "double-oak-prop-a-fm407",
+  "town": "Double Oak",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-double-oak-prop-a-fm407-a",
+    "asset": "double-oak-prop-a-fm407-A.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the real closed sales report for your town \ud83d\udc47\n\nOn November 3rd, Double Oak votes on legal alcohol sales for the first time, and a 23 acre shopping center at FM 407 and Simmons is tied to it.\n\nDouble Oak votes Nov. 3 on Proposition A, which would make alcohol sales legal in town. A petition got it on the ballot with 688 signatures, 72 more than required.\n\nIt's tied to a proposed 23-acre shopping center at FM 407 and Simmons Road from Direct Retail Partners: a grocery store, restaurants and shops. A forecast presented in March projects about $346,000 a year in sales tax at full build-out. A neighbor wrote this week that more than 170 residents signed a petition against the project, citing traffic and a 24-hour gas station.\n\nDouble Oak's median sale over the last 12 months was $855,000.\n\nSend this to someone in Double Oak.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text 972-975-8280\n\nBased on data from the North Texas Real Estate Information Systems (NTREIS) for the period October 6, 2025 to October 6, 2026. Deemed reliable but not guaranteed. Not intended to solicit properties currently listed with another broker.\n\nPhoto: Micah Pearce/Cross Timbers Gazette",
+    "trial_at_utc": "2026-10-09T19:00:00",
+    "batch": "2026-10-09",
+    "pick_at_utc": [
+     "2026-10-10T16:30:00",
+     "2026-10-10T19:30:00",
+     "2026-10-10T23:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-double-oak-prop-a-fm407-b",
+    "asset": "double-oak-prop-a-fm407-B.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the real closed sales report for your town \ud83d\udc47\n\nA grocery store, restaurants and shops are proposed for FM 407 and Simmons Road in Double Oak, and a November 3rd vote on alcohol sales decides a lot of it.\n\nDouble Oak votes Nov. 3 on Proposition A, which would make alcohol sales legal in town. A petition got it on the ballot with 688 signatures, 72 more than required.\n\nIt's tied to a proposed 23-acre shopping center at FM 407 and Simmons Road from Direct Retail Partners: a grocery store, restaurants and shops. A forecast presented in March projects about $346,000 a year in sales tax at full build-out. A neighbor wrote this week that more than 170 residents signed a petition against the project, citing traffic and a 24-hour gas station.\n\nDouble Oak's median sale over the last 12 months was $855,000.\n\nSend this to someone in Double Oak.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text 972-975-8280\n\nBased on data from the North Texas Real Estate Information Systems (NTREIS) for the period October 6, 2025 to October 6, 2026. Deemed reliable but not guaranteed. Not intended to solicit properties currently listed with another broker.\n\nPhoto: Micah Pearce/Cross Timbers Gazette",
+    "trial_at_utc": "2026-10-12T20:00:00",
+    "batch": "2026-10-12",
+    "pick_at_utc": [
+     "2026-10-13T16:30:00",
+     "2026-10-13T19:30:00",
+     "2026-10-13T23:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "trials_ok": true,
+  "main_at_utc": "2026-10-10T16:30:00",
+  "main": {},
+  "added": "2026-10-09"
  }
 ]
