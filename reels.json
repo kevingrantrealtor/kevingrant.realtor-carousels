@@ -40,7 +40,8 @@
   "pick": "day",
   "main_at_utc": "2026-10-09T16:30:00",
   "main": {},
-  "added": "2026-10-08"
+  "added": "2026-10-08",
+  "trials_ok": true
  },
  {
   "slug": "colleyville-tax-rate-13-percent",
@@ -83,7 +84,8 @@
   "pick": "day",
   "main_at_utc": "2026-10-09T16:30:00",
   "main": {},
-  "added": "2026-10-08"
+  "added": "2026-10-08",
+  "trials_ok": true
  },
  {
   "slug": "mckinney-north-custer-townhomes",
@@ -119,7 +121,8 @@
   "pick": "day",
   "main_at_utc": "2026-10-09T16:30:00",
   "main": {},
-  "added": "2026-10-08"
+  "added": "2026-10-08",
+  "trials_ok": true
  },
  {
   "slug": "prosper-frontier-gateway",
@@ -155,7 +158,8 @@
   "pick": "day",
   "main_at_utc": "2026-10-09T16:30:00",
   "main": {},
-  "added": "2026-10-08"
+  "added": "2026-10-08",
+  "trials_ok": true
  },
  {
   "slug": "double-oak-prop-a-fm407",
@@ -191,7 +195,8 @@
   "pick": "day",
   "main_at_utc": "2026-10-09T16:30:00",
   "main": {},
-  "added": "2026-10-08"
+  "added": "2026-10-08",
+  "trials_ok": true
  },
  {
   "slug": "tarrant-county-college-value-correction",
@@ -227,7 +232,8 @@
   "pick": "day",
   "main_at_utc": "2026-10-10T16:30:00",
   "main": {},
-  "added": "2026-10-08"
+  "added": "2026-10-08",
+  "trials_ok": true
  },
  {
   "slug": "denton-landmark-school",
@@ -263,6 +269,7 @@
   "pick": "day",
   "main_at_utc": "2026-10-10T16:30:00",
   "main": {},
-  "added": "2026-10-08"
+  "added": "2026-10-08",
+  "trials_ok": true
  }
 ]
