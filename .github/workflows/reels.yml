@@ -3,6 +3,7 @@ name: Post scheduled reels
 # Runs on a timer in GitHub's cloud, so your laptop does not need to be open.
 # GitHub's timer is loose (a run can come 10 to 60 minutes late), which is fine:
 # trial reels only reach people who don't follow you, so the hour doesn't matter.
+# timer re-registered Oct 29 2026 (it had stayed off after being re-enabled)
 on:
   schedule:
     - cron: "17,47 * * * *"
