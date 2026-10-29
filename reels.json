@@ -483,5 +483,32 @@
   "main_at_utc": "2026-10-10T16:30:00",
   "main": {},
   "added": "2026-10-09"
+ },
+ {
+  "slug": "dallas-granada-theater-closing-bathhouse",
+  "town": "Dallas",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-dallas-granada-theater-closing-bathhouse-a",
+    "asset": "dallas-granada-theater-closing-bathhouse-A.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the real closed sales report for your town \ud83d\udc47\n\nThe Granada Theater on Lower Greenville just announced it's closing after 80 years, and it's turning into a spa.\n\nThe Granada Theater at 3524 Greenville Ave. is closing after 80 years. Its owners sold the property to Bathhouse, a New York wellness company with saunas, steam rooms and thermal pools. Sundown at Granada ends regular restaurant service Nov. 1, and the Granada keeps hosting events through April 17, 2027.\n\nBathhouse plans to keep the facade, the marquee and most of the exterior, redo the inside and replace Sundown with an expansion, aiming to open in mid-2028. The owners had turned down developers who wanted apartments there.\n\nWhat was your best night at the Granada?\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text 972-975-8280\n\nPhoto: Gavinmulloy77, via Wikimedia Commons",
+    "trial_at_utc": "2026-10-29T16:30:00",
+    "keyword": "REPORT",
+    "ending": "report",
+    "batch": "2026-10-29",
+    "pick_at_utc": [
+     "2026-10-30T16:30:00",
+     "2026-10-30T19:30:00",
+     "2026-10-30T23:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "keyword": "REPORT",
+  "trials_ok": true,
+  "main_at_utc": "2026-10-30T16:30:00",
+  "main": {},
+  "added": "2026-10-29"
  }
 ]
