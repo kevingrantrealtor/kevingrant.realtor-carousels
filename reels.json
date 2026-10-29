@@ -757,7 +757,10 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "media_id": "18045575645835478",
+    "posted_at_utc": "2026-10-29T18:06:38",
+    "landed_as_trial": true
    },
    {
     "v": "B",
@@ -804,7 +807,10 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "media_id": "17928450171427587",
+    "posted_at_utc": "2026-10-29T18:07:19",
+    "landed_as_trial": true
    },
    {
     "v": "B",
@@ -851,7 +857,10 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "media_id": "18129896650878142",
+    "posted_at_utc": "2026-10-29T18:08:10",
+    "landed_as_trial": true
    },
    {
     "v": "B",
@@ -898,7 +907,10 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "media_id": "17964948969236909",
+    "posted_at_utc": "2026-10-29T18:09:32",
+    "landed_as_trial": true
    },
    {
     "v": "B",
@@ -945,7 +957,10 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "media_id": "17914525812500663",
+    "posted_at_utc": "2026-10-29T18:10:26",
+    "landed_as_trial": true
    },
    {
     "v": "B",
@@ -992,7 +1007,9 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "tries": 1,
+    "last_error": "publishing failed: An unexpected error has occurred. Please retry your request later."
    },
    {
     "v": "B",
@@ -1039,7 +1056,9 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "tries": 1,
+    "last_error": "publishing failed: User is performing too many actions"
    },
    {
     "v": "B",
@@ -1086,7 +1105,9 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "tries": 1,
+    "last_error": "publishing failed: User is performing too many actions"
    },
    {
     "v": "B",
@@ -1133,7 +1154,9 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "tries": 1,
+    "last_error": "publishing failed: User is performing too many actions"
    },
    {
     "v": "B",
@@ -1180,7 +1203,9 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "tries": 1,
+    "last_error": "publishing failed: User is performing too many actions"
    },
    {
     "v": "B",
@@ -1227,7 +1252,9 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "tries": 1,
+    "last_error": "publishing failed: User is performing too many actions"
    },
    {
     "v": "B",
@@ -1274,7 +1301,9 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "tries": 1,
+    "last_error": "publishing failed: User is performing too many actions"
    },
    {
     "v": "B",
@@ -1321,7 +1350,9 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "tries": 1,
+    "last_error": "publishing failed: User is performing too many actions"
    },
    {
     "v": "B",
@@ -1368,7 +1399,9 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "tries": 1,
+    "last_error": "publishing failed: User is performing too many actions"
    },
    {
     "v": "B",
@@ -1415,7 +1448,9 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "tries": 1,
+    "last_error": "publishing failed: User is performing too many actions"
    },
    {
     "v": "B",
