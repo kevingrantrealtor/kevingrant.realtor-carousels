@@ -557,7 +557,10 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "media_id": "18113127122580779",
+    "posted_at_utc": "2026-10-29T17:53:54",
+    "landed_as_trial": true
    },
    {
     "v": "B",
@@ -604,7 +607,10 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "media_id": "18383520238239767",
+    "posted_at_utc": "2026-10-29T17:54:59",
+    "landed_as_trial": true
    },
    {
     "v": "B",
@@ -651,7 +657,10 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "media_id": "17980557203914866",
+    "posted_at_utc": "2026-10-29T17:56:03",
+    "landed_as_trial": true
    },
    {
     "v": "B",
@@ -698,7 +707,10 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "media_id": "18121490579077999",
+    "posted_at_utc": "2026-10-29T17:58:11",
+    "landed_as_trial": true
    },
    {
     "v": "B",
