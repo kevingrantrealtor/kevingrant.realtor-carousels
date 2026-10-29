@@ -1,21 +1,28 @@
 #!/usr/bin/env python3
-"""Posts your scheduled reels: two trials, then the winner to your main feed.
+"""Posts your scheduled reels: each story's trials, then the winner to your main feed.
 
 This file lives in your own GitHub repo and runs on a timer in GitHub's cloud,
 so your laptop can be shut. You never run it by hand.
 
-Each story's versions go out as TRIAL reels (shown to people who don't follow
-you) at the times you picked. Then the winners go to your MAIN feed, one of
-two ways (you pick, in setup/posting.py):
-  A vs B      a few days after a story's trial B, its two versions are
-              compared and the better one goes to your main feed.
-  best of day all the trials that went out on one day compete, and the best
-              ones (as many as you have main-feed times) go to your main feed
-              a set number of days later. One spot per story at most.
-Better = more comments, then more views (when your token can read views), then
-more likes. A trial with no likes and no comments never goes to the main feed.
-A winner is uploaded again as its own new post, not Instagram's "share to main
-feed" button on the trial. Video files are deleted from GitHub once done.
+Each story has three versions (A, B and C, one per kept hook). They go out
+as TRIAL reels (shown to people who don't follow you), one a day, at the times
+you picked. Every trial of a story goes out before that story's main post,
+because a trial posted after its own main post gets flagged as spam. Then the
+winners go to your MAIN feed, one of two ways (you pick, in setup/posting.py):
+  story       about a day after a story's last trial, its versions are
+              compared and the best one goes to your main feed.
+  best of day every story whose last trial went out on one day competes, and
+              the best ones (as many as you have main-feed times) go to your
+              main feed. One spot per story at most.
+Every trial is read once it is about a day old, so versions of different ages
+compare fairly. When your versions end on different keywords (one per offer),
+each version counts only the comments that ask for ITS OWN keyword. A version
+that ends on the follow ask counts no keyword comments. Best = keyword comments first (a lead of 2 or more), then views
+(a lead of 15% or more, when your token can read views), then the most
+comments, views and likes. A trial with no likes and no comments never goes to
+the main feed. A winner is uploaded again as its own new post, not Instagram's
+"share to main feed" button on the trial. Video files are deleted from GitHub
+once done.
 
 It works through everything due, one post at a time, and saves after each, so
 a problem with one reel cannot block the rest. Your posting schedule (how many
@@ -24,16 +31,28 @@ posts what comes due. Instagram's own limit is about 50 posts a day.
 Before posting, it reads your recent posts and skips anything already up, so a
 reel can never go out twice.
 
-Instagram only gives trial reels to some accounts (about 1,000 followers and
-up). On an account without them it takes a "trial" and puts it on the main
-feed with no error. So before any trial this checks your follower count and
-HOLDS every trial while you are under 1,000, and after each trial it asks
-Instagram where the reel landed. One that landed on the main feed stops every
-trial that has not gone out. Nothing reaches your main feed by accident twice.
+Instagram gives trial reels to professional accounts with 200 followers or
+more. The account must also be public and allowed to be recommended (Instagram
+app: Settings, Account status). On an account without them Instagram takes a
+"trial" and puts it on the main feed with no error. So before any trial this
+checks your follower count and HOLDS every trial while you are under 200. After
+each trial it asks Instagram where the reel landed. One that landed on the main
+feed stops every trial that has not gone out. Nothing reaches your main feed by
+accident twice.
+
+Each reel goes to Instagram as a link to its video in this repo's Releases, the
+same way Ryan's own trials go out. Instagram fetches the video from that link,
+so this repo has to stay public. (Before 10/27/26 the poster sent the file
+another way, and Instagram put those trials on the main feed.)
+
+A post more than a day past its time is skipped, never sent. A hold or a paused
+timer can leave posts waiting for days, and old news all at once looks like
+spam.
 
 Needs FB_PAGE_TOKEN and IG_USER_ID (repository secrets the setup stored) and
 GH_TOKEN (GitHub provides it to the timer).
 """
+import calendar
 import json
 import os
 import re
@@ -45,13 +64,14 @@ import urllib.parse
 import urllib.request
 
 GRAPH = "https://graph.facebook.com/v25.0"
-RUPLOAD = "https://rupload.facebook.com/ig-api-upload/v25.0"
 HERE = os.path.dirname(os.path.abspath(__file__))
 QUEUE = os.path.join(HERE, "reels.json")
 TOKEN = (os.environ.get("FB_PAGE_TOKEN") or "").strip()
 IG_USER = (os.environ.get("IG_USER_ID") or "").strip()
 REPO = os.environ.get("GITHUB_REPOSITORY", "")
-TRIAL_FOLLOWERS = 1000      # Instagram's rough floor for trial reels
+TRIAL_FOLLOWERS = 200       # Instagram's floor for trial reels on a public professional account
+LATE_HOURS = 24             # a post this far past its time is skipped, never sent
+TURN_ON = "python3 scripts/schedule_reel.py --trials-on --yes"
 
 
 def now():
@@ -98,18 +118,34 @@ def gh(*args):
     return subprocess.run(["gh", *args], capture_output=True, text=True)
 
 
-def download(tag, asset):
-    d = os.path.join("/tmp", "reels")
-    os.makedirs(d, exist_ok=True)
-    r = gh("release", "download", tag, "-R", REPO, "-p", asset, "-D", d, "--clobber")
-    path = os.path.join(d, asset)
-    if r.returncode or not os.path.exists(path):
-        raise RuntimeError(f"could not download {asset} from GitHub: {r.stderr.strip()}")
-    return path
+def release_url(tag, asset):
+    """The public link to a video in this repo's Releases. Instagram fetches the reel from it.
+
+    GitHub answers it with a redirect to a short-lived signed link, and
+    Instagram follows that (tested on Ryan's account 10/27/26). Checked first
+    so a missing video or a private repo gives a plain reason."""
+    q = urllib.parse.quote
+    url = f"https://github.com/{REPO}/releases/download/{q(tag)}/{q(asset)}"
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, method="HEAD"), timeout=60) as r:
+            if r.status == 200:
+                return url
+            code = r.status
+    except urllib.error.HTTPError as e:
+        code = e.code
+    except Exception as e:
+        raise RuntimeError(f"could not reach the video link on GitHub: {e}")
+    raise RuntimeError(f"the video link on GitHub does not open (HTTP {code}). The posts repo must stay public "
+                       "and the video's release must still be there.")
 
 
-def upload_reel(path, caption, trial):
-    params = {"media_type": "REELS", "upload_type": "resumable", "caption": caption}
+def upload_reel(video_url, caption, trial):
+    """Make the reel from its video link, wait for Instagram to process it, publish it. Returns the media id.
+
+    By video_url, the way Meta documents trial_params and the way Ryan's own
+    poster gets real trials. The old resumable upload sent trials to the main
+    feed (Kevin, 10/8/26)."""
+    params = {"media_type": "REELS", "video_url": video_url, "caption": caption}
     if trial:
         # MANUAL: Instagram never moves a trial to the main feed by itself. The
         # winner goes to the main feed as its own separate upload instead.
@@ -119,17 +155,7 @@ def upload_reel(path, caption, trial):
     c = api(f"{IG_USER}/media", params, "POST")
     if not c.get("id"):
         raise RuntimeError(f"Instagram would not start the upload: {err(c)}")
-    size = os.path.getsize(path)
-    req = urllib.request.Request(f"{RUPLOAD}/{c['id']}", data=open(path, "rb").read(), method="POST",
-                                 headers={"Authorization": f"OAuth {TOKEN}", "offset": "0", "file_size": str(size)})
-    try:
-        with urllib.request.urlopen(req, timeout=600) as r:
-            up = json.loads(r.read().decode())
-    except urllib.error.HTTPError as e:
-        raise RuntimeError(f"the video upload failed: HTTP {e.code} {e.read().decode()[:300]}")
-    if not up.get("success", True):
-        raise RuntimeError(f"the video upload failed: {up}")
-    for _ in range(60):                     # up to ten minutes for Instagram to process it
+    for _ in range(60):                     # up to ten minutes for Instagram to fetch and process it
         time.sleep(10)
         st = api(c["id"], {"fields": "status_code,status"})
         code = st.get("status_code")
@@ -155,16 +181,51 @@ def trial_block(queue):
     for s in open_stories:
         for v in s["versions"]:
             if v.get("trial_missed") and not v.get("trial_missed_ack"):
-                return (f"Instagram put {s['slug']} {v['v']} on your main feed instead of making it a trial, so your "
-                        "account does not have trial reels right now. Every trial is on hold.")
+                return (f"Instagram put {s['slug']} {v['v']} on your main feed instead of trials. Every trial is on "
+                        "hold. Check Settings, Account status in Instagram. Then start a new reel and look for the "
+                        f"Trial switch on the last screen before Share. If you see it, ask Claude to run {TURN_ON}")
     if any(s.get("trials_ok") for s in open_stories):
         return None                         # the agent confirmed the Trial switch is in their Instagram app
     me = api(IG_USER, {"fields": "followers_count"})
     n = me.get("followers_count")
     if isinstance(n, int) and n < TRIAL_FOLLOWERS:
-        return (f"You have {n:,} followers. Instagram gives trial reels to accounts with about {TRIAL_FOLLOWERS:,}. "
-                "Below that it posts a trial straight to your main feed, so every trial is on hold.")
+        return (f"You have {n:,} followers. Instagram gives trial reels to professional accounts with "
+                f"{TRIAL_FOLLOWERS:,} or more. Below that it posts a trial straight to your main feed. Every trial "
+                f"is on hold. If your Instagram app shows the Trial switch anyway, ask Claude to run {TURN_ON}")
     return None
+
+
+def late_cut():
+    """The UTC time a day before now. A post due before it is too late to send."""
+    t = calendar.timegm(time.strptime(now(), "%Y-%m-%dT%H:%M:%S")) - LATE_HOURS * 3600
+    return time.strftime("%Y-%m-%dT%H:%M:%S", time.gmtime(t))
+
+
+def skip_late(queue):
+    """Skip every post more than a day past its time. True when anything changed.
+
+    A hold, a paused timer or a GitHub outage can leave posts waiting for days.
+    Old news all at once looks like spam, and a "trial" from before a hold may
+    already sit on the main feed."""
+    cut, changed = late_cut(), False
+    late = "skipped: its time passed more than a day ago (posting was off or on hold)"
+    for s in queue:
+        if s.get("cancelled"):
+            continue
+        for v in s["versions"]:
+            if not v.get("media_id") and not v.get("failed") and v["trial_at_utc"] < cut:
+                v.update(failed=True, late=True, last_error=late)
+                changed = True
+            if s.get("pick") == "day" and v.get("picked") and not v.get("main_done") and v["main_at_utc"] < cut:
+                v.update(main_done=True, late=True, result=late.replace("its time", "its main-feed time"))
+                cleanup_version(v)
+                changed = True
+        m = s.setdefault("main", {})
+        if s.get("pick") != "day" and not m.get("done") and s["main_at_utc"] < cut:
+            m.update(done=True, late=True, result=late.replace("its time", "its main-feed time"))
+            cleanup(s)
+            changed = True
+    return changed
 
 
 def set_holds(queue, reason):
@@ -205,6 +266,78 @@ def score(media_id):
     return {"comments": f.get("comments_count", 0) or 0, "likes": f.get("like_count", 0) or 0, "views": views}
 
 
+def keyword_of(story, ver):
+    """The keyword this version said on camera. Stories scheduled before 10/23/26 have one, on the story."""
+    return ver["keyword"] if "keyword" in ver else story.get("keyword")
+
+
+def keyword_count(media_id, keyword):
+    """How many comments ask for the offer by its keyword, or None when Instagram will not say."""
+    if not keyword:
+        return None
+    out = api(f"{media_id}/comments", {"fields": "text", "limit": "100"})
+    if "data" not in out:
+        return None
+    return sum(1 for c in out["data"] if re.search(rf"\b{re.escape(keyword)}\b", c.get("text", ""), re.I))
+
+
+def age_hours(v):
+    try:
+        posted = time.mktime(time.strptime(v["posted_at_utc"], "%Y-%m-%dT%H:%M:%S"))
+        return max(0.0, (time.mktime(time.gmtime()) - posted) / 3600)
+    except (KeyError, ValueError):
+        return 24.0
+
+
+def snapshot_day1(queue):
+    """Read every trial once it is about a day old, so the winner is judged on its first day. True when anything changed."""
+    changed = False
+    for s in queue:
+        if s.get("cancelled"):
+            continue
+        for v in s["versions"]:
+            if not v.get("media_id") or v.get("day1") or v.get("trial_missed"):
+                continue
+            age = age_hours(v)
+            if 24 <= age < 80:
+                v["day1"] = {**score(v["media_id"]), "kw": keyword_count(v["media_id"], keyword_of(s, v)),
+                             "age_h": round(age, 1)}
+                changed = True
+    return changed
+
+
+def day1(story, v):
+    """A trial's numbers at about one day old (scaled to 24 hours), read now if it is younger than that."""
+    snap = v.get("day1")
+    if not snap:
+        snap = {**(v.get("score") or score(v["media_id"])), "age_h": round(age_hours(v), 1)}
+        if "kw" not in snap:
+            snap["kw"] = keyword_count(v["media_id"], keyword_of(story, v))
+    k = 24 / max(snap.get("age_h") or 24, 6)
+    if snap.get("kw") is not None:
+        asks = snap["kw"]
+    elif not keyword_of(story, v) and any(keyword_of(story, x) for x in story.get("versions", [])):
+        asks = 0                            # a follow ending asks for no keyword; its comments are not asks
+    else:
+        asks = snap.get("comments", 0)      # no keyword anywhere, or Instagram would not list the comments
+    return {"asks": asks * min(k, 1.5), "views": (snap.get("views") or 0) * k, "likes": snap.get("likes", 0) * k,
+            "has_views": snap.get("views") is not None}
+
+
+def best_version(story, posted):
+    """Ryan's rule (10/22/26): keyword comments decide by a lead of 2+, then views by 15%+, then the most of everything."""
+    nums = {v["v"]: day1(story, v) for v in posted}
+    by_asks = sorted(posted, key=lambda v: -nums[v["v"]]["asks"])
+    if len(posted) > 1 and nums[by_asks[0]["v"]]["asks"] - nums[by_asks[1]["v"]]["asks"] >= 2:
+        return by_asks[0], "keyword comments", nums
+    if len(posted) > 1 and all(nums[v["v"]]["has_views"] for v in posted):
+        by_views = sorted(posted, key=lambda v: -nums[v["v"]]["views"])
+        if nums[by_views[0]["v"]]["views"] / max(1.0, nums[by_views[1]["v"]]["views"]) >= 1.15:
+            return by_views[0], "views", nums
+    best = max(posted, key=lambda v: (rank_key(nums[v["v"]]), -ord(v["v"][0])))
+    return best, "too close; the most of everything", nums
+
+
 def cleanup(story):
     for v in story["versions"]:
         gh("release", "delete", v["tag"], "-R", REPO, "-y", "--cleanup-tag")
@@ -216,9 +349,8 @@ def cleanup_version(v):
     v["file_deleted"] = True
 
 
-def rank_key(v):
-    sc = v["score"]
-    return (sc["comments"], sc["views"] or 0, sc["likes"])
+def rank_key(n):
+    return (round(n["asks"], 2), round(n["views"], 2), round(n["likes"], 2))
 
 
 def flopped(v):
@@ -275,7 +407,7 @@ def post_trial(story, ver, live):
         return
     print(f"{story['slug']} {ver['v']}: posting as a trial reel")
     try:
-        ver["media_id"] = upload_reel(download(ver["tag"], ver["asset"]), ver["caption"], trial=True)
+        ver["media_id"] = upload_reel(release_url(ver["tag"], ver["asset"]), ver["caption"], trial=True)
         ver["posted_at_utc"] = now()
         print(f"  posted {ver['media_id']}")
         ver["landed_as_trial"] = landed_as_trial(ver["media_id"])
@@ -312,25 +444,29 @@ def post_main(label, ver, live):
         return hit["id"], None
     print(f"{label}: posting to the main feed")
     try:
-        return upload_reel(download(ver["tag"], ver["asset"]), ver["caption"], trial=False), None
+        return upload_reel(release_url(ver["tag"], ver["asset"]), ver["caption"], trial=False), None
     except Exception as e:
         print(f"  FAILED: {e}")
         return None, str(e)[:400]
 
 
 def judge_day(queue, key, items):
-    """Rank one day's trials and give its best ones that day's main-feed times, one per story."""
+    """Rank one day's stories and give their best versions that day's main-feed times, one per story."""
     slots = sorted(items[0][1]["pick_at_utc"])
     posted = [(s, v) for s, v in items if v.get("media_id")]
     for _, v in posted:
         v["score"] = score(v["media_id"])
+    nums = {(s["slug"], v["v"]): day1(s, v) for s, v in posted}
     # a story already headed to (or on) the main feed never gets a second spot
     used = {s["slug"] for s in queue if s.get("pick") == "day" and any(v.get("picked") for v in s["versions"])}
+    # a story with a trial still to go out cannot reach the main feed yet (a trial after its main is flagged as spam)
+    waiting = {s["slug"] for s in queue if not s.get("cancelled")
+               and any(not v.get("media_id") and not v.get("failed") for v in s["versions"])}
     picks = []
-    for s, v in sorted(posted, key=lambda sv: rank_key(sv[1]), reverse=True):
+    for s, v in sorted(posted, key=lambda sv: rank_key(nums[(sv[0]["slug"], sv[1]["v"])]), reverse=True):
         if len(picks) == len(slots):
             break
-        if s["slug"] in used or flopped(v):
+        if s["slug"] in used or s["slug"] in waiting or flopped(v):
             continue
         picks.append((s, v))
         used.add(s["slug"])
@@ -339,7 +475,9 @@ def judge_day(queue, key, items):
     for s, v in items:
         v["judged"] = True
         if not v.get("picked"):
-            v["result"] = "not picked for the main feed" if v.get("media_id") else "never went out"
+            v["result"] = ("never went out" if not v.get("media_id") else
+                           "not picked: its story still had a trial to go out" if s["slug"] in waiting else
+                           "not picked for the main feed")
             cleanup_version(v)
     names = ", ".join(f"{s['slug']} {v['v']}" for s, v in picks) or "none (no trial got a like or a comment)"
     print(f"day {key}: {len(posted)} trials judged, main feed picks: {names}")
@@ -354,12 +492,14 @@ def main():
     queue = json.load(open(QUEUE))
     began, handled, tried = time.time(), 0, set()
     block = trial_block(queue)
-    if set_holds(queue, block):
+    if set_holds(queue, block) | snapshot_day1(queue) | skip_late(queue):
         json.dump(queue, open(QUEUE, "w"), indent=1)
     if block:
         print(f"TRIALS ON HOLD: {block}")
     # everything due, one at a time, for up to ~15 minutes (the timer gives each run 30)
     while time.time() - began < 15 * 60:
+        if skip_late(queue):                # a day's judging can pick a main whose time is long gone
+            json.dump(queue, open(QUEUE, "w"), indent=1)
         kind, story, ver = next_job(queue, tried, trials=not block)
         if not kind:
             break
@@ -393,11 +533,13 @@ def main():
             else:
                 for v in posted:
                     v["score"] = score(v["media_id"])
-                best = max(posted, key=lambda v: (*rank_key(v), v["v"] == "A"))
                 if all(flopped(v) for v in posted):
-                    m.update(done=True, result="both trials got no likes or comments, so it stays off the main feed")
+                    m.update(done=True, result="no trial got a like or a comment, so it stays off the main feed")
                 else:
-                    print(f"{story['slug']}: version {best['v']} won {best['score']}")
+                    best, why, nums = best_version(story, posted)
+                    m["why"] = why
+                    print(f"{story['slug']}: version {best['v']} won on {why}: "
+                          + "; ".join(f"{k} {n['asks']:.0f} asks, {n['views']:.0f} views at a day old" for k, n in nums.items()))
                     mid, err_ = post_main(story["slug"], best, live_posts())
                     if mid:
                         m.update(done=True, winner=best["v"], media_id=mid, posted_at_utc=now(), result="posted to the main feed")
