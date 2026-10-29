@@ -320,7 +320,8 @@
   "trials_ok": true,
   "main_at_utc": "2026-10-10T16:30:00",
   "main": {},
-  "added": "2026-10-09"
+  "added": "2026-10-09",
+  "cancelled": true
  },
  {
   "slug": "prosper-frontier-gateway",
