@@ -510,7 +510,10 @@
      "2026-10-30T23:00:00"
     ],
     "judged": true,
-    "result": "main-feed repost turned off by Kevin (test trial only)"
+    "result": "main-feed repost turned off by Kevin (test trial only)",
+    "media_id": "18373084516214574",
+    "posted_at_utc": "2026-10-29T16:56:42",
+    "landed_as_trial": true
    }
   ],
   "pick": "day",
