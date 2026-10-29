@@ -1008,8 +1008,9 @@
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
     "ending": "report",
-    "tries": 2,
-    "last_error": "publishing failed: User is performing too many actions"
+    "tries": 3,
+    "last_error": "publishing failed: User is performing too many actions",
+    "failed": true
    },
    {
     "v": "B",
@@ -1057,8 +1058,9 @@
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
     "ending": "report",
-    "tries": 2,
-    "last_error": "publishing failed: User is performing too many actions"
+    "tries": 3,
+    "last_error": "publishing failed: User is performing too many actions",
+    "failed": true
    },
    {
     "v": "B",
@@ -1106,8 +1108,9 @@
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
     "ending": "report",
-    "tries": 2,
-    "last_error": "publishing failed: User is performing too many actions"
+    "tries": 3,
+    "last_error": "publishing failed: User is performing too many actions",
+    "failed": true
    },
    {
     "v": "B",
@@ -1155,8 +1158,9 @@
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
     "ending": "report",
-    "tries": 2,
-    "last_error": "publishing failed: User is performing too many actions"
+    "tries": 3,
+    "last_error": "publishing failed: User is performing too many actions",
+    "failed": true
    },
    {
     "v": "B",
@@ -1204,8 +1208,9 @@
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
     "ending": "report",
-    "tries": 2,
-    "last_error": "publishing failed: User is performing too many actions"
+    "tries": 3,
+    "last_error": "publishing failed: User is performing too many actions",
+    "failed": true
    },
    {
     "v": "B",
@@ -1253,8 +1258,9 @@
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
     "ending": "report",
-    "tries": 2,
-    "last_error": "publishing failed: User is performing too many actions"
+    "tries": 3,
+    "last_error": "publishing failed: User is performing too many actions",
+    "failed": true
    },
    {
     "v": "B",
@@ -1302,8 +1308,9 @@
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
     "ending": "report",
-    "tries": 2,
-    "last_error": "publishing failed: User is performing too many actions"
+    "tries": 3,
+    "last_error": "publishing failed: User is performing too many actions",
+    "failed": true
    },
    {
     "v": "B",
@@ -1351,8 +1358,9 @@
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
     "ending": "report",
-    "tries": 2,
-    "last_error": "publishing failed: User is performing too many actions"
+    "tries": 3,
+    "last_error": "publishing failed: User is performing too many actions",
+    "failed": true
    },
    {
     "v": "B",
@@ -1400,8 +1408,9 @@
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
     "ending": "report",
-    "tries": 2,
-    "last_error": "publishing failed: User is performing too many actions"
+    "tries": 3,
+    "last_error": "publishing failed: User is performing too many actions",
+    "failed": true
    },
    {
     "v": "B",
@@ -1449,8 +1458,9 @@
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
     "ending": "report",
-    "tries": 2,
-    "last_error": "publishing failed: User is performing too many actions"
+    "tries": 3,
+    "last_error": "publishing failed: User is performing too many actions",
+    "failed": true
    },
    {
     "v": "B",
