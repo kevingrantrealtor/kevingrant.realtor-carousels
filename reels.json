@@ -2128,7 +2128,7 @@
     "tag": "reel-collin-county-outer-loop-southeast-nov-11-a",
     "asset": "collin-county-outer-loop-southeast-nov-11-A.mp4",
     "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nCollin County is drawing a brand new 14 mile freeway from Farmersville to Royse City, and you can comment on it until November 11.\n\nCollin County is designing the southeast piece of its Outer Loop: about 14 miles of new freeway from County Road 656 near Farmersville to the Rockwall County line near Royse City. The county held a public meeting October 27 in Nevada, and the materials are online at ccol-se.com.\n\nThe county says more than 10,000 acres in southeast Collin were developed or planned from 2021 to early 2024. There's no cost or construction date yet. Do you drive these back roads every day?\n\nPhoto: Renelibrary, CC BY-SA 4.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
-    "trial_at_utc": "2026-11-02T14:00:00",
+    "trial_at_utc": "2026-11-02T02:30:00",
     "keyword": "REPORT",
     "ending": "report",
     "batch": "2026-11-02",
@@ -2136,14 +2136,17 @@
      "2026-11-03T17:30:00",
      "2026-11-03T20:30:00",
      "2026-11-04T00:00:00"
-    ]
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)"
    },
    {
     "v": "B",
     "tag": "reel-collin-county-outer-loop-southeast-nov-11-b",
     "asset": "collin-county-outer-loop-southeast-nov-11-B.mp4",
     "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nA 500 foot wide path for a new freeway now sits on the map across 14 miles of southeast Collin County.\n\nCollin County is designing the southeast piece of its Outer Loop: about 14 miles of new freeway from County Road 656 near Farmersville to the Rockwall County line near Royse City. The county held a public meeting October 27 in Nevada, and the materials are online at ccol-se.com.\n\nThe county says more than 10,000 acres in southeast Collin were developed or planned from 2021 to early 2024. There's no cost or construction date yet. Do you drive these back roads every day?\n\nPhoto: Renelibrary, CC BY-SA 4.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
-    "trial_at_utc": "2026-11-02T15:00:00",
+    "trial_at_utc": "2026-11-02T05:30:00",
     "keyword": "REPORT",
     "ending": "report",
     "batch": "2026-11-02",
@@ -2151,14 +2154,17 @@
      "2026-11-03T17:30:00",
      "2026-11-03T20:30:00",
      "2026-11-04T00:00:00"
-    ]
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)"
    },
    {
     "v": "C",
     "tag": "reel-collin-county-outer-loop-southeast-nov-11-c",
     "asset": "collin-county-outer-loop-southeast-nov-11-C.mp4",
     "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nTraffic on some country roads in southeast Collin County more than doubled in eight years, and the county's fix is a new freeway.\n\nCollin County is designing the southeast piece of its Outer Loop: about 14 miles of new freeway from County Road 656 near Farmersville to the Rockwall County line near Royse City. The county held a public meeting October 27 in Nevada, and the materials are online at ccol-se.com.\n\nThe county says more than 10,000 acres in southeast Collin were developed or planned from 2021 to early 2024. There's no cost or construction date yet. Do you drive these back roads every day?\n\nPhoto: Renelibrary, CC BY-SA 4.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
-    "trial_at_utc": "2026-11-02T16:00:00",
+    "trial_at_utc": "2026-11-02T08:30:00",
     "keyword": "REPORT",
     "ending": "report",
     "batch": "2026-11-02",
@@ -2166,14 +2172,20 @@
      "2026-11-03T17:30:00",
      "2026-11-03T20:30:00",
      "2026-11-04T00:00:00"
-    ]
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)"
    }
   ],
   "pick": "day",
   "keyword": "REPORT",
   "trials_ok": true,
   "main_at_utc": "2026-11-03T17:30:00",
-  "main": {},
+  "main": {
+   "done": true,
+   "result": "main-feed repost turned off by Kevin (trials only)"
+  },
   "added": "2026-11-01"
  },
  {
@@ -2185,7 +2197,7 @@
     "tag": "reel-fort-worth-panther-island-bypass-channel-feb-2027-a",
     "asset": "fort-worth-panther-island-bypass-channel-feb-2027-A.mp4",
     "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nFebruary 2027 is when crews start digging the Trinity River bypass channel just north of downtown Fort Worth.\n\nThe Army Corps of Engineers gave a 169 million dollar contract to the Walsh Group for the first half of the Trinity River north bypass channel. The water district board heard October 20 that construction starts in February 2027.\n\nThe finished channel runs 3,900 feet long and 300 feet wide. The goal is to steer floodwater away from 2,400 acres of homes and businesses in downtown and the Historic Northside.\n\nThe levee system went up starting in the 1950s, built for a city of about 350,000 people. Do you live near the Trinity?\n\nPhoto: DerekAyala27, CC BY 4.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
-    "trial_at_utc": "2026-11-02T17:00:00",
+    "trial_at_utc": "2026-11-02T03:00:00",
     "keyword": "REPORT",
     "ending": "report",
     "batch": "2026-11-02",
@@ -2193,14 +2205,17 @@
      "2026-11-03T17:30:00",
      "2026-11-03T20:30:00",
      "2026-11-04T00:00:00"
-    ]
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)"
    },
    {
     "v": "B",
     "tag": "reel-fort-worth-panther-island-bypass-channel-feb-2027-b",
     "asset": "fort-worth-panther-island-bypass-channel-feb-2027-B.mp4",
     "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\n169 million dollars is now locked in for the first channel that pulls 2,400 acres of Fort Worth out of the Trinity flood path.\n\nThe Army Corps of Engineers gave a 169 million dollar contract to the Walsh Group for the first half of the Trinity River north bypass channel. The water district board heard October 20 that construction starts in February 2027.\n\nThe finished channel runs 3,900 feet long and 300 feet wide. The goal is to steer floodwater away from 2,400 acres of homes and businesses in downtown and the Historic Northside.\n\nThe levee system went up starting in the 1950s, built for a city of about 350,000 people. Do you live near the Trinity?\n\nPhoto: DerekAyala27, CC BY 4.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
-    "trial_at_utc": "2026-11-02T18:00:00",
+    "trial_at_utc": "2026-11-02T06:00:00",
     "keyword": "REPORT",
     "ending": "report",
     "batch": "2026-11-02",
@@ -2208,14 +2223,17 @@
      "2026-11-03T17:30:00",
      "2026-11-03T20:30:00",
      "2026-11-04T00:00:00"
-    ]
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)"
    },
    {
     "v": "C",
     "tag": "reel-fort-worth-panther-island-bypass-channel-feb-2027-c",
     "asset": "fort-worth-panther-island-bypass-channel-feb-2027-C.mp4",
     "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nFort Worth's Trinity levees were built for a city of about 350,000 people, and the fix starts digging in February.\n\nThe Army Corps of Engineers gave a 169 million dollar contract to the Walsh Group for the first half of the Trinity River north bypass channel. The water district board heard October 20 that construction starts in February 2027.\n\nThe finished channel runs 3,900 feet long and 300 feet wide. The goal is to steer floodwater away from 2,400 acres of homes and businesses in downtown and the Historic Northside.\n\nThe levee system went up starting in the 1950s, built for a city of about 350,000 people. Do you live near the Trinity?\n\nPhoto: DerekAyala27, CC BY 4.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
-    "trial_at_utc": "2026-11-02T19:00:00",
+    "trial_at_utc": "2026-11-02T09:00:00",
     "keyword": "REPORT",
     "ending": "report",
     "batch": "2026-11-02",
@@ -2223,14 +2241,20 @@
      "2026-11-03T17:30:00",
      "2026-11-03T20:30:00",
      "2026-11-04T00:00:00"
-    ]
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)"
    }
   ],
   "pick": "day",
   "keyword": "REPORT",
   "trials_ok": true,
   "main_at_utc": "2026-11-03T17:30:00",
-  "main": {},
+  "main": {
+   "done": true,
+   "result": "main-feed repost turned off by Kevin (trials only)"
+  },
   "added": "2026-11-01"
  },
  {
@@ -2242,7 +2266,7 @@
     "tag": "reel-garland-635-east-carpool-lanes-texpress-toll-a",
     "asset": "garland-635-east-carpool-lanes-texpress-toll-A.mp4",
     "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nThe free carpool lane on 635 through Garland and Mesquite is coming back as a toll lane before 2026 is over.\n\nTxDOT wrapped the 635 East rebuild in September: 11 miles from US 75 to I-30 through Dallas, Garland and Mesquite, about 1.7 billion dollars. It added one free lane each way for 10 free lanes, plus new frontage roads.\n\nThe HOV lanes stayed closed through the build. When they reopen in late 2026, they come back as TEXpress managed toll lanes priced by traffic.\n\nNext up on the same drive, the 540 million dollar 635 and US 80 interchange rebuild in Mesquite runs into early 2029. Did you use the old carpool lane?\n\nPhoto: formulanone, CC BY-SA 2.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
-    "trial_at_utc": "2026-11-02T20:00:00",
+    "trial_at_utc": "2026-11-02T03:30:00",
     "keyword": "REPORT",
     "ending": "report",
     "batch": "2026-11-02",
@@ -2250,14 +2274,17 @@
      "2026-11-03T17:30:00",
      "2026-11-03T20:30:00",
      "2026-11-04T00:00:00"
-    ]
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)"
    },
    {
     "v": "B",
     "tag": "reel-garland-635-east-carpool-lanes-texpress-toll-b",
     "asset": "garland-635-east-carpool-lanes-texpress-toll-B.mp4",
     "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nYour drive on 635 through Garland got two new free lanes, and the old carpool lane comes back as a toll.\n\nTxDOT wrapped the 635 East rebuild in September: 11 miles from US 75 to I-30 through Dallas, Garland and Mesquite, about 1.7 billion dollars. It added one free lane each way for 10 free lanes, plus new frontage roads.\n\nThe HOV lanes stayed closed through the build. When they reopen in late 2026, they come back as TEXpress managed toll lanes priced by traffic.\n\nNext up on the same drive, the 540 million dollar 635 and US 80 interchange rebuild in Mesquite runs into early 2029. Did you use the old carpool lane?\n\nPhoto: formulanone, CC BY-SA 2.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
-    "trial_at_utc": "2026-11-02T21:00:00",
+    "trial_at_utc": "2026-11-02T06:30:00",
     "keyword": "REPORT",
     "ending": "report",
     "batch": "2026-11-02",
@@ -2265,14 +2292,17 @@
      "2026-11-03T17:30:00",
      "2026-11-03T20:30:00",
      "2026-11-04T00:00:00"
-    ]
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)"
    },
    {
     "v": "C",
     "tag": "reel-garland-635-east-carpool-lanes-texpress-toll-c",
     "asset": "garland-635-east-carpool-lanes-texpress-toll-C.mp4",
     "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\n1.7 billion dollars just finished rebuilding 11 miles of 635 from US 75 to I-30, and one lane comes back with a price.\n\nTxDOT wrapped the 635 East rebuild in September: 11 miles from US 75 to I-30 through Dallas, Garland and Mesquite, about 1.7 billion dollars. It added one free lane each way for 10 free lanes, plus new frontage roads.\n\nThe HOV lanes stayed closed through the build. When they reopen in late 2026, they come back as TEXpress managed toll lanes priced by traffic.\n\nNext up on the same drive, the 540 million dollar 635 and US 80 interchange rebuild in Mesquite runs into early 2029. Did you use the old carpool lane?\n\nPhoto: formulanone, CC BY-SA 2.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
-    "trial_at_utc": "2026-11-02T22:00:00",
+    "trial_at_utc": "2026-11-02T09:30:00",
     "keyword": "REPORT",
     "ending": "report",
     "batch": "2026-11-02",
@@ -2280,14 +2310,20 @@
      "2026-11-03T17:30:00",
      "2026-11-03T20:30:00",
      "2026-11-04T00:00:00"
-    ]
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)"
    }
   ],
   "pick": "day",
   "keyword": "REPORT",
   "trials_ok": true,
   "main_at_utc": "2026-11-03T17:30:00",
-  "main": {},
+  "main": {
+   "done": true,
+   "result": "main-feed repost turned off by Kevin (trials only)"
+  },
   "added": "2026-11-01"
  },
  {
@@ -2299,7 +2335,7 @@
     "tag": "reel-plano-att-headquarters-legacy-drive-december-a",
     "asset": "plano-att-headquarters-legacy-drive-december-A.mp4",
     "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nAT&T is moving its headquarters from downtown Dallas to Plano, and it's bringing 10,000 jobs to the region by 2039.\n\nState filings reported October 16 show 11 buildings for AT&T's new headquarters on 54 acres along Legacy Drive in Plano, at about 1.05 billion dollars. Construction is set to start in December and run through 2029.\n\nAT&T is moving its headquarters from downtown Dallas. Plano approved a 20 million dollar incentive in February tied to hiring goals, and the campus is expected to bring 10,000 jobs to the region by 2039.\n\nSend this to someone who works at AT&T.\n\nPhoto: Karen Almond, CC BY-SA 3.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
-    "trial_at_utc": "2026-11-02T23:00:00",
+    "trial_at_utc": "2026-11-02T04:00:00",
     "keyword": "REPORT",
     "ending": "report",
     "batch": "2026-11-03",
@@ -2307,14 +2343,17 @@
      "2026-11-04T17:30:00",
      "2026-11-04T20:30:00",
      "2026-11-05T00:00:00"
-    ]
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)"
    },
    {
     "v": "B",
     "tag": "reel-plano-att-headquarters-legacy-drive-december-b",
     "asset": "plano-att-headquarters-legacy-drive-december-B.mp4",
     "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nAT&T's 1.35 billion dollar headquarters on Legacy Drive in Plano just filed with the state, and crews start in December.\n\nState filings reported October 16 show 11 buildings for AT&T's new headquarters on 54 acres along Legacy Drive in Plano, at about 1.05 billion dollars. Construction is set to start in December and run through 2029.\n\nAT&T is moving its headquarters from downtown Dallas. Plano approved a 20 million dollar incentive in February tied to hiring goals, and the campus is expected to bring 10,000 jobs to the region by 2039.\n\nSend this to someone who works at AT&T.\n\nPhoto: Karen Almond, CC BY-SA 3.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
-    "trial_at_utc": "2026-11-03T00:00:00",
+    "trial_at_utc": "2026-11-02T07:00:00",
     "keyword": "REPORT",
     "ending": "report",
     "batch": "2026-11-03",
@@ -2322,14 +2361,17 @@
      "2026-11-04T17:30:00",
      "2026-11-04T20:30:00",
      "2026-11-05T00:00:00"
-    ]
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)"
    },
    {
     "v": "C",
     "tag": "reel-plano-att-headquarters-legacy-drive-december-c",
     "asset": "plano-att-headquarters-legacy-drive-december-C.mp4",
     "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nDecember 2026 is when construction starts on AT&T's new Plano headquarters, 11 buildings on 54 acres along Legacy Drive.\n\nState filings reported October 16 show 11 buildings for AT&T's new headquarters on 54 acres along Legacy Drive in Plano, at about 1.05 billion dollars. Construction is set to start in December and run through 2029.\n\nAT&T is moving its headquarters from downtown Dallas. Plano approved a 20 million dollar incentive in February tied to hiring goals, and the campus is expected to bring 10,000 jobs to the region by 2039.\n\nSend this to someone who works at AT&T.\n\nPhoto: Karen Almond, CC BY-SA 3.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
-    "trial_at_utc": "2026-11-03T14:00:00",
+    "trial_at_utc": "2026-11-02T10:00:00",
     "keyword": "REPORT",
     "ending": "report",
     "batch": "2026-11-03",
@@ -2337,14 +2379,20 @@
      "2026-11-04T17:30:00",
      "2026-11-04T20:30:00",
      "2026-11-05T00:00:00"
-    ]
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)"
    }
   ],
   "pick": "day",
   "keyword": "REPORT",
   "trials_ok": true,
   "main_at_utc": "2026-11-04T17:30:00",
-  "main": {},
+  "main": {
+   "done": true,
+   "result": "main-feed repost turned off by Kevin (trials only)"
+  },
   "added": "2026-11-01"
  },
  {
@@ -2356,7 +2404,7 @@
     "tag": "reel-dallas-harry-hines-cloverleafs-nov-5-hearing-a",
     "asset": "dallas-harry-hines-cloverleafs-nov-5-hearing-A.mp4",
     "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nDallas just set a November 5 hearing to tear out the Harry Hines cloverleafs at Inwood Road and Mockingbird Lane.\n\nDallas and TxDOT want to remove the loop ramps on Harry Hines at Inwood Road and at Mockingbird Lane. Inwood gets regular traffic lights. Mockingbird becomes a diamond with three lanes each way.\n\nEvery phase drops the speed limit from 40 to 35 and adds sidewalks, a bike lane and a walking bridge into the Southwestern Medical District. The plan uses the land the road already sits on.\n\nThe hearing video posts November 5, and comments stay open until November 23. Do you drive Harry Hines to work?\n\nPhoto: Nightryder84, CC BY-SA 4.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
-    "trial_at_utc": "2026-11-03T15:00:00",
+    "trial_at_utc": "2026-11-02T04:30:00",
     "keyword": "REPORT",
     "ending": "report",
     "batch": "2026-11-03",
@@ -2364,14 +2412,17 @@
      "2026-11-04T17:30:00",
      "2026-11-04T20:30:00",
      "2026-11-05T00:00:00"
-    ]
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)"
    },
    {
     "v": "B",
     "tag": "reel-dallas-harry-hines-cloverleafs-nov-5-hearing-b",
     "asset": "dallas-harry-hines-cloverleafs-nov-5-hearing-B.mp4",
     "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nYour drive to Parkland on Harry Hines is about to change, and Dallas takes your comments until November 23.\n\nDallas and TxDOT want to remove the loop ramps on Harry Hines at Inwood Road and at Mockingbird Lane. Inwood gets regular traffic lights. Mockingbird becomes a diamond with three lanes each way.\n\nEvery phase drops the speed limit from 40 to 35 and adds sidewalks, a bike lane and a walking bridge into the Southwestern Medical District. The plan uses the land the road already sits on.\n\nThe hearing video posts November 5, and comments stay open until November 23. Do you drive Harry Hines to work?\n\nPhoto: Nightryder84, CC BY-SA 4.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
-    "trial_at_utc": "2026-11-03T16:00:00",
+    "trial_at_utc": "2026-11-02T07:30:00",
     "keyword": "REPORT",
     "ending": "report",
     "batch": "2026-11-03",
@@ -2379,14 +2430,17 @@
      "2026-11-04T17:30:00",
      "2026-11-04T20:30:00",
      "2026-11-05T00:00:00"
-    ]
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)"
    },
    {
     "v": "C",
     "tag": "reel-dallas-harry-hines-cloverleafs-nov-5-hearing-c",
     "asset": "dallas-harry-hines-cloverleafs-nov-5-hearing-C.mp4",
     "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nThe road into Parkland and UT Southwestern is losing its loop ramps, and the speed limit drops from 40 to 35.\n\nDallas and TxDOT want to remove the loop ramps on Harry Hines at Inwood Road and at Mockingbird Lane. Inwood gets regular traffic lights. Mockingbird becomes a diamond with three lanes each way.\n\nEvery phase drops the speed limit from 40 to 35 and adds sidewalks, a bike lane and a walking bridge into the Southwestern Medical District. The plan uses the land the road already sits on.\n\nThe hearing video posts November 5, and comments stay open until November 23. Do you drive Harry Hines to work?\n\nPhoto: Nightryder84, CC BY-SA 4.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
-    "trial_at_utc": "2026-11-03T17:00:00",
+    "trial_at_utc": "2026-11-02T10:30:00",
     "keyword": "REPORT",
     "ending": "report",
     "batch": "2026-11-03",
@@ -2394,14 +2448,20 @@
      "2026-11-04T17:30:00",
      "2026-11-04T20:30:00",
      "2026-11-05T00:00:00"
-    ]
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)"
    }
   ],
   "pick": "day",
   "keyword": "REPORT",
   "trials_ok": true,
   "main_at_utc": "2026-11-04T17:30:00",
-  "main": {},
+  "main": {
+   "done": true,
+   "result": "main-feed repost turned off by Kevin (trials only)"
+  },
   "added": "2026-11-01"
  },
  {
@@ -2413,7 +2473,7 @@
     "tag": "reel-dallas-i30-canyon-full-closure-oct-24-a",
     "asset": "dallas-i30-canyon-full-closure-oct-24-A.mp4",
     "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nTxDOT just closed all of I-30 through downtown Dallas from October 24 to October 26, and more full closures are coming.\n\nTxDOT closed every lane of I-30 through downtown Dallas from October 24 to October 26. It's part of the 888 million dollar Canyon Project, which takes 2.3 miles between I-35E and I-45 from six main lanes to twelve.\n\nBotham Jean Boulevard stays closed at I-30 until late 2027, and Cadiz, Akard and Cesar Chavez reopen across 2028. TxDOT says more full closures are coming.\n\nThe work runs until 2031. Which way do you drive into downtown?\n\nPhoto: Shiva Shenoy, CC BY 2.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
-    "trial_at_utc": "2026-11-03T18:00:00",
+    "trial_at_utc": "2026-11-02T05:00:00",
     "keyword": "REPORT",
     "ending": "report",
     "batch": "2026-11-03",
@@ -2421,14 +2481,17 @@
      "2026-11-04T17:30:00",
      "2026-11-04T20:30:00",
      "2026-11-05T00:00:00"
-    ]
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)"
    },
    {
     "v": "B",
     "tag": "reel-dallas-i30-canyon-full-closure-oct-24-b",
     "asset": "dallas-i30-canyon-full-closure-oct-24-B.mp4",
     "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\n888 million dollars is rebuilding I-30 through downtown Dallas, and TxDOT just shut every lane of it for a whole weekend.\n\nTxDOT closed every lane of I-30 through downtown Dallas from October 24 to October 26. It's part of the 888 million dollar Canyon Project, which takes 2.3 miles between I-35E and I-45 from six main lanes to twelve.\n\nBotham Jean Boulevard stays closed at I-30 until late 2027, and Cadiz, Akard and Cesar Chavez reopen across 2028. TxDOT says more full closures are coming.\n\nThe work runs until 2031. Which way do you drive into downtown?\n\nPhoto: Shiva Shenoy, CC BY 2.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
-    "trial_at_utc": "2026-11-03T19:00:00",
+    "trial_at_utc": "2026-11-02T08:00:00",
     "keyword": "REPORT",
     "ending": "report",
     "batch": "2026-11-03",
@@ -2436,14 +2499,17 @@
      "2026-11-04T17:30:00",
      "2026-11-04T20:30:00",
      "2026-11-05T00:00:00"
-    ]
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)"
    },
    {
     "v": "C",
     "tag": "reel-dallas-i30-canyon-full-closure-oct-24-c",
     "asset": "dallas-i30-canyon-full-closure-oct-24-C.mp4",
     "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nThe 11th most jammed stretch of road in Texas runs through downtown Dallas, and TxDOT just shut every lane of it.\n\nTxDOT closed every lane of I-30 through downtown Dallas from October 24 to October 26. It's part of the 888 million dollar Canyon Project, which takes 2.3 miles between I-35E and I-45 from six main lanes to twelve.\n\nBotham Jean Boulevard stays closed at I-30 until late 2027, and Cadiz, Akard and Cesar Chavez reopen across 2028. TxDOT says more full closures are coming.\n\nThe work runs until 2031. Which way do you drive into downtown?\n\nPhoto: Shiva Shenoy, CC BY 2.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
-    "trial_at_utc": "2026-11-03T20:00:00",
+    "trial_at_utc": "2026-11-02T11:00:00",
     "keyword": "REPORT",
     "ending": "report",
     "batch": "2026-11-03",
@@ -2451,14 +2517,20 @@
      "2026-11-04T17:30:00",
      "2026-11-04T20:30:00",
      "2026-11-05T00:00:00"
-    ]
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)"
    }
   ],
   "pick": "day",
   "keyword": "REPORT",
   "trials_ok": true,
   "main_at_utc": "2026-11-04T17:30:00",
-  "main": {},
+  "main": {
+   "done": true,
+   "result": "main-feed repost turned off by Kevin (trials only)"
+  },
   "added": "2026-11-01"
  }
 ]
