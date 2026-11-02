@@ -2338,8 +2338,8 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "tries": 1,
-    "last_error": "publishing failed: An unexpected error has occurred. Please retry your request later."
+    "tries": 2,
+    "last_error": "publishing failed: User is performing too many actions"
    }
   ],
   "pick": "day",
