@@ -2537,7 +2537,10 @@
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
     "tries": 1,
-    "last_error": "publishing failed: User is performing too many actions"
+    "last_error": "publishing failed: User is performing too many actions",
+    "media_id": "18105263993365099",
+    "posted_at_utc": "2026-11-02T14:04:44",
+    "landed_as_trial": true
    },
    {
     "v": "C",
