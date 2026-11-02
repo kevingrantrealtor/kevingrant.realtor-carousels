@@ -2118,5 +2118,62 @@
   },
   "added": "2026-10-29",
   "cancelled": true
+ },
+ {
+  "slug": "collin-county-outer-loop-southeast-nov-11",
+  "town": "Farmersville",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-collin-county-outer-loop-southeast-nov-11-a",
+    "asset": "collin-county-outer-loop-southeast-nov-11-A.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nCollin County is drawing a brand new 14 mile freeway from Farmersville to Royse City, and you can comment on it until November 11.\n\nCollin County is designing the southeast piece of its Outer Loop: about 14 miles of new freeway from County Road 656 near Farmersville to the Rockwall County line near Royse City. The county held a public meeting October 27 in Nevada, and the materials are online at ccol-se.com.\n\nThe county says more than 10,000 acres in southeast Collin were developed or planned from 2021 to early 2024. There's no cost or construction date yet. Do you drive these back roads every day?\n\nPhoto: Renelibrary, CC BY-SA 4.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-02T14:00:00",
+    "keyword": "REPORT",
+    "ending": "report",
+    "batch": "2026-11-02",
+    "pick_at_utc": [
+     "2026-11-03T17:30:00",
+     "2026-11-03T20:30:00",
+     "2026-11-04T00:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-collin-county-outer-loop-southeast-nov-11-b",
+    "asset": "collin-county-outer-loop-southeast-nov-11-B.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nA 500 foot wide path for a new freeway now sits on the map across 14 miles of southeast Collin County.\n\nCollin County is designing the southeast piece of its Outer Loop: about 14 miles of new freeway from County Road 656 near Farmersville to the Rockwall County line near Royse City. The county held a public meeting October 27 in Nevada, and the materials are online at ccol-se.com.\n\nThe county says more than 10,000 acres in southeast Collin were developed or planned from 2021 to early 2024. There's no cost or construction date yet. Do you drive these back roads every day?\n\nPhoto: Renelibrary, CC BY-SA 4.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-02T15:00:00",
+    "keyword": "REPORT",
+    "ending": "report",
+    "batch": "2026-11-02",
+    "pick_at_utc": [
+     "2026-11-03T17:30:00",
+     "2026-11-03T20:30:00",
+     "2026-11-04T00:00:00"
+    ]
+   },
+   {
+    "v": "C",
+    "tag": "reel-collin-county-outer-loop-southeast-nov-11-c",
+    "asset": "collin-county-outer-loop-southeast-nov-11-C.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nTraffic on some country roads in southeast Collin County more than doubled in eight years, and the county's fix is a new freeway.\n\nCollin County is designing the southeast piece of its Outer Loop: about 14 miles of new freeway from County Road 656 near Farmersville to the Rockwall County line near Royse City. The county held a public meeting October 27 in Nevada, and the materials are online at ccol-se.com.\n\nThe county says more than 10,000 acres in southeast Collin were developed or planned from 2021 to early 2024. There's no cost or construction date yet. Do you drive these back roads every day?\n\nPhoto: Renelibrary, CC BY-SA 4.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-02T16:00:00",
+    "keyword": "REPORT",
+    "ending": "report",
+    "batch": "2026-11-02",
+    "pick_at_utc": [
+     "2026-11-03T17:30:00",
+     "2026-11-03T20:30:00",
+     "2026-11-04T00:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "keyword": "REPORT",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-03T17:30:00",
+  "main": {},
+  "added": "2026-11-01"
  }
 ]
