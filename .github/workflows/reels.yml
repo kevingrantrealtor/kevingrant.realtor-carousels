@@ -45,3 +45,27 @@ jobs:
           else
             echo "queue unchanged"
           fi
+
+      # Carousels ride this timer too (added 11/2/26). The carousel workflow's own
+      # timer never fired after it was turned back on. A carousel problem never
+      # stops the reels: both steps below keep going on an error.
+      - name: Post any carousel that is due (Instagram and Facebook)
+        continue-on-error: true
+        env:
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: python3 publish_queue.py
+
+      - name: Record what carousels went out
+        continue-on-error: true
+        run: |
+          if [ -n "$(git status --porcelain queue.json)" ]; then
+            git config user.name "carousel bot"
+            git config user.email "actions@github.com"
+            git add queue.json
+            git commit -m "published a queued carousel"
+            git pull --rebase
+            git push
+          else
+            echo "carousel queue unchanged"
+          fi
