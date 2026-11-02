@@ -2503,7 +2503,8 @@
    "done": true,
    "result": "main-feed repost turned off by Kevin (trials only)"
   },
-  "added": "2026-11-01"
+  "added": "2026-11-01",
+  "cancelled": true
  },
  {
   "slug": "dallas-i30-canyon-full-closure-oct-24",
