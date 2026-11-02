@@ -2181,7 +2181,10 @@
     ],
     "judged": true,
     "main_done": true,
-    "result": "main-feed repost turned off by Kevin (trials only)"
+    "result": "main-feed repost turned off by Kevin (trials only)",
+    "media_id": "17908788093587917",
+    "posted_at_utc": "2026-11-02T14:16:42",
+    "landed_as_trial": true
    }
   ],
   "pick": "day",
