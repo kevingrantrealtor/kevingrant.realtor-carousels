@@ -2497,7 +2497,9 @@
     ],
     "judged": true,
     "main_done": true,
-    "result": "main-feed repost turned off by Kevin (trials only)"
+    "result": "main-feed repost turned off by Kevin (trials only)",
+    "failed": true,
+    "last_error": "skipped: version A goes to the main feed, so C never posts after it"
    }
   ],
   "pick": "day",
