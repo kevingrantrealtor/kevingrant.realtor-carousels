@@ -2175,5 +2175,62 @@
   "main_at_utc": "2026-11-03T17:30:00",
   "main": {},
   "added": "2026-11-01"
+ },
+ {
+  "slug": "fort-worth-panther-island-bypass-channel-feb-2027",
+  "town": "Fort Worth",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-fort-worth-panther-island-bypass-channel-feb-2027-a",
+    "asset": "fort-worth-panther-island-bypass-channel-feb-2027-A.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nFebruary 2027 is when crews start digging the Trinity River bypass channel just north of downtown Fort Worth.\n\nThe Army Corps of Engineers gave a 169 million dollar contract to the Walsh Group for the first half of the Trinity River north bypass channel. The water district board heard October 20 that construction starts in February 2027.\n\nThe finished channel runs 3,900 feet long and 300 feet wide. The goal is to steer floodwater away from 2,400 acres of homes and businesses in downtown and the Historic Northside.\n\nThe levee system went up starting in the 1950s, built for a city of about 350,000 people. Do you live near the Trinity?\n\nPhoto: DerekAyala27, CC BY 4.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-02T17:00:00",
+    "keyword": "REPORT",
+    "ending": "report",
+    "batch": "2026-11-02",
+    "pick_at_utc": [
+     "2026-11-03T17:30:00",
+     "2026-11-03T20:30:00",
+     "2026-11-04T00:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-fort-worth-panther-island-bypass-channel-feb-2027-b",
+    "asset": "fort-worth-panther-island-bypass-channel-feb-2027-B.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\n169 million dollars is now locked in for the first channel that pulls 2,400 acres of Fort Worth out of the Trinity flood path.\n\nThe Army Corps of Engineers gave a 169 million dollar contract to the Walsh Group for the first half of the Trinity River north bypass channel. The water district board heard October 20 that construction starts in February 2027.\n\nThe finished channel runs 3,900 feet long and 300 feet wide. The goal is to steer floodwater away from 2,400 acres of homes and businesses in downtown and the Historic Northside.\n\nThe levee system went up starting in the 1950s, built for a city of about 350,000 people. Do you live near the Trinity?\n\nPhoto: DerekAyala27, CC BY 4.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-02T18:00:00",
+    "keyword": "REPORT",
+    "ending": "report",
+    "batch": "2026-11-02",
+    "pick_at_utc": [
+     "2026-11-03T17:30:00",
+     "2026-11-03T20:30:00",
+     "2026-11-04T00:00:00"
+    ]
+   },
+   {
+    "v": "C",
+    "tag": "reel-fort-worth-panther-island-bypass-channel-feb-2027-c",
+    "asset": "fort-worth-panther-island-bypass-channel-feb-2027-C.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nFort Worth's Trinity levees were built for a city of about 350,000 people, and the fix starts digging in February.\n\nThe Army Corps of Engineers gave a 169 million dollar contract to the Walsh Group for the first half of the Trinity River north bypass channel. The water district board heard October 20 that construction starts in February 2027.\n\nThe finished channel runs 3,900 feet long and 300 feet wide. The goal is to steer floodwater away from 2,400 acres of homes and businesses in downtown and the Historic Northside.\n\nThe levee system went up starting in the 1950s, built for a city of about 350,000 people. Do you live near the Trinity?\n\nPhoto: DerekAyala27, CC BY 4.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-02T19:00:00",
+    "keyword": "REPORT",
+    "ending": "report",
+    "batch": "2026-11-02",
+    "pick_at_utc": [
+     "2026-11-03T17:30:00",
+     "2026-11-03T20:30:00",
+     "2026-11-04T00:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "keyword": "REPORT",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-03T17:30:00",
+  "main": {},
+  "added": "2026-11-01"
  }
 ]
