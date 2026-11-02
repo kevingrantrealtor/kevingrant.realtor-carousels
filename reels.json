@@ -2403,5 +2403,62 @@
   "main_at_utc": "2026-11-04T17:30:00",
   "main": {},
   "added": "2026-11-01"
+ },
+ {
+  "slug": "dallas-i30-canyon-full-closure-oct-24",
+  "town": "Dallas",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-dallas-i30-canyon-full-closure-oct-24-a",
+    "asset": "dallas-i30-canyon-full-closure-oct-24-A.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nTxDOT just closed all of I-30 through downtown Dallas from October 24 to October 26, and more full closures are coming.\n\nTxDOT closed every lane of I-30 through downtown Dallas from October 24 to October 26. It's part of the 888 million dollar Canyon Project, which takes 2.3 miles between I-35E and I-45 from six main lanes to twelve.\n\nBotham Jean Boulevard stays closed at I-30 until late 2027, and Cadiz, Akard and Cesar Chavez reopen across 2028. TxDOT says more full closures are coming.\n\nThe work runs until 2031. Which way do you drive into downtown?\n\nPhoto: Shiva Shenoy, CC BY 2.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-03T18:00:00",
+    "keyword": "REPORT",
+    "ending": "report",
+    "batch": "2026-11-03",
+    "pick_at_utc": [
+     "2026-11-04T17:30:00",
+     "2026-11-04T20:30:00",
+     "2026-11-05T00:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-dallas-i30-canyon-full-closure-oct-24-b",
+    "asset": "dallas-i30-canyon-full-closure-oct-24-B.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\n888 million dollars is rebuilding I-30 through downtown Dallas, and TxDOT just shut every lane of it for a whole weekend.\n\nTxDOT closed every lane of I-30 through downtown Dallas from October 24 to October 26. It's part of the 888 million dollar Canyon Project, which takes 2.3 miles between I-35E and I-45 from six main lanes to twelve.\n\nBotham Jean Boulevard stays closed at I-30 until late 2027, and Cadiz, Akard and Cesar Chavez reopen across 2028. TxDOT says more full closures are coming.\n\nThe work runs until 2031. Which way do you drive into downtown?\n\nPhoto: Shiva Shenoy, CC BY 2.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-03T19:00:00",
+    "keyword": "REPORT",
+    "ending": "report",
+    "batch": "2026-11-03",
+    "pick_at_utc": [
+     "2026-11-04T17:30:00",
+     "2026-11-04T20:30:00",
+     "2026-11-05T00:00:00"
+    ]
+   },
+   {
+    "v": "C",
+    "tag": "reel-dallas-i30-canyon-full-closure-oct-24-c",
+    "asset": "dallas-i30-canyon-full-closure-oct-24-C.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nThe 11th most jammed stretch of road in Texas runs through downtown Dallas, and TxDOT just shut every lane of it.\n\nTxDOT closed every lane of I-30 through downtown Dallas from October 24 to October 26. It's part of the 888 million dollar Canyon Project, which takes 2.3 miles between I-35E and I-45 from six main lanes to twelve.\n\nBotham Jean Boulevard stays closed at I-30 until late 2027, and Cadiz, Akard and Cesar Chavez reopen across 2028. TxDOT says more full closures are coming.\n\nThe work runs until 2031. Which way do you drive into downtown?\n\nPhoto: Shiva Shenoy, CC BY 2.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-03T20:00:00",
+    "keyword": "REPORT",
+    "ending": "report",
+    "batch": "2026-11-03",
+    "pick_at_utc": [
+     "2026-11-04T17:30:00",
+     "2026-11-04T20:30:00",
+     "2026-11-05T00:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "keyword": "REPORT",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-04T17:30:00",
+  "main": {},
+  "added": "2026-11-01"
  }
 ]
