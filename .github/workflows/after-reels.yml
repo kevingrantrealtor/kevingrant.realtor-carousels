@@ -1,0 +1,58 @@
+name: After the reel poster
+
+# Runs every time "Post scheduled reels" finishes, so it rides that workflow's
+# timer (the only timer here GitHub reliably fires). Added 11/2/26.
+# This file is ours, not the bangers skill's, so its updates never overwrite it.
+#   1. Carousels that are due go to Instagram and the Facebook Page.
+#   2. Reels that just went to the Instagram main feed go to the Page as Facebook Reels.
+on:
+  workflow_run:
+    workflows: ["Post scheduled reels"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: after-reels
+  cancel-in-progress: false
+
+jobs:
+  extras:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Post any carousel that is due (Instagram and Facebook)
+        continue-on-error: true
+        env:
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: python3 publish_queue.py
+
+      - name: Copy new main-feed reels to the Facebook Page
+        continue-on-error: true
+        env:
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+        run: python3 fb_reels.py
+
+      - name: Record what went out
+        run: |
+          if [ -n "$(git status --porcelain queue.json fb_reels.json)" ]; then
+            git config user.name "after-reels bot"
+            git config user.email "actions@github.com"
+            git add queue.json fb_reels.json
+            git commit -m "posted carousels / Facebook reels"
+            git pull --rebase
+            git push
+          else
+            echo "nothing changed"
+          fi
