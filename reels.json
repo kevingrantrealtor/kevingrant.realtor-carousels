@@ -2237,11 +2237,13 @@
      "2026-11-04T00:00:00"
     ],
     "judged": true,
-    "main_done": true,
-    "result": "main-feed repost turned off by Kevin (trials only)",
+    "main_done": false,
+    "result": "picked by Kevin for the main feed (Nov 2)",
     "media_id": "17905641723670354",
     "posted_at_utc": "2026-11-02T04:33:05",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "picked": true,
+    "main_at_utc": "2026-11-03T17:30:00"
    },
    {
     "v": "C",
@@ -2294,11 +2296,13 @@
      "2026-11-04T00:00:00"
     ],
     "judged": true,
-    "main_done": true,
-    "result": "main-feed repost turned off by Kevin (trials only)",
+    "main_done": false,
+    "result": "picked by Kevin for the main feed (Nov 2)",
     "media_id": "18606085537070269",
     "posted_at_utc": "2026-11-02T02:59:07",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "picked": true,
+    "main_at_utc": "2026-11-03T00:00:00"
    },
    {
     "v": "B",
@@ -2351,8 +2355,7 @@
    "done": true,
    "result": "main-feed repost turned off by Kevin (trials only)"
   },
-  "added": "2026-11-01",
-  "cancelled": true
+  "added": "2026-11-01"
  },
  {
   "slug": "plano-att-headquarters-legacy-drive-december",
@@ -2449,11 +2452,13 @@
      "2026-11-05T00:00:00"
     ],
     "judged": true,
-    "main_done": true,
-    "result": "main-feed repost turned off by Kevin (trials only)",
+    "main_done": false,
+    "result": "picked by Kevin for the main feed (Nov 2)",
     "media_id": "18116990417034173",
     "posted_at_utc": "2026-11-02T03:24:40",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "picked": true,
+    "main_at_utc": "2026-11-02T20:30:00"
    },
    {
     "v": "B",
@@ -2503,8 +2508,7 @@
    "done": true,
    "result": "main-feed repost turned off by Kevin (trials only)"
   },
-  "added": "2026-11-01",
-  "cancelled": true
+  "added": "2026-11-01"
  },
  {
   "slug": "dallas-i30-canyon-full-closure-oct-24",
