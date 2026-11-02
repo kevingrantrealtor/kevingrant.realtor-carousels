@@ -84,15 +84,26 @@ def on_page():
     return {signature(v.get("description", "")) for v in out["data"]}
 
 
+def download(url):
+    """Fetch the video here. Facebook's own fetcher is blocked from Instagram's servers (11/2/26)."""
+    try:
+        with urllib.request.urlopen(url, timeout=300) as r:
+            return r.read()
+    except Exception as e:
+        raise RuntimeError(f"could not download the video from Instagram: {e}")
+
+
 def post_reel(video_url, caption):
-    """Start, hand Facebook the video link, publish. Returns the video id."""
+    """Start, upload the video file, publish. Returns the video id."""
+    video = download(video_url)
     start = api("me/video_reels", {"upload_phase": "start"}, "POST")
     vid = start.get("video_id")
     if not vid:
         raise RuntimeError(f"Facebook would not start the upload: {err(start)}")
-    up = request(f"{RUPLOAD}/{vid}", b"", {"Authorization": f"OAuth {TOKEN}", "file_url": video_url})
+    up = request(f"{RUPLOAD}/{vid}", video, {"Authorization": f"OAuth {TOKEN}", "offset": "0",
+                                              "file_size": str(len(video))})
     if not up.get("success"):
-        raise RuntimeError(f"Facebook could not fetch the video: {err(up)}")
+        raise RuntimeError(f"Facebook would not take the video: {err(up)}")
     fin = api("me/video_reels", {"upload_phase": "finish", "video_id": vid,
                                   "video_state": "PUBLISHED", "description": caption}, "POST")
     if not fin.get("success"):
