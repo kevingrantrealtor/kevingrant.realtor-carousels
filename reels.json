@@ -2816,7 +2816,9 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "tries": 1,
+    "last_error": "publishing failed: An unexpected error has occurred. Please retry your request later."
    },
    {
     "v": "C",
