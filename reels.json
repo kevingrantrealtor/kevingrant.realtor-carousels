@@ -2267,7 +2267,14 @@
     "main_at_utc": "2026-11-03T03:00:00",
     "main_media_id": "18135456085804589",
     "main_posted_at_utc": "2026-11-03T03:04:30",
-    "file_deleted": true
+    "file_deleted": true,
+    "day1": {
+     "comments": 0,
+     "likes": 7,
+     "views": 1242,
+     "kw": 0,
+     "age_h": 24.0
+    }
    },
    {
     "v": "C",
