@@ -2227,7 +2227,14 @@
     "result": "main-feed repost turned off by Kevin (trials only)",
     "media_id": "18036013361886856",
     "posted_at_utc": "2026-11-02T02:43:13",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "day1": {
+     "comments": 0,
+     "likes": 5,
+     "views": 1217,
+     "kw": 0,
+     "age_h": 24.1
+    }
    },
    {
     "v": "B",
