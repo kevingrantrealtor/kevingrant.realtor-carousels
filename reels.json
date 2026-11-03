@@ -2251,13 +2251,16 @@
      "2026-11-04T00:00:00"
     ],
     "judged": true,
-    "main_done": false,
-    "result": "picked by Kevin for the main feed (Nov 2)",
+    "main_done": true,
+    "result": "posted to the main feed",
     "media_id": "17905641723670354",
     "posted_at_utc": "2026-11-02T04:33:05",
     "landed_as_trial": true,
     "picked": true,
-    "main_at_utc": "2026-11-03T03:00:00"
+    "main_at_utc": "2026-11-03T03:00:00",
+    "main_media_id": "18135456085804589",
+    "main_posted_at_utc": "2026-11-03T03:04:30",
+    "file_deleted": true
    },
    {
     "v": "C",
@@ -2319,7 +2322,14 @@
     "main_at_utc": "2026-11-03T00:00:00",
     "main_media_id": "18109139072268063",
     "main_posted_at_utc": "2026-11-03T00:05:18",
-    "file_deleted": true
+    "file_deleted": true,
+    "day1": {
+     "comments": 0,
+     "likes": 3,
+     "views": 1365,
+     "kw": 0,
+     "age_h": 24.1
+    }
    },
    {
     "v": "B",
