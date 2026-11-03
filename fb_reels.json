@@ -4,5 +4,9 @@
   "last_error": "Facebook could not fetch the video: {\"debug_info\": {\"retriable\": false, \"type\": \"FileUrlProcessingError\", \"message\": \"Unable to fetch media from URL, got status code: 403 Blocked by fwdproxy destination filter\"}}",
   "fb_id": "1426982697162696",
   "posted_at_utc": "2026-11-02T20:41:41"
+ },
+ "garland-635-east-carpool-lanes-texpress-toll:A": {
+  "fb_id": "1506182348098606",
+  "posted_at_utc": "2026-11-03T00:06:07"
  }
 }
