@@ -2440,8 +2440,8 @@
      "2026-11-05T00:00:00"
     ],
     "judged": true,
-    "main_done": false,
-    "result": "Kevin picked it for the main feed (11/3)",
+    "main_done": true,
+    "result": "posted to the main feed",
     "media_id": "18115200548134297",
     "posted_at_utc": "2026-11-02T03:16:19",
     "landed_as_trial": true,
@@ -2453,7 +2453,10 @@
      "views": 307,
      "kw": 0,
      "age_h": 41.0
-    }
+    },
+    "main_media_id": "17997021572840199",
+    "main_posted_at_utc": "2026-11-03T23:04:26",
+    "file_deleted": true
    },
    {
     "v": "B",
