@@ -2807,7 +2807,7 @@
     "tag": "reel-keller-short-term-rental-rules-dec-1-b",
     "asset": "keller-short-term-rental-rules-dec-1-B.mp4",
     "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nDecember 1 is when Keller's council takes its final vote on short-term rental rules, and Planning and Zoning goes first November 10.\n\nKeller has no short-term rental rules today. On October 20 the council looked at the city's first draft: either every new rental needs a permit approved by the council, or new ones only go in Old Town Keller.\n\nRentals already running can keep going if they register and pay any hotel taxes owed by March 1, 2027. The permit isn't transferable to another owner. Fines go up to 2,000 dollars a day. Planning and Zoning holds a public hearing November 10, and the council's final vote is December 1.\n\nShould Keller allow short-term rentals?\n\nPhoto: 1958publius, CC BY-SA 4.0, via Wikimedia Commons (Keller City Hall)\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
-    "trial_at_utc": "2026-11-03T21:33:20",
+    "trial_at_utc": "2099-01-01T00:00:00",
     "keyword": "REPORT",
     "batch": "2026-11-03",
     "pick_at_utc": [
@@ -2816,10 +2816,7 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report",
-    "tries": 3,
-    "last_error": "publishing failed: User is performing too many actions",
-    "failed": true
+    "ending": "report"
    },
    {
     "v": "C",
