@@ -2959,5 +2959,98 @@
    "result": "main-feed repost turned off by Kevin (trials only)"
   },
   "added": "2026-11-03"
+ },
+ {
+  "slug": "plano-stars-arena-prop-a-rejected-nov-3",
+  "town": "Plano",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-plano-stars-arena-prop-a-rejected-nov-3-a",
+    "asset": "plano-stars-arena-prop-a-rejected-nov-3-A.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nPlano voters just rejected the taxes for a new Dallas Stars arena, and two Dallas council members are already trying to keep the team.\n\nPlano voters rejected Proposition A on November 3. Unofficial results show 56,061 against and 46,658 for. It would've let the city tax hotel stays, short-term car rentals, event parking and tickets to help repay its $700 million share of a $1 billion Dallas Stars arena at The Shops at Willow Bend.\n\nThe arena isn't officially dead. The city manager says the financing gets reassessed before council acts, and the Stars say they're looking to a project finance zone from the Texas Legislature. Two Dallas council members say Dallas is ready to negotiate to keep the team.\n\nPlano ISD's pledge of up to $250 million goes through a separate tax zone, so it wasn't on this ballot. A UT Dallas finance professor told NBC 5 the Stars have \"literally a couple of weeks\" before they may be locked into a long-term lease where they play now.\n\nWhere do you think the Stars end up?\n\nPhoto: Jackilometresan, CC0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-05T19:55:00",
+    "keyword": "REPORT",
+    "batch": "2026-11-05",
+    "pick_at_utc": [
+     "2026-11-08T19:55:00"
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)",
+    "ending": "report"
+   }
+  ],
+  "pick": "day",
+  "keyword": "REPORT",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-08T19:55:00",
+  "main": {
+   "done": true,
+   "result": "main-feed repost turned off by Kevin (trials only)"
+  },
+  "added": "2026-11-05"
+ },
+ {
+  "slug": "collin-county-475m-road-bond-rejected",
+  "town": "McKinney",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-collin-county-475m-road-bond-rejected-a",
+    "asset": "collin-county-475m-road-bond-rejected-A.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nCollin County voters just rejected 475 million dollars for roads, and a commissioner says the Outer Loop and Dallas North Tollway work could stall.\n\nCollin County voters rejected all four propositions in the county's $817.5 million bond on November 3, according to unofficial results. Proposition B, $475 million for roads, came closest, with 51.67% against.\n\nIn August the county's engineering director said that money could go toward a Dallas North Tollway service road, an Outer Loop service road west of US 75 and a service road from Farmersville to Rockwall County. Commissioner Darrell Hale told Community Impact the failure would likely stall major road projects.\n\nThe county added nearly 43,000 people between July 2024 and July 2025. County Judge Chris Hill said in August, \"If they don't, we won't.\"\n\nWhich road in Collin County needs the money most?\n\nPhoto: formulanone, CC BY-SA 2.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-05T20:25:00",
+    "keyword": "REPORT",
+    "batch": "2026-11-05",
+    "pick_at_utc": [
+     "2026-11-08T20:25:00"
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)",
+    "ending": "report"
+   }
+  ],
+  "pick": "day",
+  "keyword": "REPORT",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-08T20:25:00",
+  "main": {
+   "done": true,
+   "result": "main-feed repost turned off by Kevin (trials only)"
+  },
+  "added": "2026-11-05"
+ },
+ {
+  "slug": "fort-worth-texrail-270m-medical-district-broke-ground",
+  "town": "Fort Worth",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-fort-worth-texrail-270m-medical-district-broke-ground-a",
+    "asset": "fort-worth-texrail-270m-medical-district-broke-ground-A.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nTEXRail just broke ground on its train into Fort Worth's Medical District, and the reported price and opening date both moved since April.\n\nTrinity Metro broke ground October 29 on the 2.1 mile TEXRail extension from T&P Station to a new Near Southside Station, on land Baylor Scott & White Health donated. Trinity Metro puts it at $270 million.\n\nThe Fort Worth Report says it will connect to 50,000 jobs in the Near Southside and Medical District when it's done in mid 2030. Back in April the same paper reported a $167-million-plus project with service starting in 2029.\n\nFort Worth's mayor said at the groundbreaking there were more times than she could count that they worried they couldn't make it work.\n\nWould you take the train to the Medical District?\n\nPhoto: Dbergere, CC BY-SA 4.0, via Wikimedia Commons\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-05T20:55:00",
+    "keyword": "REPORT",
+    "batch": "2026-11-05",
+    "pick_at_utc": [
+     "2026-11-08T20:55:00"
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)",
+    "ending": "report"
+   }
+  ],
+  "pick": "day",
+  "keyword": "REPORT",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-08T20:55:00",
+  "main": {
+   "done": true,
+   "result": "main-feed repost turned off by Kevin (trials only)"
+  },
+  "added": "2026-11-05"
  }
 ]
