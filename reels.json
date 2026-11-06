@@ -3073,7 +3073,14 @@
     "main_media_id": "17978074905153538",
     "main_posted_at_utc": "2026-11-06T19:16:55",
     "result": "posted to the main feed",
-    "file_deleted": true
+    "file_deleted": true,
+    "day1": {
+     "comments": 2,
+     "likes": 18,
+     "views": 1935,
+     "kw": 0,
+     "age_h": 24.1
+    }
    }
   ],
   "pick": "day",
