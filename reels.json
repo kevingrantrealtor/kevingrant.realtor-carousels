@@ -3049,13 +3049,17 @@
      "2026-11-08T22:55:00"
     ],
     "judged": true,
-    "main_done": false,
+    "main_done": true,
     "ending": "report",
     "media_id": "18070014242609179",
     "posted_at_utc": "2026-11-05T22:56:48",
     "landed_as_trial": true,
     "picked": true,
-    "main_at_utc": "2026-11-06T19:15:00"
+    "main_at_utc": "2026-11-06T19:15:00",
+    "main_media_id": "17978074905153538",
+    "main_posted_at_utc": "2026-11-06T19:16:55",
+    "result": "posted to the main feed",
+    "file_deleted": true
    }
   ],
   "pick": "day",
