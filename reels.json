@@ -3229,7 +3229,14 @@
     "main_media_id": "18221556271343569",
     "main_posted_at_utc": "2026-11-06T20:18:20",
     "result": "posted to the main feed",
-    "file_deleted": true
+    "file_deleted": true,
+    "day1": {
+     "comments": 0,
+     "likes": 20,
+     "views": 1177,
+     "kw": 0,
+     "age_h": 24.1
+    }
    },
    {
     "v": "C",
