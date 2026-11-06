@@ -3105,7 +3105,14 @@
     "main_media_id": "18035756699910323",
     "main_posted_at_utc": "2026-11-06T19:46:53",
     "result": "posted to the main feed",
-    "file_deleted": true
+    "file_deleted": true,
+    "day1": {
+     "comments": 3,
+     "likes": 21,
+     "views": 1510,
+     "kw": 0,
+     "age_h": 24.1
+    }
    },
    {
     "v": "B",
