@@ -3331,7 +3331,7 @@
      "2026-11-10T01:45:00"
     ],
     "judged": true,
-    "main_done": false,
+    "main_done": true,
     "ending": "report",
     "media_id": "18115735475620994",
     "posted_at_utc": "2026-11-07T01:49:32",
@@ -3344,7 +3344,11 @@
      "age_h": 24.2
     },
     "picked": true,
-    "main_at_utc": "2026-11-09T19:45:00"
+    "main_at_utc": "2026-11-09T19:45:00",
+    "main_media_id": "17998991406029494",
+    "main_posted_at_utc": "2026-11-09T19:50:34",
+    "result": "posted to the main feed",
+    "file_deleted": true
    },
    {
     "v": "C",
