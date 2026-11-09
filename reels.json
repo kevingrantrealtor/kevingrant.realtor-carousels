@@ -3331,8 +3331,7 @@
      "2026-11-10T01:45:00"
     ],
     "judged": true,
-    "main_done": true,
-    "result": "main-feed repost turned off by Kevin (trials only)",
+    "main_done": false,
     "ending": "report",
     "media_id": "18115735475620994",
     "posted_at_utc": "2026-11-07T01:49:32",
@@ -3343,7 +3342,9 @@
      "views": 1491,
      "kw": 0,
      "age_h": 24.2
-    }
+    },
+    "picked": true,
+    "main_at_utc": "2026-11-09T19:45:00"
    },
    {
     "v": "C",
@@ -3450,8 +3451,7 @@
      "2026-11-10T03:45:00"
     ],
     "judged": true,
-    "main_done": true,
-    "result": "main-feed repost turned off by Kevin (trials only)",
+    "main_done": false,
     "ending": "report",
     "media_id": "18111489545181161",
     "posted_at_utc": "2026-11-07T03:49:29",
@@ -3462,7 +3462,9 @@
      "views": 1156,
      "kw": 0,
      "age_h": 24.2
-    }
+    },
+    "picked": true,
+    "main_at_utc": "2026-11-09T20:15:00"
    }
   ],
   "pick": "day",
@@ -3517,8 +3519,7 @@
      "2026-11-10T02:45:00"
     ],
     "judged": true,
-    "main_done": true,
-    "result": "main-feed repost turned off by Kevin (trials only)",
+    "main_done": false,
     "ending": "report",
     "media_id": "18140083966624386",
     "posted_at_utc": "2026-11-07T02:49:27",
@@ -3529,7 +3530,9 @@
      "views": 1428,
      "kw": 0,
      "age_h": 24.2
-    }
+    },
+    "picked": true,
+    "main_at_utc": "2026-11-09T19:15:00"
    },
    {
     "v": "C",
