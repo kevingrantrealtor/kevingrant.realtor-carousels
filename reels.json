@@ -3582,5 +3582,98 @@
    "result": "main-feed repost turned off by Kevin (trials only)"
   },
   "added": "2026-11-06"
+ },
+ {
+  "slug": "denton-outer-loop-tie-vote",
+  "town": "Denton",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-denton-outer-loop-tie-vote-a",
+    "asset": "denton-outer-loop-tie-vote-A.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nOn October 27, Denton City Council tied 3 to 3 on a new six-lane freeway, so the city backed no route at all.\n\nDenton City Council split 3 to 3 on October 27 on a resolution backing two routes, B and B2, for the Denton County Outer Loop. That's a planned six-lane freeway from I-35 in Denton County to the Dallas North Tollway in Collin County. With a tie, the resolution failed, so Denton didn't back any route.\n\nCity staff said Denton lacks major east-west roads it can use, and its population and jobs are projected to double by 2050. Council member Suzi Rumohr said she's concerned it would attract sprawling development, and that I-35 is being widened and is still congested and still deadly.\n\nTxDOT and Denton County still lead the study. TxDOT plans to recommend a preferred route by the end of 2026 and officially pick it in 2027. All four routes are on the project's map, and every one crosses the Elm Fork greenbelt near Aubrey.\n\nWhich route would you pick?\n\nPhoto: Mick Watson, CC BY 2.0, via Wikimedia Commons (Denton County Courts Building)\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-09T23:10:00",
+    "keyword": "BUDGET",
+    "batch": "2026-11-09",
+    "pick_at_utc": [
+     "2026-11-12T23:10:00"
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)",
+    "ending": "budget"
+   }
+  ],
+  "pick": "day",
+  "keyword": "BUDGET",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-12T23:10:00",
+  "main": {
+   "done": true,
+   "result": "main-feed repost turned off by Kevin (trials only)"
+  },
+  "added": "2026-11-09"
+ },
+ {
+  "slug": "dallas-zoning-code-first-draft",
+  "town": "Dallas",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-dallas-zoning-code-first-draft-a",
+    "asset": "dallas-zoning-code-first-draft-A.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nDuplexes and backyard units could go in more Dallas neighborhoods, under a draft of new city rules released November 5.\n\nDallas released the first draft of its new development code on Thursday, November 5. It's more than 400 pages, and it's the first full rewrite of the city's zoning rules since the 1980s.\n\nThe draft would allow duplexes in the proposed R1 and R2 home districts, with design standards so they fit the scale of the street. It would allow backyard units across the home districts, up to 24 feet tall, where today they usually need a Board of Adjustment approval or a neighborhood opt-in. Backyard units were cut from ForwardDallas 2.0 in 2024 amid concerns about more density in single-family neighborhoods. The draft also adds distance rules for heavy industry near homes.\n\nIt's an early draft. The city is taking feedback for a second draft expected in spring, and printed copies go out at seven Dallas libraries starting November 16.\n\nWould you want a backyard unit allowed on your street?\n\nPhoto: Loadmaster (David R. Tribble), CC BY-SA 3.0, via Wikimedia Commons (Dallas City Hall)\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-09T23:40:00",
+    "keyword": "BUDGET",
+    "batch": "2026-11-09",
+    "pick_at_utc": [
+     "2026-11-12T23:40:00"
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)",
+    "ending": "budget"
+   }
+  ],
+  "pick": "day",
+  "keyword": "BUDGET",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-12T23:40:00",
+  "main": {
+   "done": true,
+   "result": "main-feed repost turned off by Kevin (trials only)"
+  },
+  "added": "2026-11-09"
+ },
+ {
+  "slug": "prosper-isd-watkins-boundaries",
+  "town": "Prosper",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-prosper-isd-watkins-boundaries-a",
+    "asset": "prosper-isd-watkins-boundaries-A.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nSix Prosper neighborhoods would switch middle schools under a new map, and the Prosper ISD board votes on it November 16.\n\nProsper ISD showed its board proposed 2027-28 attendance boundaries on October 19 for Watkins Middle School, which opens in fall 2027 on the district's northwest side. The board votes November 16.\n\nUnder the proposal, Lakes of Prosper and Villages at Prosper Trail move from Reynolds to Watkins. Creeks of Legacy, Legacy Gardens, Star Trail and Mosaic move from Moseley to Watkins. Mosaic students rezoned to Watkins would also move from Richland High School to Prosper High School.\n\nRising eighth graders at Reynolds and Moseley who get rezoned can stay if they provide their own transportation. Rising 10th through 12th graders from Mosaic at Richland can stay too, same rule. Watkins was first set to open this school year and was pushed back a year as student growth slowed.\n\nIs your neighborhood on the list?\n\nPhoto: Nadia Eimandoust, CC BY-SA 4.0, via Wikimedia Commons (Prosper High School)\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-10T00:10:00",
+    "keyword": "BUDGET",
+    "batch": "2026-11-09",
+    "pick_at_utc": [
+     "2026-11-13T00:10:00"
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)",
+    "ending": "budget"
+   }
+  ],
+  "pick": "day",
+  "keyword": "BUDGET",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-13T00:10:00",
+  "main": {
+   "done": true,
+   "result": "main-feed repost turned off by Kevin (trials only)"
+  },
+  "added": "2026-11-09"
  }
 ]
