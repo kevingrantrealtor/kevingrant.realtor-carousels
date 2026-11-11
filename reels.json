@@ -3912,13 +3912,17 @@
      "2026-11-14T03:25:00"
     ],
     "judged": true,
-    "main_done": false,
+    "main_done": true,
     "ending": "report",
     "media_id": "18139347151732939",
     "posted_at_utc": "2026-11-11T03:34:27",
     "landed_as_trial": true,
     "picked": true,
-    "main_at_utc": "2026-11-11T16:00:00"
+    "main_at_utc": "2026-11-11T16:00:00",
+    "main_media_id": "17871204051660050",
+    "main_posted_at_utc": "2026-11-11T16:04:51",
+    "result": "posted to the main feed",
+    "file_deleted": true
    },
    {
     "v": "C",
