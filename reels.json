@@ -3817,7 +3817,14 @@
     "main_media_id": "18287122672289587",
     "main_posted_at_utc": "2026-11-11T01:34:46",
     "result": "posted to the main feed",
-    "file_deleted": true
+    "file_deleted": true,
+    "day1": {
+     "comments": 0,
+     "likes": 0,
+     "views": 171,
+     "kw": 0,
+     "age_h": 24.1
+    }
    },
    {
     "v": "C",
@@ -3867,7 +3874,10 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "media_id": "18014183771767973",
+    "posted_at_utc": "2026-11-11T01:57:42",
+    "landed_as_trial": true
    },
    {
     "v": "B",
