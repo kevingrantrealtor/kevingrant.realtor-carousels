@@ -4005,7 +4005,10 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "media_id": "18158785852567146",
+    "posted_at_utc": "2026-11-11T09:26:45",
+    "landed_as_trial": true
    }
   ],
   "pick": "day",
@@ -4074,7 +4077,10 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "media_id": "18037059245894738",
+    "posted_at_utc": "2026-11-11T09:27:26",
+    "landed_as_trial": true
    }
   ],
   "pick": "day",
