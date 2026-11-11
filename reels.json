@@ -3912,12 +3912,13 @@
      "2026-11-14T03:25:00"
     ],
     "judged": true,
-    "main_done": true,
-    "result": "main-feed repost turned off by Kevin (trials only)",
+    "main_done": false,
     "ending": "report",
     "media_id": "18139347151732939",
     "posted_at_utc": "2026-11-11T03:34:27",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "picked": true,
+    "main_at_utc": "2026-11-11T16:00:00"
    },
    {
     "v": "C",
@@ -4003,12 +4004,13 @@
      "2026-11-14T05:25:00"
     ],
     "judged": true,
-    "main_done": true,
-    "result": "main-feed repost turned off by Kevin (trials only)",
+    "main_done": false,
     "ending": "report",
     "media_id": "18158785852567146",
     "posted_at_utc": "2026-11-11T09:26:45",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "picked": true,
+    "main_at_utc": "2026-11-12T01:00:00"
    }
   ],
   "pick": "day",
@@ -4075,12 +4077,13 @@
      "2026-11-14T05:55:00"
     ],
     "judged": true,
-    "main_done": true,
-    "result": "main-feed repost turned off by Kevin (trials only)",
+    "main_done": false,
     "ending": "report",
     "media_id": "18037059245894738",
     "posted_at_utc": "2026-11-11T09:27:26",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "picked": true,
+    "main_at_utc": "2026-11-11T19:00:00"
    }
   ],
   "pick": "day",
