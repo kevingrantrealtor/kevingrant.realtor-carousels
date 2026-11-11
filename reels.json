@@ -4081,13 +4081,17 @@
      "2026-11-14T05:55:00"
     ],
     "judged": true,
-    "main_done": false,
+    "main_done": true,
     "ending": "report",
     "media_id": "18037059245894738",
     "posted_at_utc": "2026-11-11T09:27:26",
     "landed_as_trial": true,
     "picked": true,
-    "main_at_utc": "2026-11-11T19:00:00"
+    "main_at_utc": "2026-11-11T19:00:00",
+    "main_media_id": "18070382822787640",
+    "main_posted_at_utc": "2026-11-11T19:04:39",
+    "result": "posted to the main feed",
+    "file_deleted": true
    }
   ],
   "pick": "day",
