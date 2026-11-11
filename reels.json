@@ -3759,7 +3759,14 @@
     "ending": "budget",
     "media_id": "18183798478434304",
     "posted_at_utc": "2026-11-10T02:49:31",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "day1": {
+     "comments": 0,
+     "likes": 0,
+     "views": 225,
+     "kw": 0,
+     "age_h": 24.2
+    }
    }
   ],
   "pick": "day",
@@ -4013,7 +4020,10 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "report"
+    "ending": "report",
+    "media_id": "18101029463418102",
+    "posted_at_utc": "2026-11-11T03:04:30",
+    "landed_as_trial": true
    },
    {
     "v": "B",
