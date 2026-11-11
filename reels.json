@@ -3644,13 +3644,17 @@
      "2026-11-13T02:10:00"
     ],
     "judged": true,
-    "main_done": false,
+    "main_done": true,
     "ending": "budget",
     "media_id": "17935525617408105",
     "posted_at_utc": "2026-11-10T02:19:56",
     "landed_as_trial": true,
     "picked": true,
-    "main_at_utc": "2026-11-11T00:15:00"
+    "main_at_utc": "2026-11-11T00:15:00",
+    "main_media_id": "17953164513052310",
+    "main_posted_at_utc": "2026-11-11T00:20:14",
+    "result": "posted to the main feed",
+    "file_deleted": true
    }
   ],
   "pick": "day",
@@ -3764,7 +3768,14 @@
     "ending": "budget",
     "media_id": "18222737800354585",
     "posted_at_utc": "2026-11-10T00:19:30",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "day1": {
+     "comments": 0,
+     "likes": 0,
+     "views": 143,
+     "kw": 0,
+     "age_h": 24.0
+    }
    },
    {
     "v": "B",
