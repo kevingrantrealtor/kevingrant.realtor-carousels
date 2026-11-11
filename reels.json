@@ -3837,5 +3837,98 @@
    "result": "main-feed repost turned off by Kevin (trials only)"
   },
   "added": "2026-11-09"
+ },
+ {
+  "slug": "flower-mound-costco-passes-pz",
+  "town": "Flower Mound",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-flower-mound-costco-passes-pz-a",
+    "asset": "flower-mound-costco-passes-pz-A.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nA Costco in Flower Mound just passed the town's planning commission, and it would sit near Marcus High School's athletic complex.\n\nFlower Mound's Planning and Zoning Commission unanimously recommended approval of Cottonwood, an 86 acre development with a Costco near FM 2499 between FM 407 and Dixon Lane, the Cross Timbers Gazette reported November 9. It also plans a Chick-fil-A, a Crunch Fitness and restaurants.\n\nCostco wants 898 parking spaces where the town's rule says 672. The traffic study recommends widening Whyburn Drive to four lanes with a roundabout at Dixon Lane, and a signal is expected at FM 407. Costco's target opening, from its pitch reported in August, is May 2028. The town council has the final vote.\n\nWould you shop at a Costco by Marcus High School?\n\nPhoto: EvanCarroll, CC BY-SA 4.0, via Wikimedia Commons (a Costco in Houston, not the Flower Mound site)\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-11T01:55:00",
+    "keyword": "REPORT",
+    "batch": "2026-11-10",
+    "pick_at_utc": [
+     "2026-11-14T01:55:00"
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)",
+    "ending": "report"
+   }
+  ],
+  "pick": "day",
+  "keyword": "REPORT",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-14T01:55:00",
+  "main": {
+   "done": true,
+   "result": "main-feed repost turned off by Kevin (trials only)"
+  },
+  "added": "2026-11-10"
+ },
+ {
+  "slug": "northwest-isd-davis-high-map-approved",
+  "town": "Haslet",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-northwest-isd-davis-high-map-approved-a",
+    "asset": "northwest-isd-davis-high-map-approved-A.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nNorthwest ISD just locked in the map for its new Davis High School, and neighborhoods from three high schools are moving.\n\nNorthwest ISD trustees unanimously approved new high school attendance boundaries on November 9 for 2027-28, when Davis High School opens as the district's fourth high school. Some students zoned for Byron Nelson, Eaton and Northwest high schools move to Davis.\n\nAfter feedback, Bridgeview, Spring Ranch and Lonesome Dove stay at Eaton. All of Hughes Elementary now feeds Davis. Areas north of Seven Hills Road in the Seven Hills Elementary zone go to Northwest High. A board amendment kept Thousand Oaks in the Northwest High feeder. Find your street on the district's own boundary map.\n\nSend this to someone in Northwest ISD.\n\nPhoto: LibertyNALE, CC BY-SA 4.0, via Wikimedia Commons (Justin water tower)\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-11T02:25:00",
+    "keyword": "REPORT",
+    "batch": "2026-11-10",
+    "pick_at_utc": [
+     "2026-11-14T02:25:00"
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)",
+    "ending": "report"
+   }
+  ],
+  "pick": "day",
+  "keyword": "REPORT",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-14T02:25:00",
+  "main": {
+   "done": true,
+   "result": "main-feed repost turned off by Kevin (trials only)"
+  },
+  "added": "2026-11-10"
+ },
+ {
+  "slug": "collin-road-money-who-pays-now",
+  "town": "McKinney",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-collin-road-money-who-pays-now-a",
+    "asset": "collin-road-money-who-pays-now-A.mp4",
+    "caption": "Comment the word \"REPORT\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\n475 million dollars for Collin County roads failed on November 3, and a commissioner says nobody's budget has room to pay cash for them.\n\nCollin County voters turned down 475 million dollars for roads on November 3. It was 219,065 against and 204,907 for, the closest of the county's four bond propositions.\n\nThat money was for service roads on the Dallas North Tollway, a second Outer Loop service road west of US 75 and one from Farmersville to Rockwall County. Commissioner Darrell Hale told the Dallas Morning News the cities could pay, but they would need bonds too, and he called it unlikely. Earlier this year the county asked the Legislature to raise the road fee on car registrations from about $10 to $20.\n\nSend this to someone who drives the tollway every day.\n\nPhoto: Prianxi, CC BY 4.0, via Wikimedia Commons (Old Collin County Courthouse, McKinney)\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-11T02:55:00",
+    "keyword": "REPORT",
+    "batch": "2026-11-10",
+    "pick_at_utc": [
+     "2026-11-14T02:55:00"
+    ],
+    "judged": true,
+    "main_done": true,
+    "result": "main-feed repost turned off by Kevin (trials only)",
+    "ending": "report"
+   }
+  ],
+  "pick": "day",
+  "keyword": "REPORT",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-14T02:55:00",
+  "main": {
+   "done": true,
+   "result": "main-feed repost turned off by Kevin (trials only)"
+  },
+  "added": "2026-11-10"
  }
 ]
