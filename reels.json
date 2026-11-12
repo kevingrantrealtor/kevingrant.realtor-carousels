@@ -4357,14 +4357,17 @@
      "2026-11-14T22:15:00"
     ],
     "judged": true,
-    "main_done": false,
-    "result": "picked by Kevin for the main feed",
+    "main_done": true,
+    "result": "posted to the main feed",
     "ending": "budget",
     "media_id": "18129523213935590",
     "posted_at_utc": "2026-11-11T22:20:09",
     "landed_as_trial": true,
     "picked": true,
-    "main_at_utc": "2026-11-12T19:00:00"
+    "main_at_utc": "2026-11-12T19:00:00",
+    "main_media_id": "18181300021447497",
+    "main_posted_at_utc": "2026-11-12T19:05:07",
+    "file_deleted": true
    },
    {
     "v": "C",
