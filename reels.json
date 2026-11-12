@@ -3898,7 +3898,14 @@
     "ending": "report",
     "media_id": "18014183771767973",
     "posted_at_utc": "2026-11-11T01:57:42",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "day1": {
+     "comments": 0,
+     "likes": 1,
+     "views": 186,
+     "kw": 0,
+     "age_h": 26.4
+    }
    },
    {
     "v": "B",
@@ -3922,7 +3929,14 @@
     "main_media_id": "17871204051660050",
     "main_posted_at_utc": "2026-11-11T16:04:51",
     "result": "posted to the main feed",
-    "file_deleted": true
+    "file_deleted": true,
+    "day1": {
+     "comments": 0,
+     "likes": 12,
+     "views": 1475,
+     "kw": 0,
+     "age_h": 24.8
+    }
    },
    {
     "v": "C",
@@ -3975,7 +3989,14 @@
     "ending": "report",
     "media_id": "18135621322752310",
     "posted_at_utc": "2026-11-11T02:34:50",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "day1": {
+     "comments": 0,
+     "likes": 0,
+     "views": 115,
+     "kw": 0,
+     "age_h": 25.8
+    }
    },
    {
     "v": "B",
@@ -3994,7 +4015,14 @@
     "ending": "report",
     "media_id": "17979029109129486",
     "posted_at_utc": "2026-11-11T04:04:31",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "day1": {
+     "comments": 0,
+     "likes": 7,
+     "views": 1118,
+     "kw": 0,
+     "age_h": 24.3
+    }
    },
    {
     "v": "C",
@@ -4008,13 +4036,17 @@
      "2026-11-14T05:25:00"
     ],
     "judged": true,
-    "main_done": false,
+    "main_done": true,
     "ending": "report",
     "media_id": "18158785852567146",
     "posted_at_utc": "2026-11-11T09:26:45",
     "landed_as_trial": true,
     "picked": true,
-    "main_at_utc": "2026-11-12T01:00:00"
+    "main_at_utc": "2026-11-12T01:00:00",
+    "main_media_id": "18132365452837045",
+    "main_posted_at_utc": "2026-11-12T04:22:13",
+    "result": "posted to the main feed",
+    "file_deleted": true
    }
   ],
   "pick": "day",
@@ -4048,7 +4080,14 @@
     "ending": "report",
     "media_id": "18101029463418102",
     "posted_at_utc": "2026-11-11T03:04:30",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "day1": {
+     "comments": 0,
+     "likes": 0,
+     "views": 209,
+     "kw": 0,
+     "age_h": 25.3
+    }
    },
    {
     "v": "B",
