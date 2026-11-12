@@ -4273,7 +4273,14 @@
     "ending": "budget",
     "media_id": "17915417253556976",
     "posted_at_utc": "2026-11-11T21:04:29",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "day1": {
+     "comments": 0,
+     "likes": 12,
+     "views": 1552,
+     "kw": 0,
+     "age_h": 24.0
+    }
    },
    {
     "v": "B",
@@ -4350,7 +4357,14 @@
     "ending": "budget",
     "media_id": "18391757845228570",
     "posted_at_utc": "2026-11-11T21:06:13",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "day1": {
+     "comments": 0,
+     "likes": 0,
+     "views": 187,
+     "kw": 0,
+     "age_h": 24.0
+    }
    },
    {
     "v": "B",
