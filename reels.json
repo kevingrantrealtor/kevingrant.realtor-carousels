@@ -4246,7 +4246,14 @@
     "posted_at_utc": "2026-11-11T22:49:28",
     "landed_as_trial": true,
     "picked": true,
-    "main_at_utc": "2026-11-13T01:00:00"
+    "main_at_utc": "2026-11-13T01:00:00",
+    "day1": {
+     "comments": 0,
+     "likes": 1,
+     "views": 927,
+     "kw": 0,
+     "age_h": 24.2
+    }
    }
   ],
   "pick": "day",
