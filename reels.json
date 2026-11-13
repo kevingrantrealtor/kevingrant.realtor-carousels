@@ -4239,8 +4239,8 @@
      "2026-11-14T22:45:00"
     ],
     "judged": true,
-    "main_done": false,
-    "result": "picked by Kevin for the main feed",
+    "main_done": true,
+    "result": "posted to the main feed",
     "ending": "budget",
     "media_id": "18131275444873616",
     "posted_at_utc": "2026-11-11T22:49:28",
@@ -4253,7 +4253,10 @@
      "views": 927,
      "kw": 0,
      "age_h": 24.2
-    }
+    },
+    "main_media_id": "18028102187922985",
+    "main_posted_at_utc": "2026-11-13T01:04:49",
+    "file_deleted": true
    }
   ],
   "pick": "day",
