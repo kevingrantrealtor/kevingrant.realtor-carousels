@@ -4784,7 +4784,10 @@
     "judged": true,
     "main_done": true,
     "result": "main-feed repost turned off by Kevin (trials only)",
-    "ending": "budget"
+    "ending": "budget",
+    "media_id": "17916550998553172",
+    "posted_at_utc": "2026-11-13T20:49:37",
+    "landed_as_trial": true
    },
    {
     "v": "B",
