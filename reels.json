@@ -5442,5 +5442,62 @@
   "main_at_utc": "2026-11-17T14:00:00",
   "main": {},
   "added": "2026-11-16"
+ },
+ {
+  "slug": "dallas-equinix-500m-data-center-love-field",
+  "town": "Dallas",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-dallas-equinix-500m-data-center-love-field-a",
+    "asset": "dallas-equinix-500m-data-center-love-field-A.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nA 500 million dollar data center was filed with the state on November 11 for Mockingbird Lane in Dallas, near Love Field.\n\nOn November 11, a company called DA12 LLC registered a new data center with the Texas Department of Licensing and Regulation. It's DA13-1 at 1520 West Mockingbird Lane in Dallas. The filing lists a four-story, 372,443 square foot building, a $500 million estimated cost, 18 generators, and construction from February 1, 2027 to December 7, 2029.\n\nData Center Dynamics reports DA12 LLC shares its listed address with Equinix, and Equinix's Americas president is its contact. Equinix filed DA12 across the street at 1550 West Mockingbird in November 2025, $542.8 million and $293.7 million on the state filings. $500 million plus $542.8 million plus $293.7 million is about $1.34 billion.\n\nThe lot sits in an industrial area near Love Field and is empty now. It used to be the Mockingbird Office Park, torn down around 2022.\n\nSend this to someone who lives near Love Field.\n\nSources: Texas Department of Licensing and Regulation filings; Data Center Dynamics, Nov. 16, 2026.\n\nPhotos: Andrew nyr, Danazar and formulanone via Wikimedia Commons. They show Equinix's existing Dallas buildings and Love Field, not the Mockingbird site.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-16T20:30:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-16",
+    "pick_at_utc": [
+     "2026-11-17T14:00:00",
+     "2026-11-17T19:00:00",
+     "2026-11-18T01:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-dallas-equinix-500m-data-center-love-field-b",
+    "asset": "dallas-equinix-500m-data-center-love-field-B.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nIn February 2027, Equinix plans to start a four-story data center on West Mockingbird, across the street from two more it filed last year.\n\nOn November 11, a company called DA12 LLC registered a new data center with the Texas Department of Licensing and Regulation. It's DA13-1 at 1520 West Mockingbird Lane in Dallas. The filing lists a four-story, 372,443 square foot building, a $500 million estimated cost, 18 generators, and construction from February 1, 2027 to December 7, 2029.\n\nData Center Dynamics reports DA12 LLC shares its listed address with Equinix, and Equinix's Americas president is its contact. Equinix filed DA12 across the street at 1550 West Mockingbird in November 2025, $542.8 million and $293.7 million on the state filings. $500 million plus $542.8 million plus $293.7 million is about $1.34 billion.\n\nThe lot sits in an industrial area near Love Field and is empty now. It used to be the Mockingbird Office Park, torn down around 2022.\n\nSend this to someone who lives near Love Field.\n\nSources: Texas Department of Licensing and Regulation filings; Data Center Dynamics, Nov. 16, 2026.\n\nPhotos: Andrew nyr, Danazar and formulanone via Wikimedia Commons. They show Equinix's existing Dallas buildings and Love Field, not the Mockingbird site.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-16T22:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-16",
+    "pick_at_utc": [
+     "2026-11-17T14:00:00",
+     "2026-11-17T19:00:00",
+     "2026-11-18T01:00:00"
+    ]
+   },
+   {
+    "v": "C",
+    "tag": "reel-dallas-equinix-500m-data-center-love-field-c",
+    "asset": "dallas-equinix-500m-data-center-love-field-C.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nEquinix already has eight data centers around Dallas, and on November 11 it filed with the state for another one on West Mockingbird Lane.\n\nOn November 11, a company called DA12 LLC registered a new data center with the Texas Department of Licensing and Regulation. It's DA13-1 at 1520 West Mockingbird Lane in Dallas. The filing lists a four-story, 372,443 square foot building, a $500 million estimated cost, 18 generators, and construction from February 1, 2027 to December 7, 2029.\n\nData Center Dynamics reports DA12 LLC shares its listed address with Equinix, and Equinix's Americas president is its contact. Equinix filed DA12 across the street at 1550 West Mockingbird in November 2025, $542.8 million and $293.7 million on the state filings. $500 million plus $542.8 million plus $293.7 million is about $1.34 billion.\n\nThe lot sits in an industrial area near Love Field and is empty now. It used to be the Mockingbird Office Park, torn down around 2022.\n\nSend this to someone who lives near Love Field.\n\nSources: Texas Department of Licensing and Regulation filings; Data Center Dynamics, Nov. 16, 2026.\n\nPhotos: Andrew nyr, Danazar and formulanone via Wikimedia Commons. They show Equinix's existing Dallas buildings and Love Field, not the Mockingbird site.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-16T23:30:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-16",
+    "pick_at_utc": [
+     "2026-11-17T14:00:00",
+     "2026-11-17T19:00:00",
+     "2026-11-18T01:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "keyword": "BUDGET",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-17T14:00:00",
+  "main": {},
+  "added": "2026-11-16"
  }
 ]
