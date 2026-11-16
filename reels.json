@@ -4776,7 +4776,7 @@
     ],
     "judged": true,
     "main_done": true,
-    "result": "main-feed repost turned off by Kevin (trials only)",
+    "result": "not picked for the main feed",
     "ending": "budget",
     "media_id": "18093320819295302",
     "posted_at_utc": "2026-11-13T20:19:37",
@@ -4802,7 +4802,7 @@
     ],
     "judged": true,
     "main_done": true,
-    "result": "main-feed repost turned off by Kevin (trials only)",
+    "result": "not picked for the main feed",
     "ending": "budget",
     "media_id": "18405229705201211",
     "posted_at_utc": "2026-11-13T21:49:45",
@@ -4827,8 +4827,6 @@
      "2026-11-16T23:15:00"
     ],
     "judged": true,
-    "main_done": true,
-    "result": "main-feed repost turned off by Kevin (trials only)",
     "ending": "budget",
     "media_id": "18111978779462156",
     "posted_at_utc": "2026-11-13T23:19:50",
@@ -4839,7 +4837,9 @@
      "views": 1415,
      "kw": 0,
      "age_h": 24.2
-    }
+    },
+    "picked": true,
+    "main_at_utc": "2026-11-17T02:00:00"
    }
   ],
   "pick": "day",
@@ -4848,7 +4848,7 @@
   "main_at_utc": "2026-11-16T20:15:00",
   "main": {
    "done": true,
-   "result": "main-feed repost turned off by Kevin (trials only)"
+   "result": "winner picked by Kevin 11/16, main feed tonight"
   },
   "added": "2026-11-13"
  },
@@ -4869,7 +4869,7 @@
     ],
     "judged": true,
     "main_done": true,
-    "result": "main-feed repost turned off by Kevin (trials only)",
+    "result": "not picked for the main feed",
     "ending": "budget",
     "media_id": "17916550998553172",
     "posted_at_utc": "2026-11-13T20:49:37",
@@ -4894,8 +4894,6 @@
      "2026-11-16T22:15:00"
     ],
     "judged": true,
-    "main_done": true,
-    "result": "main-feed repost turned off by Kevin (trials only)",
     "ending": "budget",
     "media_id": "18101692610389197",
     "posted_at_utc": "2026-11-13T22:19:50",
@@ -4906,7 +4904,9 @@
      "views": 1694,
      "kw": 0,
      "age_h": 24.2
-    }
+    },
+    "picked": true,
+    "main_at_utc": "2026-11-17T01:00:00"
    },
    {
     "v": "C",
@@ -4921,7 +4921,7 @@
     ],
     "judged": true,
     "main_done": true,
-    "result": "main-feed repost turned off by Kevin (trials only)",
+    "result": "not picked for the main feed",
     "ending": "budget",
     "media_id": "18110112230199063",
     "posted_at_utc": "2026-11-13T23:49:50",
@@ -4941,7 +4941,7 @@
   "main_at_utc": "2026-11-16T20:45:00",
   "main": {
    "done": true,
-   "result": "main-feed repost turned off by Kevin (trials only)"
+   "result": "winner picked by Kevin 11/16, main feed tonight"
   },
   "added": "2026-11-13"
  },
@@ -4961,8 +4961,6 @@
      "2026-11-16T21:15:00"
     ],
     "judged": true,
-    "main_done": true,
-    "result": "main-feed repost turned off by Kevin (trials only)",
     "ending": "budget",
     "media_id": "18080607530741864",
     "posted_at_utc": "2026-11-13T21:19:49",
@@ -4973,7 +4971,9 @@
      "views": 1481,
      "kw": 0,
      "age_h": 24.2
-    }
+    },
+    "picked": true,
+    "main_at_utc": "2026-11-17T01:30:00"
    },
    {
     "v": "B",
@@ -4988,7 +4988,7 @@
     ],
     "judged": true,
     "main_done": true,
-    "result": "main-feed repost turned off by Kevin (trials only)",
+    "result": "not picked for the main feed",
     "ending": "budget",
     "media_id": "18100399742454297",
     "posted_at_utc": "2026-11-13T22:50:07",
@@ -5014,7 +5014,7 @@
     ],
     "judged": true,
     "main_done": true,
-    "result": "main-feed repost turned off by Kevin (trials only)",
+    "result": "not picked for the main feed",
     "ending": "budget",
     "media_id": "18134779531667984",
     "posted_at_utc": "2026-11-14T00:19:31",
@@ -5034,7 +5034,7 @@
   "main_at_utc": "2026-11-16T21:15:00",
   "main": {
    "done": true,
-   "result": "main-feed repost turned off by Kevin (trials only)"
+   "result": "winner picked by Kevin 11/16, main feed tonight"
   },
   "added": "2026-11-13"
  },
