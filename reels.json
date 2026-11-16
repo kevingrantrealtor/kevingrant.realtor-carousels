@@ -5151,5 +5151,62 @@
   "main_at_utc": "2026-11-17T17:30:00",
   "main": {},
   "added": "2026-11-16"
+ },
+ {
+  "slug": "fort-worth-i30-eastbound-shutdown-nov-20",
+  "town": "Fort Worth",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-fort-worth-i30-eastbound-shutdown-nov-20-a",
+    "asset": "fort-worth-i30-eastbound-shutdown-nov-20-A.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nEastbound I-30 in west Fort Worth shuts down for a whole weekend starting November 20, and it's part of a 541 million dollar rebuild.\n\nTxDOT is closing every eastbound I-30 mainlane between the I-20 interchange and Linkcrest Drive from 7 p.m. Friday, November 20 to 6 a.m. Monday, November 23, for paving. The detour runs east on I-20, north on Loop 820, and back onto eastbound I-30. The eastbound frontage road stays open.\n\nThe eastbound I-30 exit and entrance at Walsh Ranch Parkway close for the same stretch. Get on at Chapel Creek Boulevard instead, or exit at FM 1187/FM 3325 and take the frontage road to Walsh Ranch Parkway. The night before, November 19, eastbound drops to one lane overnight.\n\nIt's all part of TxDOT's Keep 20-30 Moving work, three projects and $541 million combined. The last one widens I-30 from Linkcrest to Loop 820 from two lanes each way to three, and TxDOT expects it to finish in 2030.\n\nSend this to someone who takes I-30 into Fort Worth.\n\nSources: TxDOT Keep 20-30 Moving roadwork page; Dallas Express, Nov. 12, 2026.\n\nPhotos: Jeffrey A. Lang, David Guarneri, Andreas Praefcke, formulanone and others via Wikimedia Commons. None show this exact stretch.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-16T23:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-16",
+    "pick_at_utc": [
+     "2026-11-17T17:30:00",
+     "2026-11-17T20:30:00",
+     "2026-11-18T00:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-fort-worth-i30-eastbound-shutdown-nov-20-b",
+    "asset": "fort-worth-i30-eastbound-shutdown-nov-20-B.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nYour drive east on I-30 past Walsh Ranch Parkway gets a detour from the night of November 20 to the morning of November 23.\n\nTxDOT is closing every eastbound I-30 mainlane between the I-20 interchange and Linkcrest Drive from 7 p.m. Friday, November 20 to 6 a.m. Monday, November 23, for paving. The detour runs east on I-20, north on Loop 820, and back onto eastbound I-30. The eastbound frontage road stays open.\n\nThe eastbound I-30 exit and entrance at Walsh Ranch Parkway close for the same stretch. Get on at Chapel Creek Boulevard instead, or exit at FM 1187/FM 3325 and take the frontage road to Walsh Ranch Parkway. The night before, November 19, eastbound drops to one lane overnight.\n\nIt's all part of TxDOT's Keep 20-30 Moving work, three projects and $541 million combined. The last one widens I-30 from Linkcrest to Loop 820 from two lanes each way to three, and TxDOT expects it to finish in 2030.\n\nSend this to someone who takes I-30 into Fort Worth.\n\nSources: TxDOT Keep 20-30 Moving roadwork page; Dallas Express, Nov. 12, 2026.\n\nPhotos: Jeffrey A. Lang, David Guarneri, Andreas Praefcke, formulanone and others via Wikimedia Commons. None show this exact stretch.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-16T23:30:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-16",
+    "pick_at_utc": [
+     "2026-11-17T17:30:00",
+     "2026-11-17T20:30:00",
+     "2026-11-18T00:00:00"
+    ]
+   },
+   {
+    "v": "C",
+    "tag": "reel-fort-worth-i30-eastbound-shutdown-nov-20-c",
+    "asset": "fort-worth-i30-eastbound-shutdown-nov-20-C.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nFrom the night of November 20 to the morning of November 23, every eastbound I-30 main lane closes between I-20 and Linkcrest Drive.\n\nTxDOT is closing every eastbound I-30 mainlane between the I-20 interchange and Linkcrest Drive from 7 p.m. Friday, November 20 to 6 a.m. Monday, November 23, for paving. The detour runs east on I-20, north on Loop 820, and back onto eastbound I-30. The eastbound frontage road stays open.\n\nThe eastbound I-30 exit and entrance at Walsh Ranch Parkway close for the same stretch. Get on at Chapel Creek Boulevard instead, or exit at FM 1187/FM 3325 and take the frontage road to Walsh Ranch Parkway. The night before, November 19, eastbound drops to one lane overnight.\n\nIt's all part of TxDOT's Keep 20-30 Moving work, three projects and $541 million combined. The last one widens I-30 from Linkcrest to Loop 820 from two lanes each way to three, and TxDOT expects it to finish in 2030.\n\nSend this to someone who takes I-30 into Fort Worth.\n\nSources: TxDOT Keep 20-30 Moving roadwork page; Dallas Express, Nov. 12, 2026.\n\nPhotos: Jeffrey A. Lang, David Guarneri, Andreas Praefcke, formulanone and others via Wikimedia Commons. None show this exact stretch.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-17T00:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-16",
+    "pick_at_utc": [
+     "2026-11-17T17:30:00",
+     "2026-11-17T20:30:00",
+     "2026-11-18T00:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "keyword": "BUDGET",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-17T17:30:00",
+  "main": {},
+  "added": "2026-11-16"
  }
 ]
