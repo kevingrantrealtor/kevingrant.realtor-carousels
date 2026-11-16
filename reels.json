@@ -5211,5 +5211,62 @@
   "main": {},
   "added": "2026-11-16",
   "cancelled": true
+ },
+ {
+  "slug": "prosper-gates-blue-star-76m-roads",
+  "town": "Prosper",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-prosper-gates-blue-star-76m-roads-a",
+    "asset": "prosper-gates-blue-star-76m-roads-A.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nProsper raised the most it can pay Jerry Jones' land company for roads and parks from 58 million dollars to 76.7 million.\n\nAt its November 10 meeting, Prosper Town Council raised the most it will pay Blue Star Land back for construction at the Gates of Prosper, from $58 million to $76.7 million. That's an $18.7 million increase. The most it can pay with interest stays at $93 million.\n\nBlue Star Land, Jerry Jones' company, had asked for $52.6 million as of November 10. The town expects about $24.1 million more for projects including the Lovers Lane Bridge, part of Main Street, part of Gates Parkway, First Street drainage, and parks and open space. $52.6 million plus $24.1 million is the new $76.7 million cap.\n\nThe money comes from TIRZ No. 1, a tax zone around US 380 and Preston Road, funded by shares of the county and town property tax and the town and Prosper Economic Development Corp. sales tax collected there. The town expects to make the last payment in September 2033.\n\nSend this to a neighbor in Prosper.\n\nSources: Community Impact, Nov. 13, 2026; The Real Deal, Apr. 22, 2024.\n\nPhotos: Keith Allison, Mister VR, formulanone, J. P. Fagerback, George Bush Presidential Library and FEMA via Wikimedia Commons. None show the Gates of Prosper.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-16T20:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-16",
+    "pick_at_utc": [
+     "2026-11-17T17:30:00",
+     "2026-11-17T20:30:00",
+     "2026-11-18T00:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-prosper-gates-blue-star-76m-roads-b",
+    "asset": "prosper-gates-blue-star-76m-roads-B.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nOn November 10, Prosper raised what the Gates of Prosper developer can get back for roads and parks by 18.7 million dollars.\n\nAt its November 10 meeting, Prosper Town Council raised the most it will pay Blue Star Land back for construction at the Gates of Prosper, from $58 million to $76.7 million. That's an $18.7 million increase. The most it can pay with interest stays at $93 million.\n\nBlue Star Land, Jerry Jones' company, had asked for $52.6 million as of November 10. The town expects about $24.1 million more for projects including the Lovers Lane Bridge, part of Main Street, part of Gates Parkway, First Street drainage, and parks and open space. $52.6 million plus $24.1 million is the new $76.7 million cap.\n\nThe money comes from TIRZ No. 1, a tax zone around US 380 and Preston Road, funded by shares of the county and town property tax and the town and Prosper Economic Development Corp. sales tax collected there. The town expects to make the last payment in September 2033.\n\nSend this to a neighbor in Prosper.\n\nSources: Community Impact, Nov. 13, 2026; The Real Deal, Apr. 22, 2024.\n\nPhotos: Keith Allison, Mister VR, formulanone, J. P. Fagerback, George Bush Presidential Library and FEMA via Wikimedia Commons. None show the Gates of Prosper.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-16T21:30:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-16",
+    "pick_at_utc": [
+     "2026-11-17T17:30:00",
+     "2026-11-17T20:30:00",
+     "2026-11-18T00:00:00"
+    ]
+   },
+   {
+    "v": "C",
+    "tag": "reel-prosper-gates-blue-star-76m-roads-c",
+    "asset": "prosper-gates-blue-star-76m-roads-C.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nJerry Jones' land company has billed Prosper 52.6 million dollars so far, and on November 10 the town made room for more.\n\nAt its November 10 meeting, Prosper Town Council raised the most it will pay Blue Star Land back for construction at the Gates of Prosper, from $58 million to $76.7 million. That's an $18.7 million increase. The most it can pay with interest stays at $93 million.\n\nBlue Star Land, Jerry Jones' company, had asked for $52.6 million as of November 10. The town expects about $24.1 million more for projects including the Lovers Lane Bridge, part of Main Street, part of Gates Parkway, First Street drainage, and parks and open space. $52.6 million plus $24.1 million is the new $76.7 million cap.\n\nThe money comes from TIRZ No. 1, a tax zone around US 380 and Preston Road, funded by shares of the county and town property tax and the town and Prosper Economic Development Corp. sales tax collected there. The town expects to make the last payment in September 2033.\n\nSend this to a neighbor in Prosper.\n\nSources: Community Impact, Nov. 13, 2026; The Real Deal, Apr. 22, 2024.\n\nPhotos: Keith Allison, Mister VR, formulanone, J. P. Fagerback, George Bush Presidential Library and FEMA via Wikimedia Commons. None show the Gates of Prosper.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-16T23:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-16",
+    "pick_at_utc": [
+     "2026-11-17T17:30:00",
+     "2026-11-17T20:30:00",
+     "2026-11-18T00:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "keyword": "BUDGET",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-17T17:30:00",
+  "main": {},
+  "added": "2026-11-16"
  }
 ]
