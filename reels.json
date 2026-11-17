@@ -5737,5 +5737,62 @@
   "main_at_utc": "2026-11-18T14:00:00",
   "main": {},
   "added": "2026-11-17"
+ },
+ {
+  "slug": "fort-worth-stop-six-mlk-center-pool",
+  "town": "Fort Worth",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-fort-worth-stop-six-mlk-center-pool-a",
+    "asset": "fort-worth-stop-six-mlk-center-pool-A.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nA water slide, an eight-lane lap pool and a new library are coming to Liberty Street in Fort Worth's Stop Six.\n\nFort Worth broke ground November 16 on the new Martin Luther King Jr. Community Center in Stop Six, at 1500 Liberty Street, south of East Rosedale Street. It's a 28,000-square-foot building with a gym, a fitness room, a youth game room and a library branch.\n\nNext to it goes an aquatics center with an eight-lane, 25-yard lap pool, a leisure pool and a water slide. The city expects it done in July 2028.\n\nThe land used to be Cavile Place, torn down starting in late 2020. Fort Worth Housing Solutions says 416 new units within two miles are already done, and 925 are planned in all.\n\nSend this to someone in southeast Fort Worth.\n\nSources: Fort Worth Report, Nov. 16, 2026; WFAA, Nov. 16, 2026; East Fort Worth Business Association, Nov. 13, 2026.\n\nPhotos: Calistemon, Larry D. Moore, Artem Verbo, GreaterPonce665, Informationwave, Bob 123ehhdee via Wikimedia Commons. None show the Liberty Street site itself.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-17T20:30:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-17",
+    "pick_at_utc": [
+     "2026-11-18T14:00:00",
+     "2026-11-18T19:00:00",
+     "2026-11-19T01:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-fort-worth-stop-six-mlk-center-pool-b",
+    "asset": "fort-worth-stop-six-mlk-center-pool-B.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nOn November 16, Fort Worth broke ground in Stop Six on a new pool, a gym and a library, all on one site.\n\nFort Worth broke ground November 16 on the new Martin Luther King Jr. Community Center in Stop Six, at 1500 Liberty Street, south of East Rosedale Street. It's a 28,000-square-foot building with a gym, a fitness room, a youth game room and a library branch.\n\nNext to it goes an aquatics center with an eight-lane, 25-yard lap pool, a leisure pool and a water slide. The city expects it done in July 2028.\n\nThe land used to be Cavile Place, torn down starting in late 2020. Fort Worth Housing Solutions says 416 new units within two miles are already done, and 925 are planned in all.\n\nSend this to someone in southeast Fort Worth.\n\nSources: Fort Worth Report, Nov. 16, 2026; WFAA, Nov. 16, 2026; East Fort Worth Business Association, Nov. 13, 2026.\n\nPhotos: Calistemon, Larry D. Moore, Artem Verbo, GreaterPonce665, Informationwave, Bob 123ehhdee via Wikimedia Commons. None show the Liberty Street site itself.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-17T22:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-17",
+    "pick_at_utc": [
+     "2026-11-18T14:00:00",
+     "2026-11-18T19:00:00",
+     "2026-11-19T01:00:00"
+    ]
+   },
+   {
+    "v": "C",
+    "tag": "reel-fort-worth-stop-six-mlk-center-pool-c",
+    "asset": "fort-worth-stop-six-mlk-center-pool-C.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\n28,000 square feet of gym, library and game rooms is going up in Fort Worth's Stop Six, plus a pool with a water slide.\n\nFort Worth broke ground November 16 on the new Martin Luther King Jr. Community Center in Stop Six, at 1500 Liberty Street, south of East Rosedale Street. It's a 28,000-square-foot building with a gym, a fitness room, a youth game room and a library branch.\n\nNext to it goes an aquatics center with an eight-lane, 25-yard lap pool, a leisure pool and a water slide. The city expects it done in July 2028.\n\nThe land used to be Cavile Place, torn down starting in late 2020. Fort Worth Housing Solutions says 416 new units within two miles are already done, and 925 are planned in all.\n\nSend this to someone in southeast Fort Worth.\n\nSources: Fort Worth Report, Nov. 16, 2026; WFAA, Nov. 16, 2026; East Fort Worth Business Association, Nov. 13, 2026.\n\nPhotos: Calistemon, Larry D. Moore, Artem Verbo, GreaterPonce665, Informationwave, Bob 123ehhdee via Wikimedia Commons. None show the Liberty Street site itself.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-17T23:30:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-17",
+    "pick_at_utc": [
+     "2026-11-18T14:00:00",
+     "2026-11-18T19:00:00",
+     "2026-11-19T01:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "keyword": "BUDGET",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-18T14:00:00",
+  "main": {},
+  "added": "2026-11-17"
  }
 ]
