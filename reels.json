@@ -5794,5 +5794,62 @@
   "main_at_utc": "2026-11-18T14:00:00",
   "main": {},
   "added": "2026-11-17"
+ },
+ {
+  "slug": "double-oak-mayor-two-council-resign",
+  "town": "Double Oak",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-double-oak-mayor-two-council-resign-a",
+    "asset": "double-oak-mayor-two-council-resign-A.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nDouble Oak's mayor and two council members resigned on November 16, and now half of the town's elected seats are empty.\n\nDouble Oak Mayor Patrick Johnson and council members Pat Wellen and Mike Gwartney all resigned November 16. That's half of the town's six elected seats.\n\nIn a joint statement they pointed to disagreements over town finances, police staffing and proposals to give council members more say in hiring, firing and discipline of town staff. Johnson said the town spent nearly five years building its police force to nine officers. As of November 17, the three remaining council members, Chris Bump, Dan McCormick and Linda Blesch, hadn't responded.\n\nTexas law requires a special election when two or more seats are empty at once. The next regular election is May 1, 2027, and Johnson's memo asks the town to go for the earliest date allowed.\n\nSend this to someone who lives in Double Oak.\n\nSources: Cross Timbers Gazette, Nov. 16 and Nov. 17, 2026.\n\nPhotos: Aaron Jacobs, Larry D. Moore, Dameon Hudson, Shiva Shenoy via Wikimedia Commons. None show Double Oak Town Hall.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-17T21:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-17",
+    "pick_at_utc": [
+     "2026-11-18T14:00:00",
+     "2026-11-18T19:00:00",
+     "2026-11-19T01:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-double-oak-mayor-two-council-resign-b",
+    "asset": "double-oak-mayor-two-council-resign-B.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nThree of Double Oak's six elected leaders quit the same day, and Texas law now forces a special election.\n\nDouble Oak Mayor Patrick Johnson and council members Pat Wellen and Mike Gwartney all resigned November 16. That's half of the town's six elected seats.\n\nIn a joint statement they pointed to disagreements over town finances, police staffing and proposals to give council members more say in hiring, firing and discipline of town staff. Johnson said the town spent nearly five years building its police force to nine officers. As of November 17, the three remaining council members, Chris Bump, Dan McCormick and Linda Blesch, hadn't responded.\n\nTexas law requires a special election when two or more seats are empty at once. The next regular election is May 1, 2027, and Johnson's memo asks the town to go for the earliest date allowed.\n\nSend this to someone who lives in Double Oak.\n\nSources: Cross Timbers Gazette, Nov. 16 and Nov. 17, 2026.\n\nPhotos: Aaron Jacobs, Larry D. Moore, Dameon Hudson, Shiva Shenoy via Wikimedia Commons. None show Double Oak Town Hall.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-17T22:30:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-17",
+    "pick_at_utc": [
+     "2026-11-18T14:00:00",
+     "2026-11-18T19:00:00",
+     "2026-11-19T01:00:00"
+    ]
+   },
+   {
+    "v": "C",
+    "tag": "reel-double-oak-mayor-two-council-resign-c",
+    "asset": "double-oak-mayor-two-council-resign-C.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nDouble Oak's leaders have been fighting over the town's police and staff, and three of them resigned on November 16.\n\nDouble Oak Mayor Patrick Johnson and council members Pat Wellen and Mike Gwartney all resigned November 16. That's half of the town's six elected seats.\n\nIn a joint statement they pointed to disagreements over town finances, police staffing and proposals to give council members more say in hiring, firing and discipline of town staff. Johnson said the town spent nearly five years building its police force to nine officers. As of November 17, the three remaining council members, Chris Bump, Dan McCormick and Linda Blesch, hadn't responded.\n\nTexas law requires a special election when two or more seats are empty at once. The next regular election is May 1, 2027, and Johnson's memo asks the town to go for the earliest date allowed.\n\nSend this to someone who lives in Double Oak.\n\nSources: Cross Timbers Gazette, Nov. 16 and Nov. 17, 2026.\n\nPhotos: Aaron Jacobs, Larry D. Moore, Dameon Hudson, Shiva Shenoy via Wikimedia Commons. None show Double Oak Town Hall.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-18T00:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-17",
+    "pick_at_utc": [
+     "2026-11-18T14:00:00",
+     "2026-11-18T19:00:00",
+     "2026-11-19T01:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "keyword": "BUDGET",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-18T14:00:00",
+  "main": {},
+  "added": "2026-11-17"
  }
 ]
