@@ -5500,7 +5500,14 @@
     "main_media_id": "18128231162514010",
     "main_posted_at_utc": "2026-11-17T14:04:40",
     "result": "posted to the main feed",
-    "file_deleted": true
+    "file_deleted": true,
+    "day1": {
+     "comments": 0,
+     "likes": 13,
+     "views": 2367,
+     "kw": 0,
+     "age_h": 24.2
+    }
    }
   ],
   "pick": "day",
