@@ -4978,7 +4978,12 @@
      "age_h": 24.2
     },
     "picked": true,
-    "main_at_utc": "2026-11-17T01:30:00"
+    "main_at_utc": "2026-11-17T01:30:00",
+    "main_done": true,
+    "main_media_id": "18133704976830694",
+    "main_posted_at_utc": "2026-11-17T01:34:49",
+    "result": "posted to the main feed",
+    "file_deleted": true
    },
    {
     "v": "B",
