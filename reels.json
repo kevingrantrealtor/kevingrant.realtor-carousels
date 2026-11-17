@@ -5680,5 +5680,62 @@
   "main_at_utc": "2026-11-17T14:00:00",
   "main": {},
   "added": "2026-11-16"
+ },
+ {
+  "slug": "justin-texan-drive-four-lanes-december",
+  "town": "Justin",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-justin-texan-drive-four-lanes-december-a",
+    "asset": "justin-texan-drive-four-lanes-december-A.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nNorthwest ISD is turning Texan Drive at Northwest High School into four lanes, and the first phase is set for December.\n\nNorthwest ISD is widening Texan Drive to two lanes each way from Pike Middle School to Highway 114, by Northwest High School in Justin. Phase one, Pike to the administration building, is set for December 2026 to spring 2027. Phase two runs to the stoplight at 114 and wraps up in January 2028. The district calls those dates tentative.\n\nMost bus traffic moves to a new transportation facility behind the Northwest ISD Aquatic Center, slated to open in December, with its own road out to 114. The original Northwest High building comes down to make a straighter path past Texan Field, and the campus gets 365 more parking spaces.\n\nThe district says no part of Texan Drive is planned to shut down, though the piece near 114 may be redirected in 2027. It's paid for by the 2023 bond plus a Fort Worth tax increment district.\n\nSend this to someone who sits in that Northwest High traffic.\n\nSources: Northwest ISD, Nov. 11, 2026; Cross Timbers Gazette, Nov. 12, 2026.\n\nPhotos: Awardgive, formulanone, Larry D. Moore, Ranch9613, Michael Barera via Wikimedia Commons. None show Texan Drive itself.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-17T20:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-17",
+    "pick_at_utc": [
+     "2026-11-18T14:00:00",
+     "2026-11-18T19:00:00",
+     "2026-11-19T01:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-justin-texan-drive-four-lanes-december-b",
+    "asset": "justin-texan-drive-four-lanes-december-B.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nIn December, crews are set to start widening Texan Drive by Northwest High School, right off Highway 114 and FM 156.\n\nNorthwest ISD is widening Texan Drive to two lanes each way from Pike Middle School to Highway 114, by Northwest High School in Justin. Phase one, Pike to the administration building, is set for December 2026 to spring 2027. Phase two runs to the stoplight at 114 and wraps up in January 2028. The district calls those dates tentative.\n\nMost bus traffic moves to a new transportation facility behind the Northwest ISD Aquatic Center, slated to open in December, with its own road out to 114. The original Northwest High building comes down to make a straighter path past Texan Field, and the campus gets 365 more parking spaces.\n\nThe district says no part of Texan Drive is planned to shut down, though the piece near 114 may be redirected in 2027. It's paid for by the 2023 bond plus a Fort Worth tax increment district.\n\nSend this to someone who sits in that Northwest High traffic.\n\nSources: Northwest ISD, Nov. 11, 2026; Cross Timbers Gazette, Nov. 12, 2026.\n\nPhotos: Awardgive, formulanone, Larry D. Moore, Ranch9613, Michael Barera via Wikimedia Commons. None show Texan Drive itself.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-17T21:30:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-17",
+    "pick_at_utc": [
+     "2026-11-18T14:00:00",
+     "2026-11-18T19:00:00",
+     "2026-11-19T01:00:00"
+    ]
+   },
+   {
+    "v": "C",
+    "tag": "reel-justin-texan-drive-four-lanes-december-c",
+    "asset": "justin-texan-drive-four-lanes-december-C.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nYour drive into Northwest High off Highway 114 is about to change, because Texan Drive is going to four lanes.\n\nNorthwest ISD is widening Texan Drive to two lanes each way from Pike Middle School to Highway 114, by Northwest High School in Justin. Phase one, Pike to the administration building, is set for December 2026 to spring 2027. Phase two runs to the stoplight at 114 and wraps up in January 2028. The district calls those dates tentative.\n\nMost bus traffic moves to a new transportation facility behind the Northwest ISD Aquatic Center, slated to open in December, with its own road out to 114. The original Northwest High building comes down to make a straighter path past Texan Field, and the campus gets 365 more parking spaces.\n\nThe district says no part of Texan Drive is planned to shut down, though the piece near 114 may be redirected in 2027. It's paid for by the 2023 bond plus a Fort Worth tax increment district.\n\nSend this to someone who sits in that Northwest High traffic.\n\nSources: Northwest ISD, Nov. 11, 2026; Cross Timbers Gazette, Nov. 12, 2026.\n\nPhotos: Awardgive, formulanone, Larry D. Moore, Ranch9613, Michael Barera via Wikimedia Commons. None show Texan Drive itself.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-17T23:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-17",
+    "pick_at_utc": [
+     "2026-11-18T14:00:00",
+     "2026-11-18T19:00:00",
+     "2026-11-19T01:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "keyword": "BUDGET",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-18T14:00:00",
+  "main": {},
+  "added": "2026-11-17"
  }
 ]
