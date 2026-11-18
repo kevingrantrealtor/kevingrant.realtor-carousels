@@ -6008,15 +6008,16 @@
      "views": 177
     },
     "judged": true,
-    "result": "not picked for the main feed",
-    "file_deleted": true,
     "day1": {
      "comments": 0,
      "likes": 0,
      "views": 184,
      "kw": 0,
      "age_h": 24.2
-    }
+    },
+    "picked": true,
+    "main_at_utc": "2026-11-18T23:50:37",
+    "picked_by": "Kevin (11/18): post A even though no trial got a like"
    },
    {
     "v": "B",
