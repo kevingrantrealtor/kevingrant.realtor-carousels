@@ -6063,5 +6063,62 @@
   "main_at_utc": "2026-11-18T14:00:00",
   "main": {},
   "added": "2026-11-17"
+ },
+ {
+  "slug": "denton-first-heb-opens-dec-16",
+  "town": "Denton",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-denton-first-heb-opens-dec-16-a",
+    "asset": "denton-first-heb-opens-dec-16-A.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nDenton's first H-E-B opens at 6 a.m. on December 16, and it wasn't supposed to open until next year.\n\nDenton's first H-E-B opens at 6 a.m. on Wednesday, December 16. It's at the northwest corner of I-35W and Robson Ranch Road, inside Hillwood's Landmark community. It was first expected in early 2027.\n\nThe store is expected to have a car wash and an eight-pump fuel center, and Robson Ranch Road is being widened on the west side of I-35W. Today the closest H-E-B to Denton is the one at Alliance. A second Denton store, on University Drive, is expected in late 2027.\n\nLandmark covers 3,200 acres and is expected to bring about 9,000 homes and apartments.\n\nSend this to someone in Denton who's been waiting on this one.\n\nSources: Cross Timbers Gazette, Nov. 17, 2026. CultureMap Dallas, Nov. 18, 2026. Local Profile, Nov. 17, 2026.\n\nPhotos: Tony Webster, Dario98leo, FASTILY, Hu Nhu, Renegomezphotography via Wikimedia Commons. The store photos are other H-E-B stores, not the Denton one.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-18T22:30:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-20",
+    "pick_at_utc": [
+     "2026-11-21T14:00:00",
+     "2026-11-21T19:00:00",
+     "2026-11-22T01:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-denton-first-heb-opens-dec-16-b",
+    "asset": "denton-first-heb-opens-dec-16-B.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nDecember 16 is the day H-E-B finally opens in Denton, and that's earlier than H-E-B first planned.\n\nDenton's first H-E-B opens at 6 a.m. on Wednesday, December 16. It's at the northwest corner of I-35W and Robson Ranch Road, inside Hillwood's Landmark community. It was first expected in early 2027.\n\nThe store is expected to have a car wash and an eight-pump fuel center, and Robson Ranch Road is being widened on the west side of I-35W. Today the closest H-E-B to Denton is the one at Alliance. A second Denton store, on University Drive, is expected in late 2027.\n\nLandmark covers 3,200 acres and is expected to bring about 9,000 homes and apartments.\n\nSend this to someone in Denton who's been waiting on this one.\n\nSources: Cross Timbers Gazette, Nov. 17, 2026. CultureMap Dallas, Nov. 18, 2026. Local Profile, Nov. 17, 2026.\n\nPhotos: Tony Webster, Dario98leo, FASTILY, Hu Nhu, Renegomezphotography via Wikimedia Commons. The store photos are other H-E-B stores, not the Denton one.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-19T14:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-20",
+    "pick_at_utc": [
+     "2026-11-21T14:00:00",
+     "2026-11-21T19:00:00",
+     "2026-11-22T01:00:00"
+    ]
+   },
+   {
+    "v": "C",
+    "tag": "reel-denton-first-heb-opens-dec-16-c",
+    "asset": "denton-first-heb-opens-dec-16-C.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nH-E-B picked I-35W and Robson Ranch Road for its first store in Denton, and the doors open December 16.\n\nDenton's first H-E-B opens at 6 a.m. on Wednesday, December 16. It's at the northwest corner of I-35W and Robson Ranch Road, inside Hillwood's Landmark community. It was first expected in early 2027.\n\nThe store is expected to have a car wash and an eight-pump fuel center, and Robson Ranch Road is being widened on the west side of I-35W. Today the closest H-E-B to Denton is the one at Alliance. A second Denton store, on University Drive, is expected in late 2027.\n\nLandmark covers 3,200 acres and is expected to bring about 9,000 homes and apartments.\n\nSend this to someone in Denton who's been waiting on this one.\n\nSources: Cross Timbers Gazette, Nov. 17, 2026. CultureMap Dallas, Nov. 18, 2026. Local Profile, Nov. 17, 2026.\n\nPhotos: Tony Webster, Dario98leo, FASTILY, Hu Nhu, Renegomezphotography via Wikimedia Commons. The store photos are other H-E-B stores, not the Denton one.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-20T14:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-20",
+    "pick_at_utc": [
+     "2026-11-21T14:00:00",
+     "2026-11-21T19:00:00",
+     "2026-11-22T01:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "keyword": "BUDGET",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-21T14:00:00",
+  "main": {},
+  "added": "2026-11-18"
  }
 ]
