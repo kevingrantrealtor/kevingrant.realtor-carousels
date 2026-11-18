@@ -6120,5 +6120,62 @@
   "main_at_utc": "2026-11-21T14:00:00",
   "main": {},
   "added": "2026-11-18"
+ },
+ {
+  "slug": "fort-worth-annexes-451-acres-maverick-golf",
+  "town": "Fort Worth",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-fort-worth-annexes-451-acres-maverick-golf-a",
+    "asset": "fort-worth-annexes-451-acres-maverick-golf-A.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nFort Worth voted 10 to 0 on November 17 to pull 451 acres near Aledo into the city, for homes around a private golf club.\n\nFort Worth City Council voted 10-0 on November 17 to annex about 451 acres near Aledo for homes around Maverick Golf & Ranch Club. The land is northwest of U.S. 377, west of FM 2871, south of Aledo Road and east of FM 1187. The council also approved the zoning, 10-0, for houses, townhomes and a limited number of apartments. No speakers signed up to oppose it.\n\nFort Worth becomes responsible for police, fire, streets and streetlights there. City staff projected $37.1 million in costs over 40 years, assuming 150 single-family homes averaging $2.75 million, and recommended the annexation for the positive fiscal impact they expect over time.\n\nWould you buy out there?\n\nSources: Dallas Express via KLIF, Nov. 18, 2026 (the only outlet so far with the vote). Fort Worth Plan Commission recommendation, Sept. 2026, via Citizen Portal.\n\nPhotos: Magnushopium, Renelibrary, Larry D. Moore, JherreraCODR, DerekAyala27, U.S. Geological Survey via Wikimedia Commons. The golf photos are other Texas courses, not Maverick.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-18T23:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-20",
+    "pick_at_utc": [
+     "2026-11-21T14:00:00",
+     "2026-11-21T19:00:00",
+     "2026-11-22T01:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-fort-worth-annexes-451-acres-maverick-golf-b",
+    "asset": "fort-worth-annexes-451-acres-maverick-golf-B.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nFort Worth's city limits grew by 451 acres on November 17, and not one person signed up to speak against it.\n\nFort Worth City Council voted 10-0 on November 17 to annex about 451 acres near Aledo for homes around Maverick Golf & Ranch Club. The land is northwest of U.S. 377, west of FM 2871, south of Aledo Road and east of FM 1187. The council also approved the zoning, 10-0, for houses, townhomes and a limited number of apartments. No speakers signed up to oppose it.\n\nFort Worth becomes responsible for police, fire, streets and streetlights there. City staff projected $37.1 million in costs over 40 years, assuming 150 single-family homes averaging $2.75 million, and recommended the annexation for the positive fiscal impact they expect over time.\n\nWould you buy out there?\n\nSources: Dallas Express via KLIF, Nov. 18, 2026 (the only outlet so far with the vote). Fort Worth Plan Commission recommendation, Sept. 2026, via Citizen Portal.\n\nPhotos: Magnushopium, Renelibrary, Larry D. Moore, JherreraCODR, DerekAyala27, U.S. Geological Survey via Wikimedia Commons. The golf photos are other Texas courses, not Maverick.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-19T15:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-20",
+    "pick_at_utc": [
+     "2026-11-21T14:00:00",
+     "2026-11-21T19:00:00",
+     "2026-11-22T01:00:00"
+    ]
+   },
+   {
+    "v": "C",
+    "tag": "reel-fort-worth-annexes-451-acres-maverick-golf-c",
+    "asset": "fort-worth-annexes-451-acres-maverick-golf-C.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nThe owner of land around a private golf club near Aledo asked to join Fort Worth, and the council said yes on November 17.\n\nFort Worth City Council voted 10-0 on November 17 to annex about 451 acres near Aledo for homes around Maverick Golf & Ranch Club. The land is northwest of U.S. 377, west of FM 2871, south of Aledo Road and east of FM 1187. The council also approved the zoning, 10-0, for houses, townhomes and a limited number of apartments. No speakers signed up to oppose it.\n\nFort Worth becomes responsible for police, fire, streets and streetlights there. City staff projected $37.1 million in costs over 40 years, assuming 150 single-family homes averaging $2.75 million, and recommended the annexation for the positive fiscal impact they expect over time.\n\nWould you buy out there?\n\nSources: Dallas Express via KLIF, Nov. 18, 2026 (the only outlet so far with the vote). Fort Worth Plan Commission recommendation, Sept. 2026, via Citizen Portal.\n\nPhotos: Magnushopium, Renelibrary, Larry D. Moore, JherreraCODR, DerekAyala27, U.S. Geological Survey via Wikimedia Commons. The golf photos are other Texas courses, not Maverick.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-20T15:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-20",
+    "pick_at_utc": [
+     "2026-11-21T14:00:00",
+     "2026-11-21T19:00:00",
+     "2026-11-22T01:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "keyword": "BUDGET",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-21T14:00:00",
+  "main": {},
+  "added": "2026-11-18"
  }
 ]
