@@ -6177,5 +6177,62 @@
   "main_at_utc": "2026-11-21T14:00:00",
   "main": {},
   "added": "2026-11-18"
+ },
+ {
+  "slug": "flower-mound-24-hour-er-denied-4-1",
+  "town": "Flower Mound",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-flower-mound-24-hour-er-denied-4-1-a",
+    "asset": "flower-mound-24-hour-er-denied-4-1-A.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nFlower Mound voted 4 to 1 on November 16 to keep a planned emergency room on FM 1171 from staying open overnight.\n\nFlower Mound Town Council voted 4-1 on November 16 to deny TotalCare ER's request to operate overnight at its planned spot on FM 1171, near Fireside Drive and Arrowhead Drive. Medical offices are already allowed there, so it can still open, just not from 10 p.m. to 7 a.m. As of November 17, TotalCare hadn't said if it will.\n\nNeighbors worried about ambulance noise, lights and traffic. TotalCare said it takes no ambulance traffic and doesn't use lights or sirens. The mayor said the council got more than four times as many letters against it as for it.\n\nThe one no vote, Deputy Mayor Pro Tem Brian Taylor, said a low-traffic use like this could be one of the best options for the space. A previous application there was an automotive shop.\n\nWhich side are you on?\n\nSources: Cross Timbers Gazette, Nov. 13 and Nov. 17, 2026 (the only outlet so far with the vote), and Sept. 22, 2026.\n\nPhotos: formulanone, Shiva Shenoy, Texamedic4, Aaron Jacobs via Wikimedia Commons. None show the FM 1171 site.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-18T23:30:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-20",
+    "pick_at_utc": [
+     "2026-11-21T14:00:00",
+     "2026-11-21T19:00:00",
+     "2026-11-22T01:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-flower-mound-24-hour-er-denied-4-1-b",
+    "asset": "flower-mound-24-hour-er-denied-4-1-B.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nNeighbors sent Flower Mound more than four times as many letters against a 24-hour ER as for it, and the council listened.\n\nFlower Mound Town Council voted 4-1 on November 16 to deny TotalCare ER's request to operate overnight at its planned spot on FM 1171, near Fireside Drive and Arrowhead Drive. Medical offices are already allowed there, so it can still open, just not from 10 p.m. to 7 a.m. As of November 17, TotalCare hadn't said if it will.\n\nNeighbors worried about ambulance noise, lights and traffic. TotalCare said it takes no ambulance traffic and doesn't use lights or sirens. The mayor said the council got more than four times as many letters against it as for it.\n\nThe one no vote, Deputy Mayor Pro Tem Brian Taylor, said a low-traffic use like this could be one of the best options for the space. A previous application there was an automotive shop.\n\nWhich side are you on?\n\nSources: Cross Timbers Gazette, Nov. 13 and Nov. 17, 2026 (the only outlet so far with the vote), and Sept. 22, 2026.\n\nPhotos: formulanone, Shiva Shenoy, Texamedic4, Aaron Jacobs via Wikimedia Commons. None show the FM 1171 site.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-19T16:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-20",
+    "pick_at_utc": [
+     "2026-11-21T14:00:00",
+     "2026-11-21T19:00:00",
+     "2026-11-22T01:00:00"
+    ]
+   },
+   {
+    "v": "C",
+    "tag": "reel-flower-mound-24-hour-er-denied-4-1-c",
+    "asset": "flower-mound-24-hour-er-denied-4-1-C.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nA pizza party and free coffee weren't enough to win over the neighbors of a 24-hour ER planned on FM 1171 in Flower Mound.\n\nFlower Mound Town Council voted 4-1 on November 16 to deny TotalCare ER's request to operate overnight at its planned spot on FM 1171, near Fireside Drive and Arrowhead Drive. Medical offices are already allowed there, so it can still open, just not from 10 p.m. to 7 a.m. As of November 17, TotalCare hadn't said if it will.\n\nNeighbors worried about ambulance noise, lights and traffic. TotalCare said it takes no ambulance traffic and doesn't use lights or sirens. The mayor said the council got more than four times as many letters against it as for it.\n\nThe one no vote, Deputy Mayor Pro Tem Brian Taylor, said a low-traffic use like this could be one of the best options for the space. A previous application there was an automotive shop.\n\nWhich side are you on?\n\nSources: Cross Timbers Gazette, Nov. 13 and Nov. 17, 2026 (the only outlet so far with the vote), and Sept. 22, 2026.\n\nPhotos: formulanone, Shiva Shenoy, Texamedic4, Aaron Jacobs via Wikimedia Commons. None show the FM 1171 site.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-20T16:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-20",
+    "pick_at_utc": [
+     "2026-11-21T14:00:00",
+     "2026-11-21T19:00:00",
+     "2026-11-22T01:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "keyword": "BUDGET",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-21T14:00:00",
+  "main": {},
+  "added": "2026-11-18"
  }
 ]
