@@ -6377,5 +6377,62 @@
   "main_at_utc": "2026-11-19T14:00:00",
   "main": {},
   "added": "2026-11-18"
+ },
+ {
+  "slug": "roanoke-ranch-approved-nov-17",
+  "town": "Roanoke",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-roanoke-ranch-approved-nov-17-a",
+    "asset": "roanoke-ranch-approved-nov-17-A.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nRoanoke just approved 70 acres of stores and two warehouses next to the Briarwyck neighborhood, and the November 17 vote was unanimous.\n\nRoanoke Ranch is approved. On November 17 the Roanoke City Council voted unanimously for the 70.1-acre development on State Highway 114 and Briarwyck Parkway, with retail, pad sites and two warehouses. The developer is Pelican Industrial.\n\nThere are no apartments in it. Those came out after pushback from the council and Briarwyck neighbors, and the city got 142 letters from 105 residents about the plan. The council added one condition on November 17: no assisted living facility.\n\nThe developer agreed to small signs, low lights and a barrier of trees and wall between the development and the neighborhood. Traffic gets pushed to the 114 frontage road, away from neighborhood streets.\n\nWhat's behind the back fence matters when you buy. So the real question is which towns, and which streets, still fit your budget.\n\nSources: Community Impact, Nov. 18, 2026. Community Impact, Oct. 30, 2026.\n\nPhotos: NoobThreePointOh (CC BY-SA 4.0), NETarrantMan (CC BY 3.0), Adam Moss (CC BY-SA 2.0), HominyGrits007 (CC0) and Corey Coyle (CC BY 3.0) via Wikimedia Commons. The highway and home photos are near Roanoke, not the site itself.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-19T20:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-21",
+    "pick_at_utc": [
+     "2026-11-22T14:00:00",
+     "2026-11-22T19:00:00",
+     "2026-11-23T01:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-roanoke-ranch-approved-nov-17-b",
+    "asset": "roanoke-ranch-approved-nov-17-B.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nAfter pushback from Briarwyck neighbors, the apartments are out of Roanoke Ranch, and on November 17 the city approved the rest.\n\nRoanoke Ranch is approved. On November 17 the Roanoke City Council voted unanimously for the 70.1-acre development on State Highway 114 and Briarwyck Parkway, with retail, pad sites and two warehouses. The developer is Pelican Industrial.\n\nThere are no apartments in it. Those came out after pushback from the council and Briarwyck neighbors, and the city got 142 letters from 105 residents about the plan. The council added one condition on November 17: no assisted living facility.\n\nThe developer agreed to small signs, low lights and a barrier of trees and wall between the development and the neighborhood. Traffic gets pushed to the 114 frontage road, away from neighborhood streets.\n\nWhat's behind the back fence matters when you buy. So the real question is which towns, and which streets, still fit your budget.\n\nSources: Community Impact, Nov. 18, 2026. Community Impact, Oct. 30, 2026.\n\nPhotos: NoobThreePointOh (CC BY-SA 4.0), NETarrantMan (CC BY 3.0), Adam Moss (CC BY-SA 2.0), HominyGrits007 (CC0) and Corey Coyle (CC BY 3.0) via Wikimedia Commons. The highway and home photos are near Roanoke, not the site itself.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-20T14:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-21",
+    "pick_at_utc": [
+     "2026-11-22T14:00:00",
+     "2026-11-22T19:00:00",
+     "2026-11-23T01:00:00"
+    ]
+   },
+   {
+    "v": "C",
+    "tag": "reel-roanoke-ranch-approved-nov-17-c",
+    "asset": "roanoke-ranch-approved-nov-17-C.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nNovember 17 was the night Roanoke finally voted on Roanoke Ranch, the 70 acres on Highway 114 it put off in October.\n\nRoanoke Ranch is approved. On November 17 the Roanoke City Council voted unanimously for the 70.1-acre development on State Highway 114 and Briarwyck Parkway, with retail, pad sites and two warehouses. The developer is Pelican Industrial.\n\nThere are no apartments in it. Those came out after pushback from the council and Briarwyck neighbors, and the city got 142 letters from 105 residents about the plan. The council added one condition on November 17: no assisted living facility.\n\nThe developer agreed to small signs, low lights and a barrier of trees and wall between the development and the neighborhood. Traffic gets pushed to the 114 frontage road, away from neighborhood streets.\n\nWhat's behind the back fence matters when you buy. So the real question is which towns, and which streets, still fit your budget.\n\nSources: Community Impact, Nov. 18, 2026. Community Impact, Oct. 30, 2026.\n\nPhotos: NoobThreePointOh (CC BY-SA 4.0), NETarrantMan (CC BY 3.0), Adam Moss (CC BY-SA 2.0), HominyGrits007 (CC0) and Corey Coyle (CC BY 3.0) via Wikimedia Commons. The highway and home photos are near Roanoke, not the site itself.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-21T14:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-21",
+    "pick_at_utc": [
+     "2026-11-22T14:00:00",
+     "2026-11-22T19:00:00",
+     "2026-11-23T01:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "keyword": "BUDGET",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-22T14:00:00",
+  "main": {},
+  "added": "2026-11-19"
  }
 ]
