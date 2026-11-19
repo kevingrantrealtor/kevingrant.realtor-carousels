@@ -6118,7 +6118,15 @@
     ],
     "media_id": "18112866398618147",
     "posted_at_utc": "2026-11-18T22:34:33",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "score": {
+     "comments": 0,
+     "likes": 2,
+     "views": 115
+    },
+    "judged": true,
+    "result": "not picked for the main feed",
+    "file_deleted": true
    },
    {
     "v": "B",
@@ -6136,7 +6144,15 @@
     ],
     "media_id": "18119737664023096",
     "posted_at_utc": "2026-11-19T00:04:26",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "score": {
+     "comments": 0,
+     "likes": 0,
+     "views": 149
+    },
+    "judged": true,
+    "result": "not picked for the main feed",
+    "file_deleted": true
    },
    {
     "v": "C",
@@ -6154,7 +6170,15 @@
     ],
     "media_id": "18110508143303587",
     "posted_at_utc": "2026-11-19T01:35:09",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "score": {
+     "comments": 0,
+     "likes": 2,
+     "views": 322
+    },
+    "picked": true,
+    "main_at_utc": "2026-11-20T01:00:00",
+    "judged": true
    }
   ],
   "pick": "day",
@@ -6184,7 +6208,15 @@
     ],
     "media_id": "17918554953514284",
     "posted_at_utc": "2026-11-18T23:04:30",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "score": {
+     "comments": 0,
+     "likes": 5,
+     "views": 1231
+    },
+    "picked": true,
+    "main_at_utc": "2026-11-19T19:00:00",
+    "judged": true
    },
    {
     "v": "B",
@@ -6202,7 +6234,15 @@
     ],
     "media_id": "18119319086122549",
     "posted_at_utc": "2026-11-19T00:34:27",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "score": {
+     "comments": 0,
+     "likes": 0,
+     "views": 133
+    },
+    "judged": true,
+    "result": "not picked for the main feed",
+    "file_deleted": true
    },
    {
     "v": "C",
@@ -6220,7 +6260,15 @@
     ],
     "media_id": "17917254498471636",
     "posted_at_utc": "2026-11-19T02:04:42",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "score": {
+     "comments": 0,
+     "likes": 0,
+     "views": 214
+    },
+    "judged": true,
+    "result": "not picked for the main feed",
+    "file_deleted": true
    }
   ],
   "pick": "day",
@@ -6250,7 +6298,15 @@
     ],
     "media_id": "18097244093183034",
     "posted_at_utc": "2026-11-18T23:34:33",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "score": {
+     "comments": 0,
+     "likes": 1,
+     "views": 1168
+    },
+    "judged": true,
+    "result": "not picked for the main feed",
+    "file_deleted": true
    },
    {
     "v": "B",
@@ -6268,7 +6324,15 @@
     ],
     "media_id": "18645007366047600",
     "posted_at_utc": "2026-11-19T01:04:27",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "score": {
+     "comments": 1,
+     "likes": 1,
+     "views": 427
+    },
+    "judged": true,
+    "result": "not picked for the main feed",
+    "file_deleted": true
    },
    {
     "v": "C",
@@ -6286,7 +6350,20 @@
     ],
     "media_id": "18122838563105505",
     "posted_at_utc": "2026-11-19T02:34:37",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "score": {
+     "comments": 0,
+     "likes": 10,
+     "views": 1213
+    },
+    "picked": true,
+    "main_at_utc": "2026-11-19T14:00:00",
+    "judged": true,
+    "main_done": true,
+    "main_media_id": "17957673312039307",
+    "main_posted_at_utc": "2026-11-19T14:04:45",
+    "result": "posted to the main feed",
+    "file_deleted": true
    }
   ],
   "pick": "day",
