@@ -6648,5 +6648,62 @@
   "main_at_utc": "2026-11-22T19:00:00",
   "main": {},
   "added": "2026-11-20"
+ },
+ {
+  "slug": "fort-worth-uta-west-walsh-fall-2028",
+  "town": "Fort Worth",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-fort-worth-uta-west-walsh-fall-2028-a",
+    "asset": "fort-worth-uta-west-walsh-fall-2028-A.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\n10,000 students could eventually go to UTA's new campus at Walsh Ranch, way out on the west side of Fort Worth.\n\nUTA is building a new campus, UTA West, at the Walsh development in far west Fort Worth, near Aledo. Construction is underway on a 150,000 square foot academic building, and it's set to open in fall 2028.\n\nThe Fort Worth Report says it could eventually serve up to 10,000 students, mostly juniors, seniors and grad students. It's slated to be the first public research university located at least partly in Parker County.\n\nParker County grew nearly 25 percent from 2020 to July 2025, to about 185,000 people, and the Walsh area is adding thousands of homes.\n\nSo the real question is which towns out west still fit your budget.\n\nSend this to someone who's been looking at Aledo or west Fort Worth.\n\nSources: UTA News, Nov. 13, 2026. Fort Worth Report, Nov. 16, 2026.\n\nPhotos: Renelibrary, CC BY-SA 3.0, University of Texas at Arlington News Service Photograph Collection, CC BY 4.0, University of Texas at Arlington Photograph Collection, CC BY 4.0, Renelibrary, CC BY-SA 4.0, Larry D. Moore, CC BY 4.0, Leaflet, CC BY-SA 3.0, via Wikimedia Commons. They show UTA's main campus in Arlington, Aledo and Parker County, not the UTA West site.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-21T17:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-21",
+    "pick_at_utc": [
+     "2026-11-22T19:00:00",
+     "2026-11-23T01:00:00",
+     "2026-11-23T14:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-fort-worth-uta-west-walsh-fall-2028-b",
+    "asset": "fort-worth-uta-west-walsh-fall-2028-B.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nFall 2028 is when UTA's new campus at Walsh Ranch is set to open, way out on the west side of Fort Worth.\n\nUTA is building a new campus, UTA West, at the Walsh development in far west Fort Worth, near Aledo. Construction is underway on a 150,000 square foot academic building, and it's set to open in fall 2028.\n\nThe Fort Worth Report says it could eventually serve up to 10,000 students, mostly juniors, seniors and grad students. It's slated to be the first public research university located at least partly in Parker County.\n\nParker County grew nearly 25 percent from 2020 to July 2025, to about 185,000 people, and the Walsh area is adding thousands of homes.\n\nSo the real question is which towns out west still fit your budget.\n\nSend this to someone who's been looking at Aledo or west Fort Worth.\n\nSources: UTA News, Nov. 13, 2026. Fort Worth Report, Nov. 16, 2026.\n\nPhotos: Renelibrary, CC BY-SA 3.0, University of Texas at Arlington News Service Photograph Collection, CC BY 4.0, University of Texas at Arlington Photograph Collection, CC BY 4.0, Renelibrary, CC BY-SA 4.0, Larry D. Moore, CC BY 4.0, Leaflet, CC BY-SA 3.0, via Wikimedia Commons. They show UTA's main campus in Arlington, Aledo and Parker County, not the UTA West site.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-21T18:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-21",
+    "pick_at_utc": [
+     "2026-11-22T19:00:00",
+     "2026-11-23T01:00:00",
+     "2026-11-23T14:00:00"
+    ]
+   },
+   {
+    "v": "C",
+    "tag": "reel-fort-worth-uta-west-walsh-fall-2028-c",
+    "asset": "fort-worth-uta-west-walsh-fall-2028-C.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nUTA is building a campus out by Aledo, and it's slated to be the first public research university at least partly in Parker County.\n\nUTA is building a new campus, UTA West, at the Walsh development in far west Fort Worth, near Aledo. Construction is underway on a 150,000 square foot academic building, and it's set to open in fall 2028.\n\nThe Fort Worth Report says it could eventually serve up to 10,000 students, mostly juniors, seniors and grad students. It's slated to be the first public research university located at least partly in Parker County.\n\nParker County grew nearly 25 percent from 2020 to July 2025, to about 185,000 people, and the Walsh area is adding thousands of homes.\n\nSo the real question is which towns out west still fit your budget.\n\nSend this to someone who's been looking at Aledo or west Fort Worth.\n\nSources: UTA News, Nov. 13, 2026. Fort Worth Report, Nov. 16, 2026.\n\nPhotos: Renelibrary, CC BY-SA 3.0, University of Texas at Arlington News Service Photograph Collection, CC BY 4.0, University of Texas at Arlington Photograph Collection, CC BY 4.0, Renelibrary, CC BY-SA 4.0, Larry D. Moore, CC BY 4.0, Leaflet, CC BY-SA 3.0, via Wikimedia Commons. They show UTA's main campus in Arlington, Aledo and Parker County, not the UTA West site.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-21T19:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-21",
+    "pick_at_utc": [
+     "2026-11-22T19:00:00",
+     "2026-11-23T01:00:00",
+     "2026-11-23T14:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "keyword": "BUDGET",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-22T19:00:00",
+  "main": {},
+  "added": "2026-11-20"
  }
 ]
