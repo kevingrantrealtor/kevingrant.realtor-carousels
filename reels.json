@@ -6705,5 +6705,62 @@
   "main_at_utc": "2026-11-22T19:00:00",
   "main": {},
   "added": "2026-11-20"
+ },
+ {
+  "slug": "denton-isd-ginnings-pk8-68-million",
+  "town": "Denton",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-denton-isd-ginnings-pk8-68-million-a",
+    "asset": "denton-isd-ginnings-pk8-68-million-A.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\n68.6 million dollars is now the estimated cost to rebuild Ginnings Elementary in Denton, and it won't just be an elementary anymore.\n\nOn Nov. 10, the Denton ISD board approved a change order on the Ginnings school rebuild. The estimated total cost goes from about 63.28 million dollars to 68.65 million.\n\nCommunity Impact reports the change starts turning Ginnings into a pre-K through 8th grade academy, with a second science lab, a second art room, middle school dressing rooms and a fine arts room. Construction is now set to wrap October 26, 2027 instead of spring 2027, and the district hasn't given an opening date.\n\nThe old campus closed before the 2025-26 school year for the rebuild, and its kids go to Evers Park, Hodge and Schulz elementary schools for now.\n\nSo the real question is which Denton neighborhoods still fit your budget.\n\nSend this to a Denton parent who's been wondering what's going on with Ginnings.\n\nSources: Denton ISD board agenda item, Nov. 10, 2026. Community Impact, Nov. 13, 2026.\n\nPhotos: Hu Nhu, CC BY-SA 4.0, Renegomezphotography, CC BY-SA 4.0, HominyGrits007, CC BY-SA 4.0, via Wikimedia Commons. They show around Denton, not the Ginnings site.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-21T20:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-21",
+    "pick_at_utc": [
+     "2026-11-22T19:00:00",
+     "2026-11-23T01:00:00",
+     "2026-11-23T14:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-denton-isd-ginnings-pk8-68-million-b",
+    "asset": "denton-isd-ginnings-pk8-68-million-B.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nOctober 2027 is the new finish date for Denton's Ginnings school, now set to come back as a pre-K through 8th grade campus.\n\nOn Nov. 10, the Denton ISD board approved a change order on the Ginnings school rebuild. The estimated total cost goes from about 63.28 million dollars to 68.65 million.\n\nCommunity Impact reports the change starts turning Ginnings into a pre-K through 8th grade academy, with a second science lab, a second art room, middle school dressing rooms and a fine arts room. Construction is now set to wrap October 26, 2027 instead of spring 2027, and the district hasn't given an opening date.\n\nThe old campus closed before the 2025-26 school year for the rebuild, and its kids go to Evers Park, Hodge and Schulz elementary schools for now.\n\nSo the real question is which Denton neighborhoods still fit your budget.\n\nSend this to a Denton parent who's been wondering what's going on with Ginnings.\n\nSources: Denton ISD board agenda item, Nov. 10, 2026. Community Impact, Nov. 13, 2026.\n\nPhotos: Hu Nhu, CC BY-SA 4.0, Renegomezphotography, CC BY-SA 4.0, HominyGrits007, CC BY-SA 4.0, via Wikimedia Commons. They show around Denton, not the Ginnings site.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-21T20:30:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-21",
+    "pick_at_utc": [
+     "2026-11-22T19:00:00",
+     "2026-11-23T01:00:00",
+     "2026-11-23T14:00:00"
+    ]
+   },
+   {
+    "v": "C",
+    "tag": "reel-denton-isd-ginnings-pk8-68-million-c",
+    "asset": "denton-isd-ginnings-pk8-68-million-C.mp4",
+    "caption": "Comment the word \"BUDGET\" on this post and I'll send you the towns and homes that fit your budget \ud83d\udc47\n\nOn November 10, Denton ISD added about 5.4 million dollars to start turning its Ginnings Elementary rebuild into a pre-K through 8th grade campus.\n\nOn Nov. 10, the Denton ISD board approved a change order on the Ginnings school rebuild. The estimated total cost goes from about 63.28 million dollars to 68.65 million.\n\nCommunity Impact reports the change starts turning Ginnings into a pre-K through 8th grade academy, with a second science lab, a second art room, middle school dressing rooms and a fine arts room. Construction is now set to wrap October 26, 2027 instead of spring 2027, and the district hasn't given an opening date.\n\nThe old campus closed before the 2025-26 school year for the rebuild, and its kids go to Evers Park, Hodge and Schulz elementary schools for now.\n\nSo the real question is which Denton neighborhoods still fit your budget.\n\nSend this to a Denton parent who's been wondering what's going on with Ginnings.\n\nSources: Denton ISD board agenda item, Nov. 10, 2026. Community Impact, Nov. 13, 2026.\n\nPhotos: Hu Nhu, CC BY-SA 4.0, Renegomezphotography, CC BY-SA 4.0, HominyGrits007, CC BY-SA 4.0, via Wikimedia Commons. They show around Denton, not the Ginnings site.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-21T21:00:00",
+    "keyword": "BUDGET",
+    "ending": "budget",
+    "batch": "2026-11-21",
+    "pick_at_utc": [
+     "2026-11-22T19:00:00",
+     "2026-11-23T01:00:00",
+     "2026-11-23T14:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "keyword": "BUDGET",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-22T19:00:00",
+  "main": {},
+  "added": "2026-11-20"
  }
 ]
