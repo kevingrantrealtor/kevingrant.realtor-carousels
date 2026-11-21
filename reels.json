@@ -6473,7 +6473,15 @@
      "views": 125,
      "kw": 0,
      "age_h": 24.2
-    }
+    },
+    "score": {
+     "comments": 0,
+     "likes": 0,
+     "views": 125
+    },
+    "judged": true,
+    "result": "not picked for the main feed",
+    "file_deleted": true
    },
    {
     "v": "B",
@@ -6491,7 +6499,22 @@
     ],
     "media_id": "17926880808447884",
     "posted_at_utc": "2026-11-20T14:05:18",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "day1": {
+     "comments": 0,
+     "likes": 0,
+     "views": 339,
+     "kw": 0,
+     "age_h": 29.2
+    },
+    "score": {
+     "comments": 0,
+     "likes": 0,
+     "views": 339
+    },
+    "judged": true,
+    "result": "not picked for the main feed",
+    "file_deleted": true
    },
    {
     "v": "C",
@@ -6509,7 +6532,22 @@
     ],
     "media_id": "18121404698077260",
     "posted_at_utc": "2026-11-20T18:49:26",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "day1": {
+     "comments": 0,
+     "likes": 0,
+     "views": 152,
+     "kw": 0,
+     "age_h": 24.4
+    },
+    "score": {
+     "comments": 0,
+     "likes": 0,
+     "views": 152
+    },
+    "judged": true,
+    "result": "not picked for the main feed",
+    "file_deleted": true
    }
   ],
   "pick": "day",
@@ -6546,7 +6584,15 @@
      "views": 267,
      "kw": 0,
      "age_h": 24.2
-    }
+    },
+    "score": {
+     "comments": 0,
+     "likes": 0,
+     "views": 269
+    },
+    "judged": true,
+    "result": "not picked for the main feed",
+    "file_deleted": true
    },
    {
     "v": "B",
@@ -6564,7 +6610,22 @@
     ],
     "media_id": "18026727869707980",
     "posted_at_utc": "2026-11-20T15:19:47",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "day1": {
+     "comments": 0,
+     "likes": 0,
+     "views": 136,
+     "kw": 0,
+     "age_h": 27.9
+    },
+    "score": {
+     "comments": 0,
+     "likes": 0,
+     "views": 136
+    },
+    "judged": true,
+    "result": "not picked for the main feed",
+    "file_deleted": true
    },
    {
     "v": "C",
@@ -6582,7 +6643,20 @@
     ],
     "media_id": "18139340560642220",
     "posted_at_utc": "2026-11-20T19:20:47",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "score": {
+     "comments": 0,
+     "likes": 6,
+     "views": 1229
+    },
+    "picked": true,
+    "main_at_utc": "2026-11-21T19:00:00",
+    "judged": true,
+    "main_done": true,
+    "main_media_id": "17974257261178921",
+    "main_posted_at_utc": "2026-11-21T19:22:31",
+    "result": "posted to the main feed",
+    "file_deleted": true
    }
   ],
   "pick": "day",
@@ -6609,7 +6683,10 @@
      "2026-11-22T19:00:00",
      "2026-11-23T01:00:00",
      "2026-11-23T14:00:00"
-    ]
+    ],
+    "media_id": "18123444014069509",
+    "posted_at_utc": "2026-11-21T19:16:01",
+    "landed_as_trial": true
    },
    {
     "v": "B",
@@ -6624,7 +6701,10 @@
      "2026-11-22T19:00:00",
      "2026-11-23T01:00:00",
      "2026-11-23T14:00:00"
-    ]
+    ],
+    "media_id": "17927364921443061",
+    "posted_at_utc": "2026-11-21T19:16:44",
+    "landed_as_trial": true
    },
    {
     "v": "C",
@@ -6639,7 +6719,10 @@
      "2026-11-22T19:00:00",
      "2026-11-23T01:00:00",
      "2026-11-23T14:00:00"
-    ]
+    ],
+    "media_id": "18103914536073035",
+    "posted_at_utc": "2026-11-21T19:18:13",
+    "landed_as_trial": true
    }
   ],
   "pick": "day",
@@ -6666,7 +6749,10 @@
      "2026-11-22T19:00:00",
      "2026-11-23T01:00:00",
      "2026-11-23T14:00:00"
-    ]
+    ],
+    "media_id": "18144647413611892",
+    "posted_at_utc": "2026-11-21T19:18:52",
+    "landed_as_trial": true
    },
    {
     "v": "B",
@@ -6681,7 +6767,9 @@
      "2026-11-22T19:00:00",
      "2026-11-23T01:00:00",
      "2026-11-23T14:00:00"
-    ]
+    ],
+    "tries": 1,
+    "last_error": "Instagram could not process the video: Error: Media upload has failed with error code 2207077"
    },
    {
     "v": "C",
@@ -6696,7 +6784,10 @@
      "2026-11-22T19:00:00",
      "2026-11-23T01:00:00",
      "2026-11-23T14:00:00"
-    ]
+    ],
+    "media_id": "18015035510988959",
+    "posted_at_utc": "2026-11-21T19:21:43",
+    "landed_as_trial": true
    }
   ],
   "pick": "day",
