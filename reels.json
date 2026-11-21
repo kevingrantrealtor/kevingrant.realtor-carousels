@@ -6656,7 +6656,14 @@
     "main_media_id": "17974257261178921",
     "main_posted_at_utc": "2026-11-21T19:22:31",
     "result": "posted to the main feed",
-    "file_deleted": true
+    "file_deleted": true,
+    "day1": {
+     "comments": 0,
+     "likes": 6,
+     "views": 1230,
+     "kw": 0,
+     "age_h": 28.5
+    }
    }
   ],
   "pick": "day",
@@ -6769,7 +6776,10 @@
      "2026-11-23T14:00:00"
     ],
     "tries": 1,
-    "last_error": "Instagram could not process the video: Error: Media upload has failed with error code 2207077"
+    "last_error": "Instagram could not process the video: Error: Media upload has failed with error code 2207077",
+    "media_id": "18201986095381476",
+    "posted_at_utc": "2026-11-21T23:50:41",
+    "landed_as_trial": true
    },
    {
     "v": "C",
@@ -6814,7 +6824,10 @@
      "2026-11-22T19:00:00",
      "2026-11-23T01:00:00",
      "2026-11-23T14:00:00"
-    ]
+    ],
+    "media_id": "18644363845039397",
+    "posted_at_utc": "2026-11-21T23:52:03",
+    "landed_as_trial": true
    },
    {
     "v": "B",
@@ -6829,7 +6842,10 @@
      "2026-11-22T19:00:00",
      "2026-11-23T01:00:00",
      "2026-11-23T14:00:00"
-    ]
+    ],
+    "media_id": "17966223951253269",
+    "posted_at_utc": "2026-11-21T23:52:42",
+    "landed_as_trial": true
    },
    {
     "v": "C",
@@ -6844,7 +6860,10 @@
      "2026-11-22T19:00:00",
      "2026-11-23T01:00:00",
      "2026-11-23T14:00:00"
-    ]
+    ],
+    "media_id": "17897941047682670",
+    "posted_at_utc": "2026-11-21T23:53:23",
+    "landed_as_trial": true
    }
   ],
   "pick": "day",
