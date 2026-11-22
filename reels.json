@@ -6693,7 +6693,22 @@
     ],
     "media_id": "18123444014069509",
     "posted_at_utc": "2026-11-21T19:16:01",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "day1": {
+     "comments": 0,
+     "likes": 3,
+     "views": 164,
+     "kw": 0,
+     "age_h": 25.8
+    },
+    "score": {
+     "comments": 0,
+     "likes": 3,
+     "views": 164
+    },
+    "judged": true,
+    "result": "not picked for the main feed",
+    "file_deleted": true
    },
    {
     "v": "B",
@@ -6711,7 +6726,22 @@
     ],
     "media_id": "17927364921443061",
     "posted_at_utc": "2026-11-21T19:16:44",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "day1": {
+     "comments": 0,
+     "likes": 0,
+     "views": 116,
+     "kw": 0,
+     "age_h": 25.8
+    },
+    "score": {
+     "comments": 0,
+     "likes": 0,
+     "views": 116
+    },
+    "judged": true,
+    "result": "not picked for the main feed",
+    "file_deleted": true
    },
    {
     "v": "C",
@@ -6729,7 +6759,22 @@
     ],
     "media_id": "18103914536073035",
     "posted_at_utc": "2026-11-21T19:18:13",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "day1": {
+     "comments": 0,
+     "likes": 2,
+     "views": 347,
+     "kw": 0,
+     "age_h": 25.8
+    },
+    "score": {
+     "comments": 0,
+     "likes": 2,
+     "views": 347
+    },
+    "picked": true,
+    "main_at_utc": "2026-11-23T14:00:00",
+    "judged": true
    }
   ],
   "pick": "day",
@@ -6759,7 +6804,22 @@
     ],
     "media_id": "18144647413611892",
     "posted_at_utc": "2026-11-21T19:18:52",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "day1": {
+     "comments": 0,
+     "likes": 8,
+     "views": 1185,
+     "kw": 0,
+     "age_h": 25.8
+    },
+    "score": {
+     "comments": 0,
+     "likes": 8,
+     "views": 1185
+    },
+    "picked": true,
+    "main_at_utc": "2026-11-23T01:00:00",
+    "judged": true
    },
    {
     "v": "B",
@@ -6779,7 +6839,15 @@
     "last_error": "Instagram could not process the video: Error: Media upload has failed with error code 2207077",
     "media_id": "18201986095381476",
     "posted_at_utc": "2026-11-21T23:50:41",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "score": {
+     "comments": 0,
+     "likes": 0,
+     "views": 188
+    },
+    "judged": true,
+    "result": "not picked for the main feed",
+    "file_deleted": true
    },
    {
     "v": "C",
@@ -6797,7 +6865,22 @@
     ],
     "media_id": "18015035510988959",
     "posted_at_utc": "2026-11-21T19:21:43",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "day1": {
+     "comments": 0,
+     "likes": 7,
+     "views": 307,
+     "kw": 0,
+     "age_h": 25.7
+    },
+    "score": {
+     "comments": 0,
+     "likes": 7,
+     "views": 307
+    },
+    "judged": true,
+    "result": "not picked for the main feed",
+    "file_deleted": true
    }
   ],
   "pick": "day",
@@ -6827,7 +6910,20 @@
     ],
     "media_id": "18644363845039397",
     "posted_at_utc": "2026-11-21T23:52:03",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "score": {
+     "comments": 0,
+     "likes": 4,
+     "views": 1106
+    },
+    "picked": true,
+    "main_at_utc": "2026-11-22T19:00:00",
+    "judged": true,
+    "main_done": true,
+    "main_media_id": "17992179918113863",
+    "main_posted_at_utc": "2026-11-22T21:07:11",
+    "result": "posted to the main feed",
+    "file_deleted": true
    },
    {
     "v": "B",
@@ -6845,7 +6941,15 @@
     ],
     "media_id": "17966223951253269",
     "posted_at_utc": "2026-11-21T23:52:42",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "score": {
+     "comments": 0,
+     "likes": 1,
+     "views": 252
+    },
+    "judged": true,
+    "result": "not picked for the main feed",
+    "file_deleted": true
    },
    {
     "v": "C",
@@ -6863,7 +6967,15 @@
     ],
     "media_id": "17897941047682670",
     "posted_at_utc": "2026-11-21T23:53:23",
-    "landed_as_trial": true
+    "landed_as_trial": true,
+    "score": {
+     "comments": 0,
+     "likes": 5,
+     "views": 868
+    },
+    "judged": true,
+    "result": "not picked for the main feed",
+    "file_deleted": true
    }
   ],
   "pick": "day",
