@@ -6819,7 +6819,12 @@
     },
     "picked": true,
     "main_at_utc": "2026-11-23T01:00:00",
-    "judged": true
+    "judged": true,
+    "main_done": true,
+    "main_media_id": "18044828585837724",
+    "main_posted_at_utc": "2026-11-23T01:44:40",
+    "result": "posted to the main feed",
+    "file_deleted": true
    },
    {
     "v": "B",
@@ -6847,7 +6852,14 @@
     },
     "judged": true,
     "result": "not picked for the main feed",
-    "file_deleted": true
+    "file_deleted": true,
+    "day1": {
+     "comments": 0,
+     "likes": 0,
+     "views": 198,
+     "kw": 0,
+     "age_h": 25.9
+    }
    },
    {
     "v": "C",
@@ -6923,7 +6935,14 @@
     "main_media_id": "17992179918113863",
     "main_posted_at_utc": "2026-11-22T21:07:11",
     "result": "posted to the main feed",
-    "file_deleted": true
+    "file_deleted": true,
+    "day1": {
+     "comments": 0,
+     "likes": 4,
+     "views": 1110,
+     "kw": 0,
+     "age_h": 25.9
+    }
    },
    {
     "v": "B",
@@ -6949,7 +6968,14 @@
     },
     "judged": true,
     "result": "not picked for the main feed",
-    "file_deleted": true
+    "file_deleted": true,
+    "day1": {
+     "comments": 0,
+     "likes": 1,
+     "views": 258,
+     "kw": 0,
+     "age_h": 25.8
+    }
    },
    {
     "v": "C",
@@ -6975,7 +7001,14 @@
     },
     "judged": true,
     "result": "not picked for the main feed",
-    "file_deleted": true
+    "file_deleted": true,
+    "day1": {
+     "comments": 0,
+     "likes": 5,
+     "views": 926,
+     "kw": 0,
+     "age_h": 25.8
+    }
    }
   ],
   "pick": "day",
