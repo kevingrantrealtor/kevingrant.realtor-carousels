@@ -6774,7 +6774,12 @@
     },
     "picked": true,
     "main_at_utc": "2026-11-23T14:00:00",
-    "judged": true
+    "judged": true,
+    "main_done": true,
+    "main_media_id": "18156139696555337",
+    "main_posted_at_utc": "2026-11-23T18:34:27",
+    "result": "posted to the main feed",
+    "file_deleted": true
    }
   ],
   "pick": "day",
