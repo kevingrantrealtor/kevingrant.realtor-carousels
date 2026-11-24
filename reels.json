@@ -7022,5 +7022,62 @@
   "main_at_utc": "2026-11-22T19:00:00",
   "main": {},
   "added": "2026-11-20"
+ },
+ {
+  "slug": "dallas-lakewood-castle-auction-lawsuit",
+  "town": "Dallas",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-dallas-lakewood-castle-auction-lawsuit-a",
+    "asset": "dallas-lakewood-castle-auction-lawsuit-A.mp4",
+    "caption": "Comment the word \"DATA\" on this post and I'll send you the market report for your town \ud83d\udc47\n\nA castle in Lakewood, over in Dallas, was listed for about 6 million dollars, and a lawsuit says the winning auction bid was 2.55 million.\n\nThere's a castle on Gaston Avenue in Lakewood that used to belong to R.L. Thornton, the former Dallas mayor the freeway is named after. It was listed for about 6 million dollars in September 2025, and 5.8 million ahead of a September 2026 auction.\n\nA lawsuit filed Nov. 2 says the winning bid was 2.55 million, and the sale was supposed to close by Oct. 30. It didn't. The seller disputes the claims and says there are serious concerns about the auction. The auction company says the highest bidder won.\n\nOn Oct. 27, the Dallas Morning News reports, it showed up on Zillow for sale by owner at 5 million.\n\nAn asking price is just an ask. So the real question is what homes in Dallas are actually selling for.\n\nSend this to somebody in Lakewood.\n\nSources: Dallas Morning News, Nov. 14, 2026. Lakewood/East Dallas Advocate, Nov. 16, 2026. CandysDirt, Aug. 30, 2026.\n\nPhotos: Renelibrary, CC BY-SA 4.0, IcedCowboyCoffee, CC0, John Margolies, public domain, Carol M. Highsmith, public domain, DronePhotographer, CC0, Vulturesong, CC0, via Wikimedia Commons. They show around Lakewood and East Dallas, not the castle.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-24T22:00:00",
+    "keyword": "DATA",
+    "ending": "data",
+    "batch": "2026-11-24",
+    "pick_at_utc": [
+     "2026-11-25T14:00:00",
+     "2026-11-25T19:00:00",
+     "2026-11-26T01:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-dallas-lakewood-castle-auction-lawsuit-b",
+    "asset": "dallas-lakewood-castle-auction-lawsuit-B.mp4",
+    "caption": "Comment the word \"DATA\" on this post and I'll send you the market report for your town \ud83d\udc47\n\nThe winning bidder on a Dallas castle is suing the seller, because the sale never closed.\n\nThere's a castle on Gaston Avenue in Lakewood that used to belong to R.L. Thornton, the former Dallas mayor the freeway is named after. It was listed for about 6 million dollars in September 2025, and 5.8 million ahead of a September 2026 auction.\n\nA lawsuit filed Nov. 2 says the winning bid was 2.55 million, and the sale was supposed to close by Oct. 30. It didn't. The seller disputes the claims and says there are serious concerns about the auction. The auction company says the highest bidder won.\n\nOn Oct. 27, the Dallas Morning News reports, it showed up on Zillow for sale by owner at 5 million.\n\nAn asking price is just an ask. So the real question is what homes in Dallas are actually selling for.\n\nSend this to somebody in Lakewood.\n\nSources: Dallas Morning News, Nov. 14, 2026. Lakewood/East Dallas Advocate, Nov. 16, 2026. CandysDirt, Aug. 30, 2026.\n\nPhotos: Renelibrary, CC BY-SA 4.0, IcedCowboyCoffee, CC0, John Margolies, public domain, Carol M. Highsmith, public domain, DronePhotographer, CC0, Vulturesong, CC0, via Wikimedia Commons. They show around Lakewood and East Dallas, not the castle.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-24T23:30:00",
+    "keyword": "DATA",
+    "ending": "data",
+    "batch": "2026-11-24",
+    "pick_at_utc": [
+     "2026-11-25T14:00:00",
+     "2026-11-25T19:00:00",
+     "2026-11-26T01:00:00"
+    ]
+   },
+   {
+    "v": "C",
+    "tag": "reel-dallas-lakewood-castle-auction-lawsuit-c",
+    "asset": "dallas-lakewood-castle-auction-lawsuit-C.mp4",
+    "caption": "Comment the word \"DATA\" on this post and I'll send you the market report for your town \ud83d\udc47\n\nThe old Dallas home of the mayor R.L. Thornton Freeway is named after is stuck in a lawsuit over its auction.\n\nThere's a castle on Gaston Avenue in Lakewood that used to belong to R.L. Thornton, the former Dallas mayor the freeway is named after. It was listed for about 6 million dollars in September 2025, and 5.8 million ahead of a September 2026 auction.\n\nA lawsuit filed Nov. 2 says the winning bid was 2.55 million, and the sale was supposed to close by Oct. 30. It didn't. The seller disputes the claims and says there are serious concerns about the auction. The auction company says the highest bidder won.\n\nOn Oct. 27, the Dallas Morning News reports, it showed up on Zillow for sale by owner at 5 million.\n\nAn asking price is just an ask. So the real question is what homes in Dallas are actually selling for.\n\nSend this to somebody in Lakewood.\n\nSources: Dallas Morning News, Nov. 14, 2026. Lakewood/East Dallas Advocate, Nov. 16, 2026. CandysDirt, Aug. 30, 2026.\n\nPhotos: Renelibrary, CC BY-SA 4.0, IcedCowboyCoffee, CC0, John Margolies, public domain, Carol M. Highsmith, public domain, DronePhotographer, CC0, Vulturesong, CC0, via Wikimedia Commons. They show around Lakewood and East Dallas, not the castle.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-25T01:00:00",
+    "keyword": "DATA",
+    "ending": "data",
+    "batch": "2026-11-24",
+    "pick_at_utc": [
+     "2026-11-25T14:00:00",
+     "2026-11-25T19:00:00",
+     "2026-11-26T01:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "keyword": "DATA",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-25T14:00:00",
+  "main": {},
+  "added": "2026-11-24"
  }
 ]
