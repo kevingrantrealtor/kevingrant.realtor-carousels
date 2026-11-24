@@ -7079,5 +7079,62 @@
   "main_at_utc": "2026-11-25T14:00:00",
   "main": {},
   "added": "2026-11-24"
+ },
+ {
+  "slug": "rowlett-chiesa-road-home-since-1962",
+  "town": "Rowlett",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-rowlett-chiesa-road-home-since-1962-a",
+    "asset": "rowlett-chiesa-road-home-since-1962-A.mp4",
+    "caption": "Comment the word \"DATA\" on this post and I'll send you the market report for your town \ud83d\udc47\n\nA Rowlett family is fighting the city over the price of a home they've had since 1962.\n\nThe Willis family in Rowlett has had their home since 1962. The city wants the property to widen Chiesa Road, and the family says the city's offer is about 150,000 dollars short of what they're asking. They turned it down.\n\nOn Nov. 17, council approved 404,209 dollars in negotiated land buys on two other Chiesa properties, for the stretch from Dalrock to Miller that's set to go from two lanes to four. Spectrum News reported on Nov. 10 that the city could file an eminent domain lawsuit on the Willis property. The city says it doesn't comment on pending or anticipated litigation.\n\nA lawyer who isn't on the case told WFAA that fair market value is what a willing buyer pays a willing seller. So the real question is what homes in Rowlett are actually selling for.\n\nSend this to somebody who drives Chiesa.\n\nSources: City of Rowlett, Nov. 17 and 18, 2026. Spectrum News, Nov. 10, 2026. WFAA via Texas Metro News, Oct. 27, 2026. CBS Texas, Oct. 27, 2026.\n\nPhotos: Larry D. Moore, CC BY 4.0, Barbara Brannon, CC BY 2.0, Michael Barera, CC BY-SA 4.0, via Wikimedia Commons. They show around Rowlett, not the Willis home or Chiesa Road.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-24T22:30:00",
+    "keyword": "DATA",
+    "ending": "data",
+    "batch": "2026-11-24",
+    "pick_at_utc": [
+     "2026-11-25T14:00:00",
+     "2026-11-25T19:00:00",
+     "2026-11-26T01:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-rowlett-chiesa-road-home-since-1962-b",
+    "asset": "rowlett-chiesa-road-home-since-1962-B.mp4",
+    "caption": "Comment the word \"DATA\" on this post and I'll send you the market report for your town \ud83d\udc47\n\nRowlett approved about 404,000 dollars in land buys for a wider Chiesa Road on November 17, and one family there is fighting the city's offer.\n\nThe Willis family in Rowlett has had their home since 1962. The city wants the property to widen Chiesa Road, and the family says the city's offer is about 150,000 dollars short of what they're asking. They turned it down.\n\nOn Nov. 17, council approved 404,209 dollars in negotiated land buys on two other Chiesa properties, for the stretch from Dalrock to Miller that's set to go from two lanes to four. Spectrum News reported on Nov. 10 that the city could file an eminent domain lawsuit on the Willis property. The city says it doesn't comment on pending or anticipated litigation.\n\nA lawyer who isn't on the case told WFAA that fair market value is what a willing buyer pays a willing seller. So the real question is what homes in Rowlett are actually selling for.\n\nSend this to somebody who drives Chiesa.\n\nSources: City of Rowlett, Nov. 17 and 18, 2026. Spectrum News, Nov. 10, 2026. WFAA via Texas Metro News, Oct. 27, 2026. CBS Texas, Oct. 27, 2026.\n\nPhotos: Larry D. Moore, CC BY 4.0, Barbara Brannon, CC BY 2.0, Michael Barera, CC BY-SA 4.0, via Wikimedia Commons. They show around Rowlett, not the Willis home or Chiesa Road.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-25T00:00:00",
+    "keyword": "DATA",
+    "ending": "data",
+    "batch": "2026-11-24",
+    "pick_at_utc": [
+     "2026-11-25T14:00:00",
+     "2026-11-25T19:00:00",
+     "2026-11-26T01:00:00"
+    ]
+   },
+   {
+    "v": "C",
+    "tag": "reel-rowlett-chiesa-road-home-since-1962-c",
+    "asset": "rowlett-chiesa-road-home-since-1962-C.mp4",
+    "caption": "Comment the word \"DATA\" on this post and I'll send you the market report for your town \ud83d\udc47\n\nChiesa Road in Rowlett is set to go from two lanes to four, and the city wants a home one family has had since 1962.\n\nThe Willis family in Rowlett has had their home since 1962. The city wants the property to widen Chiesa Road, and the family says the city's offer is about 150,000 dollars short of what they're asking. They turned it down.\n\nOn Nov. 17, council approved 404,209 dollars in negotiated land buys on two other Chiesa properties, for the stretch from Dalrock to Miller that's set to go from two lanes to four. Spectrum News reported on Nov. 10 that the city could file an eminent domain lawsuit on the Willis property. The city says it doesn't comment on pending or anticipated litigation.\n\nA lawyer who isn't on the case told WFAA that fair market value is what a willing buyer pays a willing seller. So the real question is what homes in Rowlett are actually selling for.\n\nSend this to somebody who drives Chiesa.\n\nSources: City of Rowlett, Nov. 17 and 18, 2026. Spectrum News, Nov. 10, 2026. WFAA via Texas Metro News, Oct. 27, 2026. CBS Texas, Oct. 27, 2026.\n\nPhotos: Larry D. Moore, CC BY 4.0, Barbara Brannon, CC BY 2.0, Michael Barera, CC BY-SA 4.0, via Wikimedia Commons. They show around Rowlett, not the Willis home or Chiesa Road.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-25T01:30:00",
+    "keyword": "DATA",
+    "ending": "data",
+    "batch": "2026-11-24",
+    "pick_at_utc": [
+     "2026-11-25T14:00:00",
+     "2026-11-25T19:00:00",
+     "2026-11-26T01:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "keyword": "DATA",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-25T14:00:00",
+  "main": {},
+  "added": "2026-11-24"
  }
 ]
