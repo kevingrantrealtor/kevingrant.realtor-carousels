@@ -7139,5 +7139,62 @@
   "main_at_utc": "2026-11-25T14:00:00",
   "main": {},
   "added": "2026-11-24"
+ },
+ {
+  "slug": "mckinney-liteon-250-jobs-nov-17",
+  "town": "McKinney",
+  "versions": [
+   {
+    "v": "A",
+    "tag": "reel-mckinney-liteon-250-jobs-nov-17-a",
+    "asset": "mckinney-liteon-250-jobs-nov-17-A.mp4",
+    "caption": "Comment the word \"DATA\" on this post and I'll send you the market report for your town \ud83d\udc47\n\nMcKinney could get up to 250 new jobs paying 118,000 dollars on average, and the company is called LiteOn.\n\nOn Nov. 17, McKinney City Council nominated LiteOn for the Texas Enterprise Zone program, which refunds state sales tax. The city memo says there's no local fiscal impact.\n\nLiteOn bought two buildings, about 650,000 square feet, at 300 and 310 Cypress Hill Drive to make power gear for AI. The memo says it expects 600 full-time employees with an average median salary of 91,944 dollars. That includes up to 250 net new positions with a mean salary of 118,000 dollars over the first five years. Community Impact reports the facility aims to be operational in 2027.\n\nIn my head, some of those people will want to live close. So the real question is what homes in McKinney are actually selling for, and how fast.\n\nSend this to somebody looking at McKinney.\n\nSources: City of McKinney, Nov. 17, 2026. Office of the Texas Governor, July 13, 2026. Community Impact, July 13, 2026. LiteOn's state JETI application, April 2026.\n\nPhotos: Michael Barera, CC BY-SA 4.0, via Wikimedia Commons. They show around McKinney, not the LiteOn buildings.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-25T00:30:00",
+    "keyword": "DATA",
+    "ending": "data",
+    "batch": "2026-11-24",
+    "pick_at_utc": [
+     "2026-11-25T14:00:00",
+     "2026-11-25T19:00:00",
+     "2026-11-26T01:00:00"
+    ]
+   },
+   {
+    "v": "B",
+    "tag": "reel-mckinney-liteon-250-jobs-nov-17-b",
+    "asset": "mckinney-liteon-250-jobs-nov-17-B.mp4",
+    "caption": "Comment the word \"DATA\" on this post and I'll send you the market report for your town \ud83d\udc47\n\nMcKinney council backed LiteOn for a state tax refund on November 17, for a project expecting 600 full-time jobs.\n\nOn Nov. 17, McKinney City Council nominated LiteOn for the Texas Enterprise Zone program, which refunds state sales tax. The city memo says there's no local fiscal impact.\n\nLiteOn bought two buildings, about 650,000 square feet, at 300 and 310 Cypress Hill Drive to make power gear for AI. The memo says it expects 600 full-time employees with an average median salary of 91,944 dollars. That includes up to 250 net new positions with a mean salary of 118,000 dollars over the first five years. Community Impact reports the facility aims to be operational in 2027.\n\nIn my head, some of those people will want to live close. So the real question is what homes in McKinney are actually selling for, and how fast.\n\nSend this to somebody looking at McKinney.\n\nSources: City of McKinney, Nov. 17, 2026. Office of the Texas Governor, July 13, 2026. Community Impact, July 13, 2026. LiteOn's state JETI application, April 2026.\n\nPhotos: Michael Barera, CC BY-SA 4.0, via Wikimedia Commons. They show around McKinney, not the LiteOn buildings.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-25T01:45:00",
+    "keyword": "DATA",
+    "ending": "data",
+    "batch": "2026-11-24",
+    "pick_at_utc": [
+     "2026-11-25T14:00:00",
+     "2026-11-25T19:00:00",
+     "2026-11-26T01:00:00"
+    ]
+   },
+   {
+    "v": "C",
+    "tag": "reel-mckinney-liteon-250-jobs-nov-17-c",
+    "asset": "mckinney-liteon-250-jobs-nov-17-C.mp4",
+    "caption": "Comment the word \"DATA\" on this post and I'll send you the market report for your town \ud83d\udc47\n\nAbout 600 full-time jobs are planned in two McKinney buildings, and a city memo says what they'd pay.\n\nOn Nov. 17, McKinney City Council nominated LiteOn for the Texas Enterprise Zone program, which refunds state sales tax. The city memo says there's no local fiscal impact.\n\nLiteOn bought two buildings, about 650,000 square feet, at 300 and 310 Cypress Hill Drive to make power gear for AI. The memo says it expects 600 full-time employees with an average median salary of 91,944 dollars. That includes up to 250 net new positions with a mean salary of 118,000 dollars over the first five years. Community Impact reports the facility aims to be operational in 2027.\n\nIn my head, some of those people will want to live close. So the real question is what homes in McKinney are actually selling for, and how fast.\n\nSend this to somebody looking at McKinney.\n\nSources: City of McKinney, Nov. 17, 2026. Office of the Texas Governor, July 13, 2026. Community Impact, July 13, 2026. LiteOn's state JETI application, April 2026.\n\nPhotos: Michael Barera, CC BY-SA 4.0, via Wikimedia Commons. They show around McKinney, not the LiteOn buildings.\n\nKevin Grant, Realtor | Pax Realty\n\nCall or text (972) 975-8280",
+    "trial_at_utc": "2026-11-25T03:00:00",
+    "keyword": "DATA",
+    "ending": "data",
+    "batch": "2026-11-24",
+    "pick_at_utc": [
+     "2026-11-25T14:00:00",
+     "2026-11-25T19:00:00",
+     "2026-11-26T01:00:00"
+    ]
+   }
+  ],
+  "pick": "day",
+  "keyword": "DATA",
+  "trials_ok": true,
+  "main_at_utc": "2026-11-25T14:00:00",
+  "main": {},
+  "added": "2026-11-24"
  }
 ]
