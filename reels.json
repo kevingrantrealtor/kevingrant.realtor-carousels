@@ -7051,7 +7051,14 @@
     },
     "judged": true,
     "result": "not picked for the main feed",
-    "file_deleted": true
+    "file_deleted": true,
+    "day1": {
+     "comments": 1,
+     "likes": 7,
+     "views": 462,
+     "kw": 0,
+     "age_h": 24.1
+    }
    },
    {
     "v": "B",
@@ -7292,9 +7299,13 @@
      "views": 189
     },
     "judged": true,
-    "result": "picked by Kevin 11/25 (most views of its 3 trials)",
+    "result": "posted to the main feed",
     "picked": true,
-    "main_at_utc": "2026-11-25T22:11:05"
+    "main_at_utc": "2026-11-25T22:11:05",
+    "main_done": true,
+    "main_media_id": "18435815680145224",
+    "main_posted_at_utc": "2026-11-25T22:12:08",
+    "file_deleted": true
    }
   ],
   "pick": "day",
