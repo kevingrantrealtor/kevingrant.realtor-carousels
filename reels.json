@@ -7089,7 +7089,14 @@
     "main_media_id": "18223950781348847",
     "main_posted_at_utc": "2026-11-25T19:05:07",
     "result": "posted to the main feed",
-    "file_deleted": true
+    "file_deleted": true,
+    "day1": {
+     "comments": 0,
+     "likes": 6,
+     "views": 1299,
+     "kw": 0,
+     "age_h": 24.2
+    }
    },
    {
     "v": "C",
