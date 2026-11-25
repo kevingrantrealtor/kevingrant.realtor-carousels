@@ -7292,8 +7292,9 @@
      "views": 189
     },
     "judged": true,
-    "result": "not picked for the main feed",
-    "file_deleted": true
+    "result": "picked by Kevin 11/25 (most views of its 3 trials)",
+    "picked": true,
+    "main_at_utc": "2026-11-25T22:11:05"
    }
   ],
   "pick": "day",
