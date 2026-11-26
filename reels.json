@@ -7354,7 +7354,14 @@
     "main_done": true,
     "main_media_id": "18435815680145224",
     "main_posted_at_utc": "2026-11-25T22:12:08",
-    "file_deleted": true
+    "file_deleted": true,
+    "day1": {
+     "comments": 0,
+     "likes": 0,
+     "views": 191,
+     "kw": 0,
+     "age_h": 24.2
+    }
    }
   ],
   "pick": "day",
