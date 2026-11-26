@@ -7238,7 +7238,14 @@
     },
     "judged": true,
     "result": "not picked for the main feed",
-    "file_deleted": true
+    "file_deleted": true,
+    "day1": {
+     "comments": 0,
+     "likes": 6,
+     "views": 1185,
+     "kw": 0,
+     "age_h": 24.2
+    }
    }
   ],
   "pick": "day",
